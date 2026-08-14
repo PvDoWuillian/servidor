@@ -1,0 +1,22 @@
+{
+  "ok": "OK",
+  "back": "&eVoltar",
+  "not-set": "&7Não Definido",
+  "next": "&eAvançar",
+  "previous": "&eAnterior",
+  "up": "&eSubir",
+  "down": "&eDescer",
+  "disabled": "&cDesativado",
+  "enabled": "&aAtivado",
+  "yes": "&aSim",
+  "no": "&cNão",
+  "cancel": "&cCancelar",
+  "clear-all": "&cLimpar Tudo",
+  "interact.not-editable": "&cEste NPC não é editável!",
+  "pagination.prev": "§a« ",
+  "pagination.next": "§a »",
+  "pagination.prev.hover": "Página anterior",
+  "pagination.next.hover": "Próxima página",
+  "type.cancel": "&7Digite 'cancel' para cancelar!",
+  "npc.not-found": "&cNPC não encontrado com ID: &e{0}"
+}

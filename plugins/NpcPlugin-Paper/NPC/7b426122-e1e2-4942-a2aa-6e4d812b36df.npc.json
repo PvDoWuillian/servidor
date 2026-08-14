@@ -1,0 +1,99 @@
+{
+  "id": "7b426122-e1e2-4942-a2aa-6e4d812b36df",
+  "name": {
+    "component": {
+      "extra": [
+        {
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false,
+          "color": "aqua",
+          "text": "✦ "
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "color": "white",
+          "text": "RTP "
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "color": "aqua",
+          "text": "✦"
+        }
+      ],
+      "text": ""
+    },
+    "displayOptions": {
+      "height": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "brightness": -1,
+      "viewRange": 1.0,
+      "lineWidth": 200,
+      "backgroundColor": 1073741824,
+      "textOpacity": -1,
+      "isSeeThrough": false,
+      "alignment": 0
+    }
+  },
+  "clickEvent": {
+    "className": "de.eisi05.npc.plugin.objects.NpcClickActionImpl",
+    "runOnShow": true,
+    "actions": [
+      {
+        "command": "/rtp"
+      }
+    ]
+  },
+  "createdAt": "2026-08-12T02:03:58.796490083Z",
+  "world": "34076455-23d5-4a95-9c29-cc37fae5db24",
+  "x": -289.6670854312816,
+  "y": 97.0,
+  "z": -992.3340883513458,
+  "yaw": 44.391907,
+  "pitch": 1.0206865,
+  "options": {
+    "global": {
+      "custom-data": {},
+      "visibility-manager": {
+        "specificPlayers": [],
+        "showToAllPlayers": true
+      },
+      "hide-nametag": false,
+      "visibility": "FULLY_VISIBLE",
+      "pose": "STANDING",
+      "editable": true,
+      "latency": 0,
+      "equipment": {},
+      "scale": 1.0,
+      "use-player-skin": false,
+      "show-tab-list": true,
+      "enabled": true,
+      "tags": [],
+      "collision": true,
+      "skin-parts": [
+        "CAPE",
+        "JACKET",
+        "LEFT_SLEEVE",
+        "RIGHT_SLEEVE",
+        "LEFT_PANTS_LEG",
+        "RIGHT_PANTS_LEG",
+        "HAT"
+      ],
+      "glowing": "GREEN",
+      "look-at-player": 1.0,
+      "list-order": 0,
+      "entity": {
+        "type": "PLAYER"
+      },
+      "goals": []
+    }
+  }
+}

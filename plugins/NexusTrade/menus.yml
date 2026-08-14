@@ -1,0 +1,321 @@
+# ==========================================
+#            NEXUSTRADE MENUS
+# ==========================================
+# This file controls the visual structure of NexusTrade menus.
+# Each layout row represents 9 inventory slots.
+#
+# Common layout symbols:
+#   # = decorative / blocked slot
+#   . = decorative / empty slot
+#
+# Global visual templates are defined under "item-templates".
+#
+# ==========================================
+#             1. TRADE MENU
+# ==========================================
+trade-menu:
+  title: 'Your Items <dark_gray> ←    → </dark_gray> Their Items'
+
+  # Normal layout legend:
+  #   m = your currency buttons
+  #   M = the other side's currency buttons
+  #   1 = your profile head
+  #   2 = the other player's profile head
+  #   o = your offer grid
+  #   O = the other side's offer grid
+  #   a = your ready button
+  #   b = the other side's ready button
+  #   x = shared action slot
+  #       - cancels while the trade is still editable
+  #       - claims items once the trade is completed
+  #   # and . = blocked / decorative slots
+  layout:
+    - "mm.1#2.MM"
+    - "oooo#OOOO"
+    - "oooo#OOOO"
+    - "oooo#OOOO"
+    - "ooooxOOOO"
+    - "...a#b..."
+
+  # Alternate layout used after the trade is completed.
+  #   r = review
+  #   e = receipt
+  #   g = collect / claim
+  #   # and . = blocked / decorative slots
+  completed-layout:
+    - "mm.1#2.MM"
+    - "oooorOOOO"
+    - "ooooeOOOO"
+    - "oooo#OOOO"
+    - "oooogOOOO"
+    - "...a#b..."
+
+# ==========================================
+#            2. HISTORY MENU
+# ==========================================
+history-menu:
+  title: 'Trade History Menu'
+
+# ==========================================
+#         3. ACTIVE TRADES MENU
+# ==========================================
+active-trades-menu:
+  title: 'Trade Sessions'
+
+# ==========================================
+#            4. LIST LAYOUT
+# ==========================================
+list-menu:
+  # Layout legend:
+  #   E = paged entry
+  #   P = previous page
+  #   N = next page
+  #   # and . = decoration
+  layout:
+    - "#########"
+    - "#EEEEEEE#"
+    - "#EEEEEEE#"
+    - "#P..#..N#"
+
+# ==========================================
+#           5. REVIEW MENU
+# ==========================================
+review-menu:
+  title: 'Review %player%'
+
+  # Layout legend:
+  #   S = clickable rating star
+  #   # and . = decoration
+  layout:
+    - "#########"
+    - "..SSSSS.."
+    - "#########"
+
+# ==========================================
+#           6. AMOUNT EDITOR
+# ==========================================
+# Title used by the amount editor for currency / level input.
+# Java players see this in the anvil editor.
+# Bedrock players using Floodgate see the same title in their form.
+amount-editor:
+  title: 'Adjust %currency%'
+
+# ==========================================
+#            7. RECEIPT BOOK
+# ==========================================
+receipt-book:
+  title: 'Trade note for %primary%'
+  lore:
+    - '<gray>Starter:</gray> <dark_gray>%primary%</dark_gray>'
+    - '<gray>Counterpart:</gray> <dark_gray>%secondary%</dark_gray>'
+    - '<gray>Captured:</gray> <dark_gray>%timestamp%</dark_gray>'
+
+  section-titles:
+    primary: '<bold>Starter offer</bold>'
+    secondary: '<bold>Counterpart offer</bold>'
+
+  item-line: '<gray>[x%amount% %item%]'
+
+  pages:
+    '1':
+      - '<gradient:#37c2b5:#7de2d1>NexusTrade Receipt</gradient>'
+      - ''
+      - '<gray>Starter:</gray> <dark_gray>%primary%</dark_gray>'
+      - '<gray>Counterpart:</gray> <dark_gray>%secondary%</dark_gray>'
+      - ''
+      - '<gray>Captured:</gray> <dark_gray>%timestamp%</dark_gray>'
+      - ''
+      - '<gray>Starter value:</gray> <dark_gray>%starter_value%</dark_gray>'
+      - '<gray>Counterpart value:</gray> <dark_gray>%counterpart_value%</dark_gray>'
+      - ''
+      - '<click:run_command:/trade rate set %trade_id%><dark_gray>[Review this trade]</dark_gray></click>'
+      - '<click:run_command:/trade rate show-trade %trade_id%><dark_gray>[Show stored reviews]</dark_gray></click>'
+
+# ==========================================
+#           8. ITEM TEMPLATES
+# ==========================================
+item-templates:
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: ' '
+    lore: []
+
+  previous-page:
+    material: SPECTRAL_ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#37c2b5>Previous page'
+    lore:
+      - '<dark_gray>Click to go back.</dark_gray>'
+
+  next-page:
+    material: SPECTRAL_ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#37c2b5>Next page'
+    lore:
+      - '<dark_gray>Click to go forward.</dark_gray>'
+
+  ready-off:
+    material: RED_CONCRETE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#ff6b6b>Not ready'
+    lore:
+      - '<gray>Click to lock your side.</gray>'
+
+  ready-on:
+    material: ORANGE_CONCRETE
+    amount: 1
+    custom-model-data: 0
+    glow: true
+    name: '<#7ed957>Ready'
+    lore:
+      - '<gray>Click to unlock your side.</gray>'
+
+  ready-countdown:
+    material: LIME_CONCRETE
+    amount: 1
+    custom-model-data: 0
+    glow: true
+    name: '<#7ed957>Finalizing trade'
+    lore:
+      - '<gray>%seconds% second(s) remaining.</gray>'
+
+  settled:
+    material: LIME_CONCRETE
+    amount: 1
+    custom-model-data: 0
+    glow: true
+    name: '<#7ed957>Completed'
+    lore:
+      - '<gray>The trade is complete.</gray>'
+
+  claimed:
+    material: LIGHT_GRAY_CONCRETE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<gray>Claimed'
+    lore: []
+
+  cancel-editing:
+    material: BARRIER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#ff6b6b>Stop trade'
+    lore:
+      - '<gray>Close the trade.</gray>'
+
+  cancel-ready:
+    material: RED_CONCRETE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#ff9f43>Back to editing'
+    lore:
+      - '<gray>Go back to editing.</gray>'
+
+  claim-items:
+    material: ENDER_EYE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#37c2b5>Collect all items'
+    lore:
+      - '<gray>Move everything you received</gray>'
+      - '<gray>to your inventory in one click.</gray>'
+
+  receipt-open:
+    material: ENCHANTED_BOOK
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#a68cff>Trade receipt'
+    lore:
+      - '<gray>Collect the written receipt.</gray>'
+
+  history-entry:
+    material: BOOK
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<white>%primary%</white> <gray><-></gray> <white>%secondary%</white>'
+    lore:
+      - '<gray>Archived:</gray> <white>%timestamp%</white>'
+      - '<gray>Trade ID:</gray> <white>%trade_id%</white>'
+      - '<#37c2b5>Click to open the receipt.</#37c2b5>'
+
+  currency-button:
+    material: SUNFLOWER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<white>%label%</white>'
+    lore:
+      - '<gray>Current offer:</gray> <white>%amount%%symbol%</white>'
+      - '<gray>Click to adjust this channel.</gray>'
+
+  profile:
+    material: PLAYER_HEAD
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<white>%player%</white>'
+    lore:
+      - '<gray>%rating%</gray>'
+      - '<gray>%trades% reviewed trades</gray>'
+
+  review-open:
+    material: NETHER_STAR
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<#7de2d1>Leave a review'
+    lore:
+      - '<gray>Leave or inspect trade reviews.</gray>'
+
+  review-locked:
+    material: GRAY_DYE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<gray>Review already submitted'
+    lore:
+      - '<dark_gray>You can only rate this trade once.</dark_gray>'
+
+  star:
+    material: NETHER_STAR
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    # %stars% is built from config.yml > formatting.review-stars.symbol
+    name: '<white>%stars%</white>'
+    lore:
+      - '<gray>Store a %rating%-star review.</gray>'
+
+  amount-preview:
+    material: SUNFLOWER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    name: '<white>%label%</white>'
+    lore:
+      - '<gray>Offered now:</gray> <white>%amount%%symbol%</white>'
+      - '<gray>Available:</gray> <white>%balance%%symbol%</white>'
+
+  amount-confirm:
+    material: LIME_DYE
+    amount: 1
+    custom-model-data: 0
+    glow: true
+    name: '<#37c2b5>Apply value'
+    lore:
+      - '<gray>Save <white>%amount%%symbol%</white> and return.</gray>'

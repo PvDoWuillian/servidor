@@ -1,0 +1,110 @@
+# Loja: Comidas (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: APPLE
+        buy: 100
+        sell: 25
+        displayname: '&fMaçã'
+      '2':
+        material: BREAD
+        buy: 157.5
+        sell: 39.4
+        displayname: '&fPão'
+      '3':
+        material: CAKE
+        buy: 793.2
+        sell: 198.3
+        displayname: '&fBolo'
+      '4':
+        material: COOKED_SALMON
+        buy: 63
+        sell: 15.8
+        displayname: '&fSalmão Assado'
+      '5':
+        material: COOKIE
+        buy: 21
+        sell: 5.3
+        displayname: '&fBiscoito'
+      '6':
+        material: GLISTERING_MELON_SLICE
+        buy: 80
+        sell: 20
+        displayname: '&fFatia de Melancia Reluzente'
+      '7':
+        material: GLOW_BERRIES
+        buy: 10
+        sell: 2.5
+        displayname: '&fBagas Luminosas'
+      '8':
+        material: GOLDEN_CARROT
+        buy: 122
+        sell: 30.5
+        displayname: '&fCenoura Dourada'
+      '9':
+        material: HONEY_BOTTLE
+        buy: 79.4
+        sell: 19.9
+        displayname: '&fFrasco de Mel'
+      '10':
+        material: BAKED_POTATO
+        buy: 52.5
+        sell: 13.2
+        displayname: '&fBatata Assada'
+      '11':
+        material: COOKED_BEEF
+        buy: 63
+        sell: 15.8
+        displayname: '&fFilé'
+      '12':
+        material: COOKED_CHICKEN
+        buy: 63
+        sell: 15.8
+        displayname: '&fFrango Assado'
+      '13':
+        material: COOKED_MUTTON
+        buy: 63
+        sell: 15.8
+        displayname: '&fCarneiro Assado'
+      '14':
+        material: COOKED_PORKCHOP
+        buy: 63
+        sell: 15.8
+        displayname: '&fCosteleta de Porco Assada'
+      '15':
+        material: COOKED_RABBIT
+        buy: 63
+        sell: 15.8
+        displayname: '&fCoelho Assado'
+      '16':
+        material: BEEF
+        buy: 60
+        sell: 15
+        displayname: '&fCarne Bovina Crua'
+      '17':
+        material: CHICKEN
+        buy: 60
+        sell: 15
+        displayname: '&fFrango Cru'
+      '18':
+        material: MUTTON
+        buy: 60
+        sell: 15
+        displayname: '&fCarneiro Cru'
+      '19':
+        material: PORKCHOP
+        buy: 60
+        sell: 15
+        displayname: '&fCosteleta de Porco Crua'
+      '20':
+        material: RABBIT
+        buy: 60
+        sell: 15
+        displayname: '&fCoelho Cru'
+      '21':
+        material: BEETROOT_SOUP
+        buy: 387.2
+        sell: 96.8
+        displayname: '&fBeterraba Soup'

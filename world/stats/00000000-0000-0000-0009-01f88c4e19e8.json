@@ -1,0 +1,45 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:white_wool": 4,
+      "minecraft:oak_leaves": 2,
+      "minecraft:oak_log": 5
+    },
+    "minecraft:crafted": {
+      "minecraft:oak_planks": 20,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_log": 5,
+      "minecraft:white_wool": 7,
+      "minecraft:mutton": 5
+    },
+    "minecraft:killed": {
+      "minecraft:sheep": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 5810,
+      "minecraft:walk_one_cm": 26330,
+      "minecraft:leave_game": 3,
+      "minecraft:mob_kills": 3,
+      "minecraft:walk_under_water_one_cm": 731,
+      "minecraft:damage_taken": 275,
+      "minecraft:damage_dealt": 238,
+      "minecraft:play_time": 15777,
+      "minecraft:jump": 93,
+      "minecraft:time_since_death": 5753,
+      "minecraft:sprint_one_cm": 67508,
+      "minecraft:fall_one_cm": 2750,
+      "minecraft:total_world_time": 15777,
+      "minecraft:fly_one_cm": 16745,
+      "minecraft:walk_on_water_one_cm": 434,
+      "minecraft:crouch_one_cm": 689,
+      "minecraft:sneak_time": 815,
+      "minecraft:deaths": 2
+    },
+    "minecraft:used": {
+      "minecraft:white_wool": 4
+    }
+  },
+  "DataVersion": 4671
+}

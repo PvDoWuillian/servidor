@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1786664018299
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1786664445883
+  login: 1786662648954
+money: '45.0'
+last-account-name: derick
+lastlocation:
+  world: 7b2dae4e-f46d-401c-9970-7e4d1eb31862
+  world-name: world
+  x: -14433.44629269879
+  y: -1.0
+  z: 27127.30000001192
+  yaw: -64.644287109375
+  pitch: -0.7499854564666748
+logoutlocation:
+  world: 7b2dae4e-f46d-401c-9970-7e4d1eb31862
+  world-name: world
+  x: -14594.701271091719
+  y: 73.0
+  z: 27067.720869250483
+  yaw: 161.6766357421875
+  pitch: 21.750003814697266

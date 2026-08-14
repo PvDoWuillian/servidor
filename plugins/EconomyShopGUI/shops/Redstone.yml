@@ -1,0 +1,175 @@
+# Loja: Redstone (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: CAULDRON
+        buy: 289.5
+        sell: 72.4
+        displayname: '&fCaldeirão'
+      '2':
+        material: CRAFTER
+        buy: 502.6
+        sell: 125.7
+        displayname: '&fBancada Automática'
+      '3':
+        material: DAYLIGHT_DETECTOR
+        buy: 477.2
+        sell: 119.3
+        displayname: '&fSensor de Luz Solar'
+      '4':
+        material: DISPENSER
+        buy: 337.4
+        sell: 84.4
+        displayname: '&fEjetor'
+      '5':
+        material: DROPPER
+        buy: 86.8
+        sell: 21.7
+        displayname: '&fLiberador'
+      '6':
+        material: HOPPER
+        buy: 386.7
+        sell: 96.7
+        displayname: '&fFunil'
+      '7':
+        material: IRON_DOOR
+        buy: 57.9
+        sell: 14.5
+        displayname: '&fPorta de Ferro'
+      '8':
+        material: JUKEBOX
+        buy: 643.9
+        sell: 161
+        displayname: '&fToca-Discos'
+      '9':
+        material: LEVER
+        buy: 13.3
+        sell: 3.4
+        displayname: '&fAlavanca'
+      '10':
+        material: LIGHTNING_ROD
+        buy: 29
+        sell: 7.3
+        displayname: '&fPara-Raios'
+      '11':
+        material: NOTE_BLOCK
+        buy: 129.4
+        sell: 32.4
+        displayname: '&fBloco Musical'
+      '12':
+        material: OBSERVER
+        buy: 203.2
+        sell: 50.8
+        displayname: '&fObservador'
+      '13':
+        material: REDSTONE_LAMP
+        buy: 455.7
+        sell: 114
+        displayname: '&fLâmpada de Redstone'
+      '14':
+        material: REDSTONE_TORCH
+        buy: 42.9
+        sell: 10.8
+        displayname: '&fTocha de Redstone'
+      '15':
+        material: RESPAWN_ANCHOR
+        buy: 4863.6
+        sell: 1215.9
+        displayname: '&fRespawn Anchor'
+      '16':
+        material: TARGET
+        buy: 643.2
+        sell: 160.8
+        displayname: '&fTarget'
+      '17':
+        material: TRIPWIRE_HOOK
+        buy: 37.8
+        sell: 9.5
+        displayname: '&fGancho de Arame'
+      '18':
+        material: COMPARATOR
+        buy: 244.3
+        sell: 61.1
+        displayname: '&fComparator'
+      '19':
+        material: REPEATER
+        buy: 149.2
+        sell: 37.3
+        displayname: '&fRepeater'
+      '20':
+        material: CHERRY_BUTTON
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fCerejeira Botão'
+      '21':
+        material: OAK_BUTTON
+        buy: 11.6
+        sell: 2.9
+        displayname: '&fCarvalho Botão'
+      '22':
+        material: STONE_BUTTON
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fPedra Botão'
+      '23':
+        material: PISTON
+        buy: 158
+        sell: 39.5
+        displayname: '&fPiston'
+      '24':
+        material: STICKY_PISTON
+        buy: 218.4
+        sell: 54.6
+        displayname: '&fSticky Piston'
+      '25':
+        material: CHERRY_PRESSURE_PLATE
+        buy: 16.6
+        sell: 4.2
+        displayname: '&fCerejeira Pressure Plate'
+      '26':
+        material: OAK_PRESSURE_PLATE
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fCarvalho Pressure Plate'
+      '27':
+        material: STONE_PRESSURE_PLATE
+        buy: 15
+        sell: 3.8
+        displayname: '&fPedra Pressure Plate'
+      '28':
+        material: LIGHT_WEIGHTED_PRESSURE_PLATE
+        buy: 173.7
+        sell: 43.5
+        displayname: '&fClaro Weighted Pressure Plate'
+      '29':
+        material: HEAVY_WEIGHTED_PRESSURE_PLATE
+        buy: 115.8
+        sell: 29
+        displayname: '&fHeavy Weighted Pressure Plate'
+      '30':
+        material: CALIBRATED_SCULK_SENSOR
+        buy: 167.4
+        sell: 41.9
+        displayname: '&fCalibrated Sculk Sensor'
+      '31':
+        material: SCULK_SENSOR
+        buy: 1250
+        sell: 312.5
+        displayname: '&fSculk Sensor'
+      '32':
+        material: CHERRY_TRAPDOOR
+        buy: 24.9
+        sell: 6.3
+        displayname: '&fCerejeira Alçapão'
+      '33':
+        material: OAK_TRAPDOOR
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fCarvalho Alçapão'
+      '34':
+        material: IRON_TRAPDOOR
+        buy: 231.6
+        sell: 57.9
+        displayname: '&fFerro Alçapão'

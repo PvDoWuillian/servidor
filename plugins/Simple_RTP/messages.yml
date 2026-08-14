@@ -1,0 +1,29 @@
+prefix: <gray>[<gradient:#22c55e:#4ade80>RTP</gradient><gray>]
+reload-success: <green>Configuration reloaded.
+no-permission: <red>You do not have permission to use this.
+player-only: <red>Only players can use this command.
+world-not-found: <red>World '<white>%world%</white>' does not exist.
+world-no-permission: <red>You do not have permission to teleport to '<white>%world%</white>'.
+world-disabled: <red>RTP is disabled in '<white>%world%</white>'.
+biome-usage: '<red>Usage: <white>/rtp biome <biome name></white>'
+biome-invalid: <red>Unknown biome '<white>%biome%</white>'. Use tab complete for valid
+  names.
+biome-disabled: <red>Biome RTP is disabled on this server.
+biome-no-permission: <red>You do not have permission to RTP in a biome.
+cooldown: <red>You must wait <white>%time%</white> seconds before using RTP again.
+teleport-start: <green>Teleporting in <white>%seconds%</white> seconds...
+teleport-preparing: <yellow>Preparing location...</yellow>
+teleporting-now: <green>Teleporting!</green>
+countdown-title: <green>Teleporting...
+countdown-subtitle: <gray>%seconds%s left
+teleport-failed: <red>Failed to find a safe location. Please try again.
+teleport-success: <green>You have been teleported randomly!
+teleport-title: <gradient:#4ade80:#22c55e>Teleported!</gradient>
+teleport-subtitle: <gray>X=<white>%x%</white> <dark_gray>|</dark_gray> Z=<white>%z%</white>
+teleport-cancelled-move: <red>Teleportation cancelled because you moved.
+teleport-busy: <red>You already have an RTP in progress.
+vault-required: <red>This RTP costs money, but Vault or an economy provider is missing.
+insufficient-funds: <red>You need <white>%cost%</white> to use this RTP.
+payment-failed: <red>Something went wrong while taking payment for RTP.
+gui-disabled: <red>The RTP GUI is disabled in the config.
+gui-open-no-permission: <red>You do not have permission to open the RTP GUI.

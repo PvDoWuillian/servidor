@@ -1,0 +1,5 @@
+#!/bin/bash
+while true; do
+  echo "suapalavra"
+  sleep 60
+done

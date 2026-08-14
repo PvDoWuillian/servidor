@@ -1,0 +1,106 @@
+system:
+  cooldown: "<#ff9f43>Slow down.</#ff9f43> <gray>Try again in a moment.</gray>"
+  no-permission: "<#ff6b6b>You do not have permission to do that.</#ff6b6b>"
+  no-open-trades: "<gray>You do not have any active trades.</gray>"
+  no-open-trades-for-target: "<gray>%player% is not in any active trade.</gray>"
+  trade-not-found: "<#ff6b6b>That trade could not be found.</#ff6b6b>"
+  trade-expired: "<#ff9f43>That trade can no longer be reviewed.</#ff9f43>"
+  player-not-found: "<#ff6b6b>Could not find <white>%player%</white>.</#ff6b6b>"
+  invalid-number: "<#ff6b6b>That is not a valid number.</#ff6b6b>"
+  unsupported-feature: "<#ff6b6b><white>%feature%</white> is not available in this setup.</#ff6b6b>"
+  update-available: "<gray>[<aqua>NexusTrade<gray>] <yellow>A new version is available: <white>%current%</white> <gray>-></gray> <green>%latest%</green>"
+
+trade:
+  invites:
+    incoming: "<#37c2b5>%player%</#37c2b5><gray> sent you a trade request.</gray> <click:run_command:'/trade %player%'><white>[Open]</white></click>"
+    partner-joined: "<gray>Your trade with <#37c2b5>%player%</#37c2b5> is ready to resume.</gray> <click:run_command:'/trade %player%'><white>[Resume]</white></click>"
+    sent: "<gray>Trade request sent to <#37c2b5>%player%</#37c2b5>.</gray>"
+    expired: "<#ff9f43>Your trade request to <white>%player%</white> expired.</#ff9f43>"
+    cancelled: "<#ff9f43>Trade request to <white>%player%</white> was cancelled.</#ff9f43> <gray>%reason%</gray>"
+    already-exists: "<#ff9f43>You already have a pending trade request for <white>%player%</white>.</#ff9f43>"
+
+  ignore:
+    enabled: "<gray>Now ignoring trade requests from <white>%player%</white>.</gray>"
+    disabled: "<gray>No longer ignoring trade requests from <white>%player%</white>.</gray>"
+    blocked: "<#ff6b6b>%player% is ignoring trade requests.</#ff6b6b>"
+    list: "<gray>Ignored players:</gray> <white>%list%</white>"
+
+  guard:
+    self-target: "<#ff6b6b>You cannot trade with yourself.</#ff6b6b>"
+    distance: "<#ff6b6b>You are too far away to trade.</#ff6b6b>"
+    empty-trade: "<#ff6b6b>You must offer at least one item before readying the trade.</#ff6b6b>"
+    blocked-item: "<#ff6b6b>This item cannot be traded.</#ff6b6b>"
+    open-blocked: "<#ff6b6b>You cannot reopen that trade yet.</#ff6b6b> <gray>A restriction is still active.</gray>"
+    window-closed: "<gray>Your trade with <white>%player%</white> was moved to the background.</gray> <click:run_command:'/trade %player%'><white>[Resume]</white></click>"
+    trade-reset: "<#ff9f43>Trade reset.</#ff9f43> <gray>%player% triggered a restriction during the countdown.</gray>"
+
+  flow:
+    completion-countdown: "<gray>Trade completes in <white>%seconds%</white> second(s).</gray>"
+    not-enough-funds: "<#ff6b6b>You do not have enough balance for that offer.</#ff6b6b>"
+    currency-minimum-required: "<#ff6b6b>You must offer at least <white>%required%%symbol%</white> in <white>%currency%</white> before readying the trade.</#ff6b6b>"
+    background: "<gray>Your trade with <white>%player%</white> is still active.</gray> <click:run_command:'/trade %player%'><white>[Resume]</white></click>"
+    sync-locked: "<#ff9f43>Trade sync is still recovering.</#ff9f43> <gray>Try again in a moment.</gray>"
+    collect-inventory-full: "<#ff9f43>Your inventory is full.</#ff9f43> <gray>Free some space before collecting.</gray>"
+    collect-overflow-dropped: "<#ff9f43>Your inventory was full.</#ff9f43> <gray>The remaining items were dropped at your feet.</gray>"
+    reload-closed: "<#ff9f43>Your trade with <white>%player%</white> was closed because NexusTrade reloaded.</#ff9f43>"
+
+  currency:
+    lore:
+      - "<gray>Currency:</gray> <white>%currency%</white>"
+      - "<gray>Your offer:</gray> <white>%amount%%symbol%</white>"
+    confirm: "<gray>Set your offer to <white>%amount%%symbol%</white>?</gray>"
+
+reviews:
+  saved: "<gray>Review saved with <white>%rate%</white> star(s).</gray>"
+  already-saved: "<#ff9f43>You already reviewed this trade.</#ff9f43>"
+  player-summary: "<white>%player%</white><gray> has an average rating of <white>%mean%</white> <gray>(%stars%) from <white>%count%</white> reviewed trade(s).</gray>"
+  trade-missing: "<gray>No review was found yet for <white>%player%</white> in that trade.</gray>"
+  trade-entry: "<white>%reviewer%</white><gray> rated </gray><white>%reviewed%</white><gray> with </gray><white>%stars%</white><gray>.</gray>"
+
+history:
+  empty: "<gray>No archived trades matched your search.</gray>"
+  usage-hint: "<gray>Expected date format:</gray> <white>%pattern%</white>"
+
+staff:
+  reload:
+    ok: "<#37c2b5>NexusTrade reloaded.</#37c2b5> <gray>Closed <white>%trades%</white> active trade(s).</gray>"
+    blocked: "<#ff9f43>Reload blocked.</#ff9f43> <gray><white>%trades%</white> active trade(s) still involve offline players.</gray>"
+
+  help:
+    header: "<gradient:#37c2b5:#7de2d1>NexusTrade Control Panel</gradient>"
+    lines:
+      - "<gray>/nexustrade reload <dark_gray>- <white>reload config, messages, and menus</white>"
+      - "<gray>/nexustrade opentrade <viewer> <target> <dark_gray>- <white>force-open a trade window</white>"
+      - "<gray>/nexustrade debug <dark_gray>- <white>print runtime diagnostics and active trades</white>"
+      - "<gray>/nexustrade stress <on|off> <dark_gray>- <white>toggle stress mode</white>"
+
+  opentrade:
+    usage: "<gray>Usage:</gray> <white>/nexustrade opentrade <viewer> <target></white>"
+
+  debug:
+    header: "<gradient:#37c2b5:#7de2d1>NexusTrade Debug</gradient>"
+    overview: "<gray>storage=<white>%storage%</white> <dark_gray>|</dark_gray> <gray>network=<white>%network%</white> <dark_gray>|</dark_gray> <gray>active=<white>%active%</white> <dark_gray>|</dark_gray> <gray>online=<white>%online%</white> <dark_gray>|</dark_gray> <gray>stress=<white>%stress%</white> <dark_gray>|</dark_gray> <gray>currencies=<white>%currencies%</white>"
+    no-trades: "<gray>No active trades to display.</gray>"
+    trade-line: "<gray>#%index%</gray> <white>%trade_id%</white> <dark_gray>|</dark_gray> <#37c2b5>%primary%</#37c2b5> <dark_gray><-></dark_gray> <#37c2b5>%secondary%</#37c2b5> <dark_gray>|</dark_gray> <white>%primary_state%</white><dark_gray>/</dark_gray><white>%secondary_state%</white>"
+
+  stress:
+    enabled: "<#37c2b5>Stress mode enabled.</#37c2b5>"
+    disabled: "<#ff9f43>Stress mode disabled.</#ff9f43>"
+    usage: "<gray>Usage:</gray> <white>/nexustrade stress <on|off></white>"
+    already-enabled: "<#ff9f43>Stress mode is already enabled.</#ff9f43>"
+    already-disabled: "<#ff9f43>Stress mode is already disabled.</#ff9f43>"
+
+restrictions:
+  # You can add custom messages here for any supported restriction key enabled in config.yml.
+  PLAYER_MOVED: "<#ff6b6b>You cannot move while this trade is active.</#ff6b6b>"
+  PLAYER_MOUNT: "<#ff6b6b>You cannot mount or dismount while this trade is active.</#ff6b6b>"
+  PLAYER_DAMAGED: "<#ff6b6b>You cannot continue this trade right after taking damage.</#ff6b6b>"
+  PLAYER_COMBAT: "<#ff6b6b>You cannot trade while in combat.</#ff6b6b>"
+  WORLD_CHANGE: "<#ff6b6b>You cannot trade in this world.</#ff6b6b>"
+  WORLD_GUARD: "<#ff6b6b>Trading is blocked in this region.</#ff6b6b>"
+  PLAYER_EXP_CHANGE: "<#ff6b6b>You cannot keep this trade open after gaining experience.</#ff6b6b>"
+  PLAYER_DROP_ITEM: "<#ff6b6b>You cannot drop items while this trade is active.</#ff6b6b>"
+  PLAYER_TELEPORT: "<#ff6b6b>You cannot teleport while this trade is active.</#ff6b6b>"
+  PLAYER_INTERACT: "<#ff6b6b>You cannot interact while this trade is active.</#ff6b6b>"
+  PLAYER_COMMAND: "<#ff6b6b>You cannot use commands while this trade is active.</#ff6b6b>"
+  PLAYER_GAMEMODE: "<#ff6b6b>You cannot trade in this gamemode.</#ff6b6b>"

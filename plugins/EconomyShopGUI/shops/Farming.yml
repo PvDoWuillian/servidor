@@ -1,0 +1,150 @@
+# Loja: Agricultura (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: BAMBOO
+        buy: 1
+        sell: 0.3
+        displayname: '&fBambu'
+      '2':
+        material: BEE_NEST
+        buy: -1
+        sell: 100
+        displayname: '&fNinho de Abelhas'
+      '3':
+        material: BEEHIVE
+        buy: 168.7
+        sell: 42.2
+        displayname: '&fColmeia'
+      '4':
+        material: BEETROOT
+        buy: 60
+        sell: 15
+        displayname: '&fBeterraba'
+      '5':
+        material: BEETROOT_SEEDS
+        buy: 30
+        sell: 7.5
+        displayname: '&fSementes de Beterraba'
+      '6':
+        material: BROWN_MUSHROOM
+        buy: 20
+        sell: 5
+        displayname: '&fCogumelo Marrom'
+      '7':
+        material: CACTUS
+        buy: 1
+        sell: 0.3
+        displayname: '&fCacto'
+      '8':
+        material: CARROT
+        buy: 50
+        sell: 12.5
+        displayname: '&fCenoura'
+      '9':
+        material: CHORUS_FLOWER
+        buy: 10
+        sell: 2.5
+        displayname: '&fFlor do Coro'
+      '10':
+        material: CHORUS_FRUIT
+        buy: 30
+        sell: 7.5
+        displayname: '&fFruta do Coro'
+      '11':
+        material: COCOA_BEANS
+        buy: 60
+        sell: 15
+        displayname: '&fSementes de Cacau'
+      '12':
+        material: CRIMSON_FUNGUS
+        buy: 60
+        sell: 15
+        displayname: '&fFungo Carmesim'
+      '13':
+        material: EGG
+        buy: 50
+        sell: 12.5
+        displayname: '&fOvo'
+      '14':
+        material: KELP
+        buy: 1
+        sell: 0.3
+        displayname: '&fAlga'
+      '15':
+        material: LEATHER
+        buy: 336
+        sell: 84
+        displayname: '&fCouro'
+      '16':
+        material: MELON
+        buy: 94.5
+        sell: 23.7
+        displayname: '&fMelancia'
+      '17':
+        material: MELON_SEEDS
+        buy: 30
+        sell: 7.5
+        displayname: '&fMelancia Sementes'
+      '18':
+        material: MELON_SLICE
+        buy: 10
+        sell: 2.5
+        displayname: '&fFatia de Melancia'
+      '19':
+        material: NETHER_WART
+        buy: 30
+        sell: 7.5
+        displayname: '&fCrescimento do Nether'
+      '20':
+        material: PITCHER_POD
+        buy: 205
+        sell: 51.3
+        displayname: '&fPlanta-Cântaro Vagem'
+      '21':
+        material: POTATO
+        buy: 50
+        sell: 12.5
+        displayname: '&fBatata'
+      '22':
+        material: PUMPKIN
+        buy: 50
+        sell: 12.5
+        displayname: '&fAbóbora'
+      '23':
+        material: PUMPKIN_SEEDS
+        buy: 11.9
+        sell: 3
+        displayname: '&fAbóbora Sementes'
+      '24':
+        material: RED_MUSHROOM
+        buy: 20
+        sell: 5
+        displayname: '&fCogumelo Vermelho'
+      '25':
+        material: SUGAR_CANE
+        buy: 1
+        sell: 0.3
+        displayname: '&fCana-de-Açúcar'
+      '26':
+        material: TORCHFLOWER_SEEDS
+        buy: 205
+        sell: 51.3
+        displayname: '&fFlor-Tocha Sementes'
+      '27':
+        material: WARPED_FUNGUS
+        buy: 60
+        sell: 15
+        displayname: '&fFungo Distorcido'
+      '28':
+        material: WHEAT
+        buy: 50
+        sell: 12.5
+        displayname: '&fWheat'
+      '29':
+        material: WHEAT_SEEDS
+        buy: 30
+        sell: 7.5
+        displayname: '&fWheat Sementes'

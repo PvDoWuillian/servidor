@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 186.208.86.22
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1786502102717
+  login: 1786502075451
+money: '0'
+last-account-name: wuillian_
+logoutlocation:
+  world: 7b2dae4e-f46d-401c-9970-7e4d1eb31862
+  world-name: world
+  x: 9.5
+  y: 64.0
+  z: -89.5
+  yaw: -30.36736488342285
+  pitch: 1.430511474609375E-6

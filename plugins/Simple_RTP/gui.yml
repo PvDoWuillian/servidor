@@ -1,0 +1,69 @@
+# Simple RTP GUI config
+#
+# World icons use PLAYER_HEAD plus a texture value.
+# If you do not want custom heads, change material to a normal block and remove the texture.
+# This uses MiniMessage (You can use hex codes: e.g  <color:#00B837>), & or legacy colour codes.
+
+gui:
+  enabled: true
+  title: "&f&lSimple &a&lRTP"
+  rows: 3
+
+  # These are to fill empty slots, This is decorational.
+
+  fillers:
+    overworld:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&r"
+      slots: [0, 1, 2, 9, 11, 18, 19, 20]
+
+    nether:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&r"
+      slots: [3, 4, 5, 12, 14, 21, 22, 23]
+
+    end:
+      material: "PURPLE_STAINED_GLASS_PANE"
+      name: "&r"
+      slots: [6, 7, 8, 15, 17, 24, 25, 26]
+
+  # The names of these worlds must match your world names.
+  worlds:
+    world:
+      name: "&a&lOverworld"
+      material: "PLAYER_HEAD"
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzNDc2ZDc0Yjk1Mzc2NmI3ZjJkZDk1NzYzMWM3NmZkNWU1NGVjNWM2M2MyYWQxZTc1YmU5OTk1MzE0YzY5OCJ9fX0="
+      slot: 10
+      lore:
+        - "<dark_gray><strikethrough>------------------------</strikethrough>"
+        - "<gray>Teleport to a random location"
+        - "<gray>somewhere in the <green><bold>Overworld</bold></green>."
+        - ""
+        - "<green><bold>> Click to teleport</bold>"
+        - "<dark_gray><strikethrough>------------------------</strikethrough>"
+
+    world_nether:
+      name: "&c&lNether"
+      material: "PLAYER_HEAD"
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJmZDdlMDlkY2FkNGM2MTI0NzQ0N2M3N2QyNDZkMjIwZWE5MWQ5OGNhYWJlZDUxNjlkYzViODEzN2ZlYzkifX19"
+      slot: 13
+      lore:
+        - "<dark_gray><strikethrough>------------------------</strikethrough>"
+        - "<gray>Teleport to a random location"
+        - "<gray>somewhere in the <red><bold>Nether</bold></red>."
+        - ""
+        - "<red><bold>> Click to teleport</bold>"
+        - "<dark_gray><strikethrough>------------------------</strikethrough>"
+
+    world_the_end:
+      name: "&5&lThe End"
+      material: "PLAYER_HEAD"
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmMjFmNWQ4ODMzMTZmZDY1YTkzNjZmMzJhMzMwMTMxODJlMzM4MWRlYzIxYzE3Yzc4MzU1ZDliZjRmMCJ9fX0="
+      slot: 16
+      lore:
+        - "<dark_gray><strikethrough>------------------------</strikethrough>"
+        - "<gray>Teleport to a random location"
+        - "<gray>somewhere in <light_purple><bold>The End</bold></light_purple>."
+        - ""
+        - "<light_purple><bold>> Click to teleport</bold>"
+        - "<dark_gray><strikethrough>------------------------</strikethrough>"

@@ -1,0 +1,1103 @@
+# Loja: Poções (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '2':
+        material: POTION
+        buy: 119
+        sell: 29.8
+        potiontypes:
+        - fire_resistance
+        displayname: '&fPoção de Resistência ao Fogo'
+      '3':
+        material: POTION
+        buy: 216.2
+        sell: 54.1
+        potiontypes:
+        - harming
+        displayname: '&fPoção de Dano'
+      '4':
+        material: POTION
+        buy: 118.9
+        sell: 29.8
+        potiontypes:
+        - healing
+        displayname: '&fPoção de Cura'
+      '5':
+        material: POTION
+        buy: 41.7
+        sell: 10.5
+        potiontypes:
+        - infested
+        displayname: '&fPoção de Infestado'
+      '6':
+        material: POTION
+        buy: 274.6
+        sell: 68.7
+        potiontypes:
+        - invisibility
+        displayname: '&fPoção de Invisibilidade'
+      '7':
+        material: POTION
+        buy: 1942.2
+        sell: 485.6
+        potiontypes:
+        - leaping
+        displayname: '&fPoção de Salto'
+      '8':
+        material: POTION
+        buy: 163.4
+        sell: 40.9
+        potiontypes:
+        - night_vision
+        displayname: '&fPoção de Visão Noturna'
+      '10':
+        material: POTION
+        buy: 535
+        sell: 133.8
+        potiontypes:
+        - oozing
+        displayname: '&fPoção de Exsudação'
+      '11':
+        material: POTION
+        buy: 108.4
+        sell: 27.1
+        potiontypes:
+        - poison
+        displayname: '&fPoção de Veneno'
+      '12':
+        material: POTION
+        buy: 458.2
+        sell: 114.6
+        potiontypes:
+        - regeneration
+        displayname: '&fPoção de Regeneração'
+      '13':
+        material: POTION
+        buy: 1360.7
+        sell: 340.2
+        potiontypes:
+        - slow_falling
+        displayname: '&fPoção de Queda Lenta'
+      '14':
+        material: POTION
+        buy: 138.7
+        sell: 34.7
+        potiontypes:
+        - slowness
+        displayname: '&fPoção de Lentidão'
+      '15':
+        material: POTION
+        buy: 62
+        sell: 15.5
+        potiontypes:
+        - strength
+        displayname: '&fPoção de Força'
+      '16':
+        material: POTION
+        buy: 35.3
+        sell: 8.9
+        potiontypes:
+        - swiftness
+        displayname: '&fPoção de Velocidade'
+      '17':
+        material: POTION
+        buy: 29528.7
+        sell: 7382.2
+        potiontypes:
+        - turtle_master
+        displayname: '&fPoção de Mestre Tartaruga'
+      '18':
+        material: POTION
+        buy: 97.8
+        sell: 24.5
+        potiontypes:
+        - water_breathing
+        displayname: '&fPoção de Respiração Aquática'
+      '19':
+        material: POTION
+        buy: 101.8
+        sell: 25.5
+        potiontypes:
+        - weakness
+        displayname: '&fPoção de Fraqueza'
+      '20':
+        material: POTION
+        buy: 458.2
+        sell: 114.6
+        potiontypes:
+        - weaving
+        displayname: '&fPoção de Tecelagem'
+      '21':
+        material: POTION
+        buy: 246.2
+        sell: 61.6
+        potiontypes:
+        - wind_charged
+        displayname: '&fPoção de Carregado pelo Vento'
+      '22':
+        material: POTION
+        buy: 163.3
+        sell: 40.9
+        potiontypes:
+        - long_fire_resistance
+        displayname: '&fPoção de Long Fire Resistance'
+      '23':
+        material: POTION
+        buy: 328.1
+        sell: 82.1
+        potiontypes:
+        - long_invisibility
+        displayname: '&fPoção de Long Invisibility'
+      '24':
+        material: POTION
+        buy: 210.3
+        sell: 52.6
+        potiontypes:
+        - long_night_vision
+        displayname: '&fPoção de Long Night Vision'
+      '25':
+        material: POTION
+        buy: 152
+        sell: 38
+        potiontypes:
+        - long_poison
+        displayname: '&fPoção de Long Poison'
+      '26':
+        material: POTION
+        buy: 522.7
+        sell: 130.7
+        potiontypes:
+        - long_regeneration
+        displayname: '&fPoção de Long Regeneration'
+      '27':
+        material: POTION
+        buy: 1479.5
+        sell: 369.9
+        potiontypes:
+        - long_slow_falling
+        displayname: '&fPoção de Long Slow Falling'
+      '28':
+        material: POTION
+        buy: 184.1
+        sell: 46.1
+        potiontypes:
+        - long_slowness
+        displayname: '&fPoção de Long Slowness'
+      '29':
+        material: POTION
+        buy: 102.8
+        sell: 25.7
+        potiontypes:
+        - long_strength
+        displayname: '&fPoção de Long Strength'
+      '30':
+        material: POTION
+        buy: 74.5
+        sell: 18.7
+        potiontypes:
+        - long_swiftness
+        displayname: '&fPoção de Long Swiftness'
+      '31':
+        material: POTION
+        buy: 31337.5
+        sell: 7834.4
+        potiontypes:
+        - long_turtle_master
+        displayname: '&fPoção de Long Turtle Master'
+      '32':
+        material: POTION
+        buy: 140.7
+        sell: 35.2
+        potiontypes:
+        - long_water_breathing
+        displayname: '&fPoção de Long Water Breathing'
+      '33':
+        material: POTION
+        buy: 145
+        sell: 36.3
+        potiontypes:
+        - long_weakness
+        displayname: '&fPoção de Long Weakness'
+      '34':
+        material: POTION
+        buy: 540.8
+        sell: 135.2
+        potiontypes:
+        - strong_harming
+        displayname: '&fPoção de Strong Harming'
+      '35':
+        material: POTION
+        buy: 437.7
+        sell: 109.5
+        potiontypes:
+        - strong_healing
+        displayname: '&fPoção de Strong Healing'
+      '36':
+        material: POTION
+        buy: 2370.3
+        sell: 592.6
+        potiontypes:
+        - strong_leaping
+        displayname: '&fPoção de Strong Leaping'
+      '37':
+        material: POTION
+        buy: 426.5
+        sell: 106.7
+        potiontypes:
+        - strong_poison
+        displayname: '&fPoção de Strong Poison'
+      '38':
+        material: POTION
+        buy: 797.3
+        sell: 199.4
+        potiontypes:
+        - strong_regeneration
+        displayname: '&fPoção de Strong Regeneration'
+      '39':
+        material: POTION
+        buy: 377.3
+        sell: 94.4
+        potiontypes:
+        - strong_strength
+        displayname: '&fPoção de Strong Strength'
+      '40':
+        material: POTION
+        buy: 349
+        sell: 87.3
+        potiontypes:
+        - strong_swiftness
+        displayname: '&fPoção de Strong Swiftness'
+      '41':
+        material: POTION
+        buy: 31612
+        sell: 7903
+        potiontypes:
+        - strong_turtle_master
+        displayname: '&fPoção de Strong Turtle Master'
+      '42':
+        material: SPLASH_POTION
+        buy: 290.5
+        sell: 72.7
+        potiontypes:
+        - fire_resistance
+        displayname: '&fArremessável Poção'
+      '43':
+        material: SPLASH_POTION
+        buy: 393.5
+        sell: 98.4
+        potiontypes:
+        - harming
+        displayname: '&fArremessável Poção'
+      '44':
+        material: SPLASH_POTION
+        buy: 290.3
+        sell: 72.6
+        potiontypes:
+        - healing
+        displayname: '&fArremessável Poção'
+      '45':
+        material: SPLASH_POTION
+        buy: 208.5
+        sell: 52.2
+        potiontypes:
+        - infested
+        displayname: '&fArremessável Poção'
+      '46':
+        material: SPLASH_POTION
+        buy: 455.3
+        sell: 113.9
+        potiontypes:
+        - invisibility
+        displayname: '&fArremessável Poção'
+      '47':
+        material: SPLASH_POTION
+        buy: 2223
+        sell: 555.8
+        potiontypes:
+        - leaping
+        displayname: '&fArremessável Poção'
+  page2:
+    items:
+      '48':
+        material: SPLASH_POTION
+        buy: 337.5
+        sell: 84.4
+        potiontypes:
+        - night_vision
+        displayname: '&fArremessável Poção'
+      '49':
+        material: SPLASH_POTION
+        buy: 731.4
+        sell: 182.9
+        potiontypes:
+        - oozing
+        displayname: '&fArremessável Poção'
+      '50':
+        material: SPLASH_POTION
+        buy: 279.2
+        sell: 69.8
+        potiontypes:
+        - poison
+        displayname: '&fArremessável Poção'
+      '51':
+        material: SPLASH_POTION
+        buy: 649.9
+        sell: 162.5
+        potiontypes:
+        - regeneration
+        displayname: '&fArremessável Poção'
+      '52':
+        material: SPLASH_POTION
+        buy: 1606.7
+        sell: 401.7
+        potiontypes:
+        - slow_falling
+        displayname: '&fArremessável Poção'
+      '53':
+        material: SPLASH_POTION
+        buy: 311.3
+        sell: 77.9
+        potiontypes:
+        - slowness
+        displayname: '&fArremessável Poção'
+      '54':
+        material: SPLASH_POTION
+        buy: 230
+        sell: 57.5
+        potiontypes:
+        - strength
+        displayname: '&fArremessável Poção'
+      '55':
+        material: SPLASH_POTION
+        buy: 201.7
+        sell: 50.5
+        potiontypes:
+        - swiftness
+        displayname: '&fArremessável Poção'
+      '56':
+        material: SPLASH_POTION
+        buy: 31464.7
+        sell: 7866.2
+        potiontypes:
+        - turtle_master
+        displayname: '&fArremessável Poção'
+      '57':
+        material: SPLASH_POTION
+        buy: 267.9
+        sell: 67
+        potiontypes:
+        - water_breathing
+        displayname: '&fArremessável Poção'
+      '58':
+        material: SPLASH_POTION
+        buy: 272.2
+        sell: 68.1
+        potiontypes:
+        - weakness
+        displayname: '&fArremessável Poção'
+      '59':
+        material: SPLASH_POTION
+        buy: 649.9
+        sell: 162.5
+        potiontypes:
+        - weaving
+        displayname: '&fArremessável Poção'
+      '60':
+        material: SPLASH_POTION
+        buy: 425.2
+        sell: 106.3
+        potiontypes:
+        - wind_charged
+        displayname: '&fArremessável Poção'
+      '61':
+        material: SPLASH_POTION
+        buy: 337.4
+        sell: 84.4
+        potiontypes:
+        - long_fire_resistance
+        displayname: '&fArremessável Poção'
+      '62':
+        material: SPLASH_POTION
+        buy: 512.1
+        sell: 128.1
+        potiontypes:
+        - long_invisibility
+        displayname: '&fArremessável Poção'
+      '63':
+        material: SPLASH_POTION
+        buy: 387.2
+        sell: 96.8
+        potiontypes:
+        - long_night_vision
+        displayname: '&fArremessável Poção'
+      '64':
+        material: SPLASH_POTION
+        buy: 325.4
+        sell: 81.4
+        potiontypes:
+        - long_poison
+        displayname: '&fArremessável Poção'
+      '65':
+        material: SPLASH_POTION
+        buy: 718.4
+        sell: 179.6
+        potiontypes:
+        - long_regeneration
+        displayname: '&fArremessável Poção'
+      '66':
+        material: SPLASH_POTION
+        buy: 1732.6
+        sell: 433.2
+        potiontypes:
+        - long_slow_falling
+        displayname: '&fArremessável Poção'
+      '67':
+        material: SPLASH_POTION
+        buy: 359.5
+        sell: 89.9
+        potiontypes:
+        - long_slowness
+        displayname: '&fArremessável Poção'
+      '68':
+        material: SPLASH_POTION
+        buy: 273.3
+        sell: 68.4
+        potiontypes:
+        - long_strength
+        displayname: '&fArremessável Poção'
+      '69':
+        material: SPLASH_POTION
+        buy: 243.2
+        sell: 60.8
+        potiontypes:
+        - long_swiftness
+        displayname: '&fArremessável Poção'
+      '70':
+        material: SPLASH_POTION
+        buy: 33382
+        sell: 8345.5
+        potiontypes:
+        - long_turtle_master
+        displayname: '&fArremessável Poção'
+      '71':
+        material: SPLASH_POTION
+        buy: 313.5
+        sell: 78.4
+        potiontypes:
+        - long_water_breathing
+        displayname: '&fArremessável Poção'
+      '72':
+        material: SPLASH_POTION
+        buy: 318
+        sell: 79.5
+        potiontypes:
+        - long_weakness
+        displayname: '&fArremessável Poção'
+      '73':
+        material: SPLASH_POTION
+        buy: 737.5
+        sell: 184.4
+        potiontypes:
+        - strong_harming
+        displayname: '&fArremessável Poção'
+      '74':
+        material: SPLASH_POTION
+        buy: 628.2
+        sell: 157.1
+        potiontypes:
+        - strong_healing
+        displayname: '&fArremessável Poção'
+      '75':
+        material: SPLASH_POTION
+        buy: 2676.8
+        sell: 669.2
+        potiontypes:
+        - strong_leaping
+        displayname: '&fArremessável Poção'
+      '76':
+        material: SPLASH_POTION
+        buy: 616.4
+        sell: 154.1
+        potiontypes:
+        - strong_poison
+        displayname: '&fArremessável Poção'
+      '77':
+        material: SPLASH_POTION
+        buy: 1009.4
+        sell: 252.4
+        potiontypes:
+        - strong_regeneration
+        displayname: '&fArremessável Poção'
+      '78':
+        material: SPLASH_POTION
+        buy: 564.3
+        sell: 141.1
+        potiontypes:
+        - strong_strength
+        displayname: '&fArremessável Poção'
+      '79':
+        material: SPLASH_POTION
+        buy: 534.3
+        sell: 133.6
+        potiontypes:
+        - strong_swiftness
+        displayname: '&fArremessável Poção'
+      '80':
+        material: SPLASH_POTION
+        buy: 33673
+        sell: 8418.3
+        potiontypes:
+        - strong_turtle_master
+        displayname: '&fArremessável Poção'
+      '81':
+        material: LINGERING_POTION
+        buy: 1473.1
+        sell: 368.3
+        potiontypes:
+        - fire_resistance
+        displayname: '&fProlongada Poção'
+      '82':
+        material: LINGERING_POTION
+        buy: 1582.2
+        sell: 395.6
+        potiontypes:
+        - harming
+        displayname: '&fProlongada Poção'
+      '83':
+        material: LINGERING_POTION
+        buy: 1472.9
+        sell: 368.3
+        potiontypes:
+        - healing
+        displayname: '&fProlongada Poção'
+      '84':
+        material: LINGERING_POTION
+        buy: 1386.2
+        sell: 346.6
+        potiontypes:
+        - infested
+        displayname: '&fProlongada Poção'
+      '85':
+        material: LINGERING_POTION
+        buy: 1647.8
+        sell: 412
+        potiontypes:
+        - invisibility
+        displayname: '&fProlongada Poção'
+      '86':
+        material: LINGERING_POTION
+        buy: 3521.5
+        sell: 880.4
+        potiontypes:
+        - leaping
+        displayname: '&fProlongada Poção'
+      '87':
+        material: LINGERING_POTION
+        buy: 1523
+        sell: 380.8
+        potiontypes:
+        - night_vision
+        displayname: '&fProlongada Poção'
+      '88':
+        material: LINGERING_POTION
+        buy: 1940.5
+        sell: 485.2
+        potiontypes:
+        - oozing
+        displayname: '&fProlongada Poção'
+      '89':
+        material: LINGERING_POTION
+        buy: 1461.1
+        sell: 365.3
+        potiontypes:
+        - poison
+        displayname: '&fProlongada Poção'
+      '90':
+        material: LINGERING_POTION
+        buy: 1854.1
+        sell: 463.6
+        potiontypes:
+        - regeneration
+        displayname: '&fProlongada Poção'
+      '91':
+        material: LINGERING_POTION
+        buy: 2868.3
+        sell: 717.1
+        potiontypes:
+        - slow_falling
+        displayname: '&fProlongada Poção'
+      '92':
+        material: LINGERING_POTION
+        buy: 1495.2
+        sell: 373.8
+        potiontypes:
+        - slowness
+        displayname: '&fProlongada Poção'
+  page3:
+    items:
+      '93':
+        material: LINGERING_POTION
+        buy: 1409
+        sell: 352.3
+        potiontypes:
+        - strength
+        displayname: '&fProlongada Poção'
+      '94':
+        material: LINGERING_POTION
+        buy: 1379
+        sell: 344.8
+        potiontypes:
+        - swiftness
+        displayname: '&fProlongada Poção'
+      '95':
+        material: LINGERING_POTION
+        buy: 34517.7
+        sell: 8629.5
+        potiontypes:
+        - turtle_master
+        displayname: '&fProlongada Poção'
+      '96':
+        material: LINGERING_POTION
+        buy: 1449.2
+        sell: 362.3
+        potiontypes:
+        - water_breathing
+        displayname: '&fProlongada Poção'
+      '97':
+        material: LINGERING_POTION
+        buy: 1453.7
+        sell: 363.5
+        potiontypes:
+        - weakness
+        displayname: '&fProlongada Poção'
+      '98':
+        material: LINGERING_POTION
+        buy: 1854.1
+        sell: 463.6
+        potiontypes:
+        - weaving
+        displayname: '&fProlongada Poção'
+      '99':
+        material: LINGERING_POTION
+        buy: 1615.9
+        sell: 404
+        potiontypes:
+        - wind_charged
+        displayname: '&fProlongada Poção'
+      '100':
+        material: LINGERING_POTION
+        buy: 1522.8
+        sell: 380.7
+        potiontypes:
+        - long_fire_resistance
+        displayname: '&fProlongada Poção'
+      '101':
+        material: LINGERING_POTION
+        buy: 1708
+        sell: 427
+        potiontypes:
+        - long_invisibility
+        displayname: '&fProlongada Poção'
+      '102':
+        material: LINGERING_POTION
+        buy: 1575.7
+        sell: 394
+        potiontypes:
+        - long_night_vision
+        displayname: '&fProlongada Poção'
+      '103':
+        material: LINGERING_POTION
+        buy: 1510.1
+        sell: 377.6
+        potiontypes:
+        - long_poison
+        displayname: '&fProlongada Poção'
+      '104':
+        material: LINGERING_POTION
+        buy: 1926.7
+        sell: 481.7
+        potiontypes:
+        - long_regeneration
+        displayname: '&fProlongada Poção'
+      '105':
+        material: LINGERING_POTION
+        buy: 3001.7
+        sell: 750.5
+        potiontypes:
+        - long_slow_falling
+        displayname: '&fProlongada Poção'
+      '106':
+        material: LINGERING_POTION
+        buy: 1546.2
+        sell: 386.6
+        potiontypes:
+        - long_slowness
+        displayname: '&fProlongada Poção'
+      '107':
+        material: LINGERING_POTION
+        buy: 1454.8
+        sell: 363.7
+        potiontypes:
+        - long_strength
+        displayname: '&fProlongada Poção'
+      '108':
+        material: LINGERING_POTION
+        buy: 1423
+        sell: 355.8
+        potiontypes:
+        - long_swiftness
+        displayname: '&fProlongada Poção'
+      '109':
+        material: LINGERING_POTION
+        buy: 36550.1
+        sell: 9137.6
+        potiontypes:
+        - long_turtle_master
+        displayname: '&fProlongada Poção'
+      '110':
+        material: LINGERING_POTION
+        buy: 1497.4
+        sell: 374.4
+        potiontypes:
+        - long_water_breathing
+        displayname: '&fProlongada Poção'
+      '111':
+        material: LINGERING_POTION
+        buy: 1502.2
+        sell: 375.6
+        potiontypes:
+        - long_weakness
+        displayname: '&fProlongada Poção'
+      '112':
+        material: LINGERING_POTION
+        buy: 1947
+        sell: 486.8
+        potiontypes:
+        - strong_harming
+        displayname: '&fProlongada Poção'
+      '113':
+        material: LINGERING_POTION
+        buy: 1831.1
+        sell: 457.8
+        potiontypes:
+        - strong_healing
+        displayname: '&fProlongada Poção'
+      '114':
+        material: LINGERING_POTION
+        buy: 4002.6
+        sell: 1000.7
+        potiontypes:
+        - strong_leaping
+        displayname: '&fProlongada Poção'
+      '115':
+        material: LINGERING_POTION
+        buy: 1818.5
+        sell: 454.7
+        potiontypes:
+        - strong_poison
+        displayname: '&fProlongada Poção'
+      '116':
+        material: LINGERING_POTION
+        buy: 2235.2
+        sell: 558.8
+        potiontypes:
+        - strong_regeneration
+        displayname: '&fProlongada Poção'
+      '117':
+        material: LINGERING_POTION
+        buy: 1763.3
+        sell: 440.9
+        potiontypes:
+        - strong_strength
+        displayname: '&fProlongada Poção'
+      '118':
+        material: LINGERING_POTION
+        buy: 1731.5
+        sell: 432.9
+        potiontypes:
+        - strong_swiftness
+        displayname: '&fProlongada Poção'
+      '119':
+        material: LINGERING_POTION
+        buy: 36858.6
+        sell: 9214.7
+        potiontypes:
+        - strong_turtle_master
+        displayname: '&fProlongada Poção'
+      '120':
+        material: TIPPED_ARROW
+        buy: 217
+        sell: 54.3
+        potiontypes:
+        - fire_resistance
+        displayname: '&fTipped Flecha'
+      '121':
+        material: TIPPED_ARROW
+        buy: 231.4
+        sell: 57.9
+        potiontypes:
+        - harming
+        displayname: '&fTipped Flecha'
+      '122':
+        material: TIPPED_ARROW
+        buy: 217
+        sell: 54.3
+        potiontypes:
+        - healing
+        displayname: '&fTipped Flecha'
+      '123':
+        material: TIPPED_ARROW
+        buy: 29.2
+        sell: 7.3
+        potiontypes:
+        - infested
+        displayname: '&fTipped Flecha'
+      '124':
+        material: TIPPED_ARROW
+        buy: 240
+        sell: 60
+        potiontypes:
+        - invisibility
+        displayname: '&fTipped Flecha'
+      '125':
+        material: TIPPED_ARROW
+        buy: 485.9
+        sell: 121.5
+        potiontypes:
+        - leaping
+        displayname: '&fTipped Flecha'
+      '126':
+        material: TIPPED_ARROW
+        buy: 223.6
+        sell: 55.9
+        potiontypes:
+        - long_fire_resistance
+        displayname: '&fTipped Flecha'
+      '127':
+        material: TIPPED_ARROW
+        buy: 247.9
+        sell: 62
+        potiontypes:
+        - long_invisibility
+        displayname: '&fTipped Flecha'
+      '128':
+        material: TIPPED_ARROW
+        buy: 230.5
+        sell: 57.7
+        potiontypes:
+        - long_night_vision
+        displayname: '&fTipped Flecha'
+      '129':
+        material: TIPPED_ARROW
+        buy: 221.9
+        sell: 55.5
+        potiontypes:
+        - long_poison
+        displayname: '&fTipped Flecha'
+      '130':
+        material: TIPPED_ARROW
+        buy: 276.6
+        sell: 69.2
+        potiontypes:
+        - long_regeneration
+        displayname: '&fTipped Flecha'
+      '131':
+        material: TIPPED_ARROW
+        buy: 417.7
+        sell: 104.5
+        potiontypes:
+        - long_slow_falling
+        displayname: '&fTipped Flecha'
+      '132':
+        material: TIPPED_ARROW
+        buy: 226.6
+        sell: 56.7
+        potiontypes:
+        - long_slowness
+        displayname: '&fTipped Flecha'
+      '133':
+        material: TIPPED_ARROW
+        buy: 214.6
+        sell: 53.7
+        potiontypes:
+        - long_strength
+        displayname: '&fTipped Flecha'
+      '134':
+        material: TIPPED_ARROW
+        buy: 210.5
+        sell: 52.7
+        potiontypes:
+        - long_swiftness
+        displayname: '&fTipped Flecha'
+      '135':
+        material: TIPPED_ARROW
+        buy: 4820.9
+        sell: 1205.3
+        potiontypes:
+        - long_turtle_master
+        displayname: '&fTipped Flecha'
+      '136':
+        material: TIPPED_ARROW
+        buy: 220.2
+        sell: 55.1
+        potiontypes:
+        - long_water_breathing
+        displayname: '&fTipped Flecha'
+      '137':
+        material: TIPPED_ARROW
+        buy: 220.9
+        sell: 55.3
+        potiontypes:
+        - long_weakness
+        displayname: '&fTipped Flecha'
+  page4:
+    items:
+      '138':
+        material: TIPPED_ARROW
+        buy: 223.6
+        sell: 55.9
+        potiontypes:
+        - night_vision
+        displayname: '&fTipped Flecha'
+      '139':
+        material: TIPPED_ARROW
+        buy: 93.9
+        sell: 23.5
+        potiontypes:
+        - oozing
+        displayname: '&fTipped Flecha'
+      '140':
+        material: TIPPED_ARROW
+        buy: 215.5
+        sell: 53.9
+        potiontypes:
+        - poison
+        displayname: '&fTipped Flecha'
+      '141':
+        material: TIPPED_ARROW
+        buy: 267
+        sell: 66.8
+        potiontypes:
+        - regeneration
+        displayname: '&fTipped Flecha'
+      '142':
+        material: TIPPED_ARROW
+        buy: 400.1
+        sell: 100.1
+        potiontypes:
+        - slow_falling
+        displayname: '&fTipped Flecha'
+      '143':
+        material: TIPPED_ARROW
+        buy: 219.9
+        sell: 55
+        potiontypes:
+        - slowness
+        displayname: '&fTipped Flecha'
+      '144':
+        material: TIPPED_ARROW
+        buy: 208.6
+        sell: 52.2
+        potiontypes:
+        - strength
+        displayname: '&fTipped Flecha'
+      '145':
+        material: TIPPED_ARROW
+        buy: 279.2
+        sell: 69.8
+        potiontypes:
+        - strong_harming
+        displayname: '&fTipped Flecha'
+      '146':
+        material: TIPPED_ARROW
+        buy: 264
+        sell: 66
+        potiontypes:
+        - strong_healing
+        displayname: '&fTipped Flecha'
+      '147':
+        material: TIPPED_ARROW
+        buy: 549
+        sell: 137.3
+        potiontypes:
+        - strong_leaping
+        displayname: '&fTipped Flecha'
+      '148':
+        material: TIPPED_ARROW
+        buy: 262.4
+        sell: 65.6
+        potiontypes:
+        - strong_poison
+        displayname: '&fTipped Flecha'
+      '149':
+        material: TIPPED_ARROW
+        buy: 317.1
+        sell: 79.3
+        potiontypes:
+        - strong_regeneration
+        displayname: '&fTipped Flecha'
+      '150':
+        material: TIPPED_ARROW
+        buy: 255.1
+        sell: 63.8
+        potiontypes:
+        - strong_strength
+        displayname: '&fTipped Flecha'
+      '151':
+        material: TIPPED_ARROW
+        buy: 250.9
+        sell: 62.8
+        potiontypes:
+        - strong_swiftness
+        displayname: '&fTipped Flecha'
+      '152':
+        material: TIPPED_ARROW
+        buy: 4861.4
+        sell: 1215.4
+        potiontypes:
+        - strong_turtle_master
+        displayname: '&fTipped Flecha'
+      '153':
+        material: TIPPED_ARROW
+        buy: 204.7
+        sell: 51.2
+        potiontypes:
+        - swiftness
+        displayname: '&fTipped Flecha'
+      '154':
+        material: TIPPED_ARROW
+        buy: 4554.1
+        sell: 1138.6
+        potiontypes:
+        - turtle_master
+        displayname: '&fTipped Flecha'
+      '155':
+        material: TIPPED_ARROW
+        buy: 213.9
+        sell: 53.5
+        potiontypes:
+        - water_breathing
+        displayname: '&fTipped Flecha'
+      '156':
+        material: TIPPED_ARROW
+        buy: 214.5
+        sell: 53.7
+        potiontypes:
+        - weakness
+        displayname: '&fTipped Flecha'
+      '157':
+        material: TIPPED_ARROW
+        buy: 83.8
+        sell: 21
+        potiontypes:
+        - weaving
+        displayname: '&fTipped Flecha'
+      '158':
+        material: TIPPED_ARROW
+        buy: 56
+        sell: 14
+        potiontypes:
+        - wind_charged
+        displayname: '&fTipped Flecha'

@@ -1,0 +1,776 @@
+# Loja: Decoração (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: CHAIN
+        buy: 70.2
+        sell: 17.6
+        displayname: '&fCorrente'
+      '2':
+        material: FLOWER_POT
+        buy: 694.6
+        sell: 173.7
+        displayname: '&fVaso de Flores'
+      '3':
+        material: HONEYCOMB_BLOCK
+        buy: 132.3
+        sell: 33.1
+        displayname: '&fBloco de Favos de Mel'
+      '4':
+        material: JACK_O_LANTERN
+        buy: 68.6
+        sell: 17.2
+        displayname: '&fAbóbora de Halloween'
+      '5':
+        material: POINTED_DRIPSTONE
+        buy: 10
+        sell: 2.5
+        displayname: '&fEspeleotema Pontiagudo'
+      '6':
+        material: SPORE_BLOSSOM
+        buy: 35
+        sell: 8.8
+        displayname: '&fFlor-de-Esporo'
+      '7':
+        material: BLACK_CANDLE
+        buy: 167.1
+        sell: 41.8
+        displayname: '&fVela Preta'
+      '8':
+        material: BLUE_CANDLE
+        buy: 123
+        sell: 30.8
+        displayname: '&fVela Azul'
+      '9':
+        material: BROWN_CANDLE
+        buy: 178.1
+        sell: 44.6
+        displayname: '&fVela Marrom'
+      '10':
+        material: CANDLE
+        buy: 106.6
+        sell: 26.7
+        displayname: '&fVela'
+      '11':
+        material: CYAN_CANDLE
+        buy: 118.3
+        sell: 29.6
+        displayname: '&fVela Ciano'
+      '12':
+        material: GRAY_CANDLE
+        buy: 149.9
+        sell: 37.5
+        displayname: '&fVela Cinza'
+      '13':
+        material: GREEN_CANDLE
+        buy: 113.1
+        sell: 28.3
+        displayname: '&fVela Verde'
+      '14':
+        material: LIGHT_BLUE_CANDLE
+        buy: 123
+        sell: 30.8
+        displayname: '&fVela Azul-Clara'
+      '15':
+        material: LIGHT_GRAY_CANDLE
+        buy: 123
+        sell: 30.8
+        displayname: '&fVela Cinza-Clara'
+      '16':
+        material: LIME_CANDLE
+        buy: 178.1
+        sell: 44.6
+        displayname: '&fVela Verde-Limão'
+      '17':
+        material: MAGENTA_CANDLE
+        buy: 123
+        sell: 30.8
+        displayname: '&fVela Magenta'
+      '18':
+        material: ORANGE_CANDLE
+        buy: 123
+        sell: 30.8
+        displayname: '&fVela Laranja'
+      '19':
+        material: PINK_CANDLE
+        buy: 123
+        sell: 30.8
+        displayname: '&fVela Rosa'
+      '20':
+        material: PURPLE_CANDLE
+        buy: 123.5
+        sell: 30.9
+        displayname: '&fVela Roxa'
+      '21':
+        material: RED_CANDLE
+        buy: 123
+        sell: 30.8
+        displayname: '&fVela Vermelha'
+      '22':
+        material: WHITE_CANDLE
+        buy: 129
+        sell: 32.3
+        displayname: '&fVela Branca'
+      '23':
+        material: YELLOW_CANDLE
+        buy: 119.3
+        sell: 29.9
+        displayname: '&fVela Amarela'
+      '24':
+        material: BRAIN_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fCérebro Coral'
+      '25':
+        material: BRAIN_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Cérebro Coral'
+      '26':
+        material: BRAIN_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fCérebro Coral Leque'
+      '27':
+        material: BUBBLE_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fBolha Coral'
+      '28':
+        material: BUBBLE_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Bolha Coral'
+      '29':
+        material: BUBBLE_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fBolha Coral Leque'
+      '30':
+        material: DEAD_BRAIN_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fMorto Cérebro Coral'
+      '31':
+        material: DEAD_BRAIN_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Morto Cérebro Coral'
+      '32':
+        material: DEAD_BRAIN_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fMorto Cérebro Coral Leque'
+      '33':
+        material: DEAD_BUBBLE_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fMorto Bolha Coral'
+      '34':
+        material: DEAD_BUBBLE_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Morto Bolha Coral'
+      '35':
+        material: DEAD_BUBBLE_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fMorto Bolha Coral Leque'
+      '36':
+        material: DEAD_FIRE_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fMorto Fogo Coral'
+      '37':
+        material: DEAD_FIRE_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Morto Fogo Coral'
+      '38':
+        material: DEAD_FIRE_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fMorto Fogo Coral Leque'
+      '39':
+        material: DEAD_HORN_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fMorto Chifre Coral'
+      '40':
+        material: DEAD_HORN_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Morto Chifre Coral'
+      '41':
+        material: DEAD_HORN_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fMorto Chifre Coral Leque'
+      '42':
+        material: DEAD_TUBE_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fMorto Tubo Coral'
+      '43':
+        material: DEAD_TUBE_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Morto Tubo Coral'
+      '44':
+        material: DEAD_TUBE_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fMorto Tubo Coral Leque'
+      '45':
+        material: FIRE_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fFogo Coral'
+  page2:
+    items:
+      '46':
+        material: FIRE_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Fogo Coral'
+      '47':
+        material: FIRE_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fFogo Coral Leque'
+      '48':
+        material: HORN_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fChifre Coral'
+      '49':
+        material: HORN_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Chifre Coral'
+      '50':
+        material: HORN_CORAL_FAN
+        buy: 30
+        sell: 7.5
+        displayname: '&fChifre Coral Leque'
+      '51':
+        material: TUBE_CORAL
+        buy: 50
+        sell: 12.5
+        displayname: '&fTubo Coral'
+      '52':
+        material: TUBE_CORAL_BLOCK
+        buy: 160
+        sell: 40
+        displayname: '&fBloco de Tubo Coral'
+      '53':
+        material: TUBE_CORAL_FAN
+        buy: 60
+        sell: 15
+        displayname: '&fTubo Coral Leque'
+      '54':
+        material: ACACIA_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fAcácia Folhas'
+      '55':
+        material: AZALEA_LEAVES
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fAzalea Folhas'
+      '56':
+        material: BIRCH_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fBétula Folhas'
+      '57':
+        material: CHERRY_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fCerejeira Folhas'
+      '58':
+        material: DARK_OAK_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fCarvalho Escuro Folhas'
+      '59':
+        material: FLOWERING_AZALEA_LEAVES
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fFlowering Azalea Folhas'
+      '60':
+        material: JUNGLE_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fSelva Folhas'
+      '61':
+        material: OAK_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fCarvalho Folhas'
+      '62':
+        material: SPRUCE_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fPinheiro Folhas'
+      '63':
+        material: COPPER_BULB
+        buy: 52.8
+        sell: 13.2
+        displayname: '&fCobre Lâmpada'
+      '64':
+        material: EXPOSED_COPPER_BULB
+        buy: 54.3
+        sell: 13.6
+        displayname: '&fExposto Cobre Lâmpada'
+      '65':
+        material: OXIDIZED_COPPER_BULB
+        buy: 57.5
+        sell: 14.4
+        displayname: '&fOxidado Cobre Lâmpada'
+      '66':
+        material: SEA_LANTERN
+        buy: 661.5
+        sell: 165.4
+        displayname: '&fMar Lanterna'
+      '67':
+        material: SHROOMLIGHT
+        buy: 80
+        sell: 20
+        displayname: '&fShroomlight'
+      '68':
+        material: WEATHERED_COPPER_BULB
+        buy: 55.9
+        sell: 14
+        displayname: '&fEnvelhecido Cobre Lâmpada'
+      '69':
+        material: OCHRE_FROGLIGHT
+        buy: 60
+        sell: 15
+        displayname: '&fOchre Anfibrilho'
+      '70':
+        material: PEARLESCENT_FROGLIGHT
+        buy: 60
+        sell: 15
+        displayname: '&fPearlescent Anfibrilho'
+      '71':
+        material: VERDANT_FROGLIGHT
+        buy: 60
+        sell: 15
+        displayname: '&fVerdant Anfibrilho'
+      '72':
+        material: MANGROVE_LEAVES
+        buy: 30
+        sell: 7.5
+        displayname: '&fMangue Folhas'
+      '73':
+        material: MANGROVE_ROOTS
+        buy: 30
+        sell: 7.5
+        displayname: '&fMangue Raízes'
+      '74':
+        material: MUDDY_MANGROVE_ROOTS
+        buy: 30
+        sell: 7.5
+        displayname: '&fMuddy Mangue Raízes'
+      '75':
+        material: ACACIA_SAPLING
+        buy: 30
+        sell: 7.5
+        displayname: '&fAcácia Muda'
+      '76':
+        material: AZALEA
+        buy: 30
+        sell: 7.5
+        displayname: '&fAzalea'
+      '77':
+        material: BIRCH_SAPLING
+        buy: 30
+        sell: 7.5
+        displayname: '&fBétula Muda'
+      '78':
+        material: CHERRY_SAPLING
+        buy: 30
+        sell: 7.5
+        displayname: '&fCerejeira Muda'
+      '79':
+        material: DARK_OAK_SAPLING
+        buy: 30
+        sell: 7.5
+        displayname: '&fCarvalho Escuro Muda'
+      '80':
+        material: FLOWERING_AZALEA
+        buy: 30
+        sell: 7.5
+        displayname: '&fFlowering Azalea'
+      '81':
+        material: JUNGLE_SAPLING
+        buy: 30
+        sell: 7.5
+        displayname: '&fSelva Muda'
+      '82':
+        material: MANGROVE_PROPAGULE
+        buy: 30
+        sell: 7.5
+        displayname: '&fMangue Propagule'
+      '83':
+        material: OAK_SAPLING
+        buy: 30
+        sell: 7.5
+        displayname: '&fCarvalho Muda'
+      '84':
+        material: SPRUCE_SAPLING
+        buy: 30
+        sell: 7.5
+        displayname: '&fPinheiro Muda'
+      '85':
+        material: ACACIA_HANGING_SIGN
+        buy: 36.2
+        sell: 9.1
+        displayname: '&fAcácia Hanging Placa'
+      '86':
+        material: ACACIA_SIGN
+        buy: 25.2
+        sell: 6.3
+        displayname: '&fAcácia Placa'
+      '87':
+        material: BAMBOO_HANGING_SIGN
+        buy: 29.8
+        sell: 7.5
+        displayname: '&fBambu Hanging Placa'
+      '88':
+        material: BAMBOO_SIGN
+        buy: 12.5
+        sell: 3.2
+        displayname: '&fBambu Placa'
+      '89':
+        material: BIRCH_HANGING_SIGN
+        buy: 36.2
+        sell: 9.1
+        displayname: '&fBétula Hanging Placa'
+      '90':
+        material: BIRCH_SIGN
+        buy: 25.2
+        sell: 6.3
+        displayname: '&fBétula Placa'
+  page3:
+    items:
+      '91':
+        material: CHERRY_HANGING_SIGN
+        buy: 32.9
+        sell: 8.3
+        displayname: '&fCerejeira Hanging Placa'
+      '92':
+        material: CHERRY_SIGN
+        buy: 18.6
+        sell: 4.7
+        displayname: '&fCerejeira Placa'
+      '93':
+        material: CRIMSON_HANGING_SIGN
+        buy: 32.9
+        sell: 8.3
+        displayname: '&fCarmesim Hanging Placa'
+      '94':
+        material: CRIMSON_SIGN
+        buy: 18.6
+        sell: 4.7
+        displayname: '&fCarmesim Placa'
+      '95':
+        material: DARK_OAK_HANGING_SIGN
+        buy: 36.2
+        sell: 9.1
+        displayname: '&fEscuro Carvalho Hanging Placa'
+      '96':
+        material: DARK_OAK_SIGN
+        buy: 25.2
+        sell: 6.3
+        displayname: '&fCarvalho Escuro Placa'
+      '97':
+        material: JUNGLE_HANGING_SIGN
+        buy: 36.2
+        sell: 9.1
+        displayname: '&fSelva Hanging Placa'
+      '98':
+        material: JUNGLE_SIGN
+        buy: 25.2
+        sell: 6.3
+        displayname: '&fSelva Placa'
+      '99':
+        material: MANGROVE_HANGING_SIGN
+        buy: 32.9
+        sell: 8.3
+        displayname: '&fMangue Hanging Placa'
+      '100':
+        material: MANGROVE_SIGN
+        buy: 18.6
+        sell: 4.7
+        displayname: '&fMangue Placa'
+      '101':
+        material: OAK_HANGING_SIGN
+        buy: 36.2
+        sell: 9.1
+        displayname: '&fCarvalho Hanging Placa'
+      '102':
+        material: OAK_SIGN
+        buy: 25.2
+        sell: 6.3
+        displayname: '&fCarvalho Placa'
+      '103':
+        material: SPRUCE_HANGING_SIGN
+        buy: 36.2
+        sell: 9.1
+        displayname: '&fPinheiro Hanging Placa'
+      '104':
+        material: SPRUCE_SIGN
+        buy: 25.2
+        sell: 6.3
+        displayname: '&fPinheiro Placa'
+      '105':
+        material: WARPED_HANGING_SIGN
+        buy: 32.9
+        sell: 8.3
+        displayname: '&fDistorcido Hanging Placa'
+      '106':
+        material: WARPED_SIGN
+        buy: 18.6
+        sell: 4.7
+        displayname: '&fDistorcido Placa'
+      '107':
+        material: GLOW_LICHEN
+        buy: 10
+        sell: 2.5
+        displayname: '&fGlow Lichen'
+      '108':
+        material: TWISTING_VINES
+        buy: 60
+        sell: 15
+        displayname: '&fRetorcido Vines'
+      '109':
+        material: VINE
+        buy: 70
+        sell: 17.5
+        displayname: '&fTrepadeira'
+      '110':
+        material: WEEPING_VINES
+        buy: 60
+        sell: 15
+        displayname: '&fChoroso Vines'
+      '111':
+        material: ANGLER_POTTERY_SHERD
+        buy: 299.1
+        sell: 74.8
+        displayname: '&fAngler Cerâmica Óstraco'
+      '112':
+        material: ARCHER_POTTERY_SHERD
+        buy: 280.5
+        sell: 70.2
+        displayname: '&fArcher Cerâmica Óstraco'
+      '113':
+        material: ARMS_UP_POTTERY_SHERD
+        buy: 240.4
+        sell: 60.1
+        displayname: '&fArms Up Cerâmica Óstraco'
+      '114':
+        material: BLADE_POTTERY_SHERD
+        buy: 299.1
+        sell: 74.8
+        displayname: '&fBlade Cerâmica Óstraco'
+      '115':
+        material: BREWER_POTTERY_SHERD
+        buy: 240.4
+        sell: 60.1
+        displayname: '&fBrewer Cerâmica Óstraco'
+      '116':
+        material: BURN_POTTERY_SHERD
+        buy: 293.9
+        sell: 73.5
+        displayname: '&fBurn Cerâmica Óstraco'
+      '117':
+        material: DANGER_POTTERY_SHERD
+        buy: 293.9
+        sell: 73.5
+        displayname: '&fDanger Cerâmica Óstraco'
+      '118':
+        material: DECORATED_POT
+        buy: 926.1
+        sell: 231.6
+        displayname: '&fDecorated Vaso'
+      '119':
+        material: EXPLORER_POTTERY_SHERD
+        buy: 299.1
+        sell: 74.8
+        displayname: '&fExplorer Cerâmica Óstraco'
+      '120':
+        material: FLOW_POTTERY_SHERD
+        buy: 320.5
+        sell: 80.2
+        displayname: '&fFlow Cerâmica Óstraco'
+      '121':
+        material: FRIEND_POTTERY_SHERD
+        buy: 293.9
+        sell: 73.5
+        displayname: '&fFriend Cerâmica Óstraco'
+      '122':
+        material: GUSTER_POTTERY_SHERD
+        buy: 320.5
+        sell: 80.2
+        displayname: '&fGuster Cerâmica Óstraco'
+      '123':
+        material: HEART_POTTERY_SHERD
+        buy: 293.9
+        sell: 73.5
+        displayname: '&fCoração Cerâmica Óstraco'
+      '124':
+        material: HEARTBREAK_POTTERY_SHERD
+        buy: 293.9
+        sell: 73.5
+        displayname: '&fHeartbreak Cerâmica Óstraco'
+      '125':
+        material: HOWL_POTTERY_SHERD
+        buy: 293.9
+        sell: 73.5
+        displayname: '&fHowl Cerâmica Óstraco'
+      '126':
+        material: MINER_POTTERY_SHERD
+        buy: 280.5
+        sell: 70.2
+        displayname: '&fMiner Cerâmica Óstraco'
+      '127':
+        material: MOURNER_POTTERY_SHERD
+        buy: 299.1
+        sell: 74.8
+        displayname: '&fMourner Cerâmica Óstraco'
+      '128':
+        material: PLENTY_POTTERY_SHERD
+        buy: 299.1
+        sell: 74.8
+        displayname: '&fPlenty Cerâmica Óstraco'
+      '129':
+        material: PRIZE_POTTERY_SHERD
+        buy: 280.5
+        sell: 70.2
+        displayname: '&fPrize Cerâmica Óstraco'
+      '130':
+        material: SCRAPE_POTTERY_SHERD
+        buy: 320.5
+        sell: 80.2
+        displayname: '&fScrape Cerâmica Óstraco'
+      '131':
+        material: SHEAF_POTTERY_SHERD
+        buy: 293.9
+        sell: 73.5
+        displayname: '&fSheaf Cerâmica Óstraco'
+      '132':
+        material: SHELTER_POTTERY_SHERD
+        buy: 299.1
+        sell: 74.8
+        displayname: '&fShelter Cerâmica Óstraco'
+      '133':
+        material: SKULL_POTTERY_SHERD
+        buy: 280.5
+        sell: 70.2
+        displayname: '&fCrânio Cerâmica Óstraco'
+      '134':
+        material: SNORT_POTTERY_SHERD
+        buy: 299.1
+        sell: 74.8
+        displayname: '&fSnort Cerâmica Óstraco'
+      '135':
+        material: BOLT_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 3899.3
+        sell: 974.9
+        displayname: '&fBolt Armadura Enfeite Ferraria Molde'
+  page4:
+    items:
+      '136':
+        material: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1933
+        sell: 483.3
+        displayname: '&fCoast Armadura Enfeite Ferraria Molde'
+      '137':
+        material: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1992.4
+        sell: 498.1
+        displayname: '&fDune Armadura Enfeite Ferraria Molde'
+      '138':
+        material: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1955.7
+        sell: 489
+        displayname: '&fEye Armadura Enfeite Ferraria Molde'
+      '139':
+        material: FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 4068.8
+        sell: 1017.2
+        displayname: '&fFlow Armadura Enfeite Ferraria Molde'
+      '140':
+        material: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 2045.2
+        sell: 511.3
+        displayname: '&fHost Armadura Enfeite Ferraria Molde'
+      '141':
+        material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+        buy: 1930.5
+        sell: 482.7
+        displayname: '&fNetherita Upgrade Ferraria Molde'
+      '142':
+        material: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 2045.2
+        sell: 511.3
+        displayname: '&fRaiser Armadura Enfeite Ferraria Molde'
+      '143':
+        material: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1930.5
+        sell: 482.7
+        displayname: '&fRib Armadura Enfeite Ferraria Molde'
+      '144':
+        material: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1933
+        sell: 483.3
+        displayname: '&fSentry Armadura Enfeite Ferraria Molde'
+      '145':
+        material: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 2045.2
+        sell: 511.3
+        displayname: '&fShaper Armadura Enfeite Ferraria Molde'
+      '146':
+        material: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1933
+        sell: 483.3
+        displayname: '&fSilence Armadura Enfeite Ferraria Molde'
+      '147':
+        material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1933.4
+        sell: 483.4
+        displayname: '&fSnout Armadura Enfeite Ferraria Molde'
+      '148':
+        material: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1946.8
+        sell: 486.7
+        displayname: '&fSpire Armadura Enfeite Ferraria Molde'
+      '149':
+        material: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 2083.8
+        sell: 521
+        displayname: '&fTide Armadura Enfeite Ferraria Molde'
+      '150':
+        material: VEX_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1933
+        sell: 483.3
+        displayname: '&fVex Armadura Enfeite Ferraria Molde'
+      '151':
+        material: WARD_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1933
+        sell: 483.3
+        displayname: '&fWard Armadura Enfeite Ferraria Molde'
+      '152':
+        material: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 2045.2
+        sell: 511.3
+        displayname: '&fWayfinder Armadura Enfeite Ferraria Molde'
+      '153':
+        material: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+        buy: 1971.8
+        sell: 493
+        displayname: '&fWild Armadura Enfeite Ferraria Molde'

@@ -1,0 +1,148 @@
+# Loja: Música (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: MUSIC_DISC_11
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical 11'
+      '2':
+        material: MUSIC_DISC_13
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical 13'
+      '3':
+        material: MUSIC_DISC_5
+        buy: 9450
+        sell: 2362.5
+        displayname: '&fDisco Musical 5'
+      '4':
+        material: MUSIC_DISC_BLOCKS
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Blocos'
+      '5':
+        material: MUSIC_DISC_CAT
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Cat'
+      '6':
+        material: MUSIC_DISC_CHIRP
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Chirp'
+      '7':
+        material: MUSIC_DISC_CREATOR
+        buy: 1000
+        sell: 250
+        displayname: '&fDisco Musical Creator'
+      '8':
+        material: MUSIC_DISC_CREATOR_MUSIC_BOX
+        buy: 1000
+        sell: 250
+        displayname: '&fDisco Musical Creator Música Box'
+      '9':
+        material: MUSIC_DISC_FAR
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Far'
+      '10':
+        material: MUSIC_DISC_MALL
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Mall'
+      '11':
+        material: MUSIC_DISC_MELLOHI
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Mellohi'
+      '12':
+        material: MUSIC_DISC_OTHERSIDE
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Otherside'
+      '13':
+        material: MUSIC_DISC_PIGSTEP
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Pigstep'
+      '14':
+        material: MUSIC_DISC_PRECIPICE
+        buy: 1000
+        sell: 250
+        displayname: '&fDisco Musical Precipice'
+      '15':
+        material: MUSIC_DISC_RELIC
+        buy: 1000
+        sell: 250
+        displayname: '&fDisco Musical Relic'
+      '16':
+        material: MUSIC_DISC_STAL
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Stal'
+      '17':
+        material: MUSIC_DISC_STRAD
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Strad'
+      '18':
+        material: MUSIC_DISC_WAIT
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Wait'
+      '19':
+        material: MUSIC_DISC_WARD
+        buy: 750
+        sell: 187.5
+        displayname: '&fDisco Musical Ward'
+      '20':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: ponder
+        displayname: '&fCabra Chifre'
+      '21':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: admire
+        displayname: '&fCabra Chifre'
+      '22':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: call
+        displayname: '&fCabra Chifre'
+      '23':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: dream
+        displayname: '&fCabra Chifre'
+      '24':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: feel
+        displayname: '&fCabra Chifre'
+      '25':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: seek
+        displayname: '&fCabra Chifre'
+      '26':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: sing
+        displayname: '&fCabra Chifre'
+      '27':
+        material: GOAT_HORN
+        buy: 1000
+        sell: 250
+        instrument: yearn
+        displayname: '&fCabra Chifre'

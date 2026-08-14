@@ -1,0 +1,380 @@
+[00:54:40] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[00:54:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[00:54:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:54:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[00:54:43] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - EconomyShopGUI (7.2.0), FancyHolograms (2.11.0), NpcPlugin-Paper (3.2.0)
+[00:54:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (18):
+ - AngelChest (13.9.4), AuthMe (6.0.0-b2734), Chunky (1.5.3), Codes (2.2), Essentials (2.22.1-dev+17-382de4f), GSit (3.5.1), Geyser-Spigot (2.11.1-SNAPSHOT), GriefPrevention (16.18.7), Multiverse-Core (5.8.0-pre), NexusTrade (1.0.1), PlayerKits2 (1.23.3), Simple_RTP (1.0.9), Trade (1.1), Vault (1.7.3-b131), ViaVersion (5.11.0), WorldEdit (7.4.5+7590-b8dc4c1), WorldGuard (7.0.17+2370-e42d8bc), floodgate (2.2.5-SNAPSHOT (b140-8780fa4))
+[00:54:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:54:49] [ServerMain/INFO]: Loaded 1470 recipes
+[00:54:49] [ServerMain/INFO]: Loaded 1584 advancements
+[00:54:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:54:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 585.3ms
+[00:54:50] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[00:54:50] [Server thread/INFO]: Loading properties
+[00:54:50] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[00:54:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:54:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:54:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:54:51] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:54:51] [Server thread/INFO]: Default game type: SURVIVAL
+[00:54:51] [Server thread/INFO]: Generating keypair
+[00:54:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:54:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:54:51] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[00:54:52] [Server thread/INFO]: [AngelChest] Hooked into WorldGuard 7.0.17+2370-e42d8bc
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.7/mariadb-java-client-3.5.7.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/servidor/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+[00:54:52] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loading 8 libraries... please wait
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/net/kyori/adventure-text-minimessage/4.18.0/adventure-text-minimessage-4.18.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/net/kyori/adventure-api/4.18.0/adventure-api-4.18.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/net/kyori/adventure-key/4.18.0/adventure-key-4.18.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/jetbrains/annotations/26.0.1/annotations-26.0.1.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/xerial/sqlite-jdbc/3.46.0.0/sqlite-jdbc-3.46.0.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/mariadb/jdbc/mariadb-java-client/3.3.3/mariadb-java-client-3.3.3.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/lettuce/lettuce-core/6.5.2.RELEASE/lettuce-core-6.5.2.RELEASE.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/netty/netty-common/4.1.115.Final/netty-common-4.1.115.Final.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/netty/netty-handler/4.1.115.Final/netty-handler-4.1.115.Final.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/netty/netty-resolver/4.1.115.Final/netty-resolver-4.1.115.Final.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/netty/netty-buffer/4.1.115.Final/netty-buffer-4.1.115.Final.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/netty/netty-codec/4.1.115.Final/netty-codec-4.1.115.Final.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/netty/netty-transport/4.1.115.Final/netty-transport-4.1.115.Final.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/io/projectreactor/reactor-core/3.6.6/reactor-core-3.6.6.jar
+[00:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [NexusTrade] Loaded library /workspaces/servidor/libraries/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+[00:54:53] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[00:54:53] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
+[00:54:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2c746f31]
+[00:54:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.17+2370-e42d8bc
+[00:54:53] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.8.0-pre
+[00:54:53] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b140-8780fa4)
+[00:54:54] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:54:54] [Server thread/INFO]: [floodgate] Took 669ms to boot Floodgate
+[00:54:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[00:54:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[00:54:55] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+17-382de4f
+[00:54:55] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.7
+[00:54:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.1-SNAPSHOT
+[00:54:55] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
+[00:54:55] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
+[00:54:55] [Server thread/INFO]: [Simple_RTP] Loading server plugin Simple_RTP v1.0.9
+[00:54:55] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.11.0
+[00:54:55] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[00:54:55] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.11.0
+[00:54:55] [Server thread/INFO]: [AngelChest] Trying to hook into WorldGuard...
+[00:54:55] [Server thread/ERROR]: [AngelChest] You are using a version of WorldGuard that does not fully support your Minecraft version. WorldGuard integration is disabled.
+[00:54:55] [Server thread/INFO]: [AngelChest] Successfully registered WorldGuard flags.
+[00:54:55] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v6.0.0-b2734
+[00:54:55] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.23.3
+[00:54:55] [Server thread/INFO]: [NpcPlugin-Paper] Loading server plugin NpcPlugin-Paper v3.2.0
+[00:54:55] [Server thread/INFO]: [Trade] Loading server plugin Trade v1.1
+[00:54:55] [Server thread/INFO]: [NexusTrade] Loading server plugin NexusTrade v1.0.1
+[00:54:55] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
+[00:54:55] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
+[00:54:55] [Server thread/INFO]: [Codes] Loading server plugin Codes v2.2
+[00:54:55] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.2.0
+[00:54:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:54:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:54:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:54:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:54:56] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:54:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
+[00:54:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:54:56] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[00:54:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
+[00:54:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:54:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:54:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:54:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:54:56] [Server thread/INFO]: Preparing level "world"
+[00:54:56] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[00:54:56] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[00:54:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[00:54:57] [Server thread/INFO]: Prepared spawn area in 0 ms
+[00:54:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[00:54:57] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:54:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[00:54:57] [Server thread/INFO]: Prepared spawn area in 0 ms
+[00:54:57] [Server thread/INFO]: Done preparing level "world" (0.701s)
+[00:54:57] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.17+2370-e42d8bc
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:54:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:54:57] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:54:57] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.8.0-pre
+[00:54:58] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:lobby_antigo'...
+[00:54:58] [Server thread/INFO]: Preparing spawn area: 100%
+[00:54:58] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:54:58] [Server thread/INFO]: [WorldGuard] (lobby_antigo) TNT ignition is PERMITTED.
+[00:54:58] [Server thread/INFO]: [WorldGuard] (lobby_antigo) Lighters are PERMITTED.
+[00:54:58] [Server thread/INFO]: [WorldGuard] (lobby_antigo) Lava fire is PERMITTED.
+[00:54:58] [Server thread/INFO]: [WorldGuard] (lobby_antigo) Fire spread is UNRESTRICTED.
+[00:54:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby_antigo'
+[00:54:58] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[00:54:58] [Server thread/INFO]: [Multiverse-Core] Version 5.8.0-pre (API v5.8) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[00:54:58] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[00:54:58] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b140-8780fa4)
+[00:54:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[00:54:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[00:54:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+17-382de4f
+[00:54:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:54:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:54:59] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
+[00:54:59] [Server thread/INFO]: [Essentials] Using locale pt_BR
+[00:55:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:55:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:55:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:55:00] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[00:55:00] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[00:55:00] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.7
+[00:55:00] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[00:55:00] [Server thread/INFO]: [GriefPrevention] 2 total claims loaded.
+[00:55:00] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[00:55:00] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[00:55:00] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[00:55:00] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[00:55:00] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.1-SNAPSHOT
+[00:55:01] [Server thread/INFO]: [Simple_RTP] Enabling Simple_RTP v1.0.9
+[00:55:01] [Server thread/INFO]: [Simple_RTP] Plugin has been enabled!
+[00:55:01] [Server thread/INFO]: [Simple_RTP] Thank you for using Simple RTP! by Jaeden
+[00:55:01] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.11.0
+[00:55:01] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[00:55:01] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[00:55:01] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[00:55:01] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[00:55:01] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.11.0
+[00:55:02] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[00:55:02] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[00:55:02] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[00:55:02] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[00:55:02] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[00:55:02] [Server thread/INFO]: [AngelChest] Successfully hooked into Vault and the EconomyProvider, enabling economy functions.
+[00:55:02] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[00:55:02] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[00:55:02] [Server thread/INFO]: [AuthMe] Enabling AuthMe v6.0.0-b2734
+[00:55:02] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[00:55:02] [Server thread/INFO]: [AuthMe] Hooked into Vault!
+[00:55:02] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[00:55:02] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/servidor/plugins/Essentials/spawn.yml'
+[00:55:02] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires PacketEvents! Disabling it...
+[00:55:03] [Server thread/INFO]: [AuthMe] AuthMe 6.0.0 build n.2734 successfully enabled!
+[00:55:03] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.23.3
+[00:55:03] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.23.3
+[00:55:03] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[00:55:03] [Server thread/INFO]: [NpcPlugin-Paper] Enabling NpcPlugin-Paper v3.2.0
+[00:55:03] [Server thread/INFO]: [NpcPlugin-Paper] Registering commands...
+[00:55:03] [Server thread/INFO]: [NpcPlugin-Paper] Registering listeners...
+[00:55:03] [Server thread/INFO]: [NpcPlugin-Paper] Loading items...
+[00:55:03] [Server thread/INFO]: [NpcPlugin-Paper] Loading language files...
+[00:55:03] [Server thread/INFO]: [NpcPlugin-Paper] Checking for updates...
+[00:55:03] [Server thread/INFO]: [NpcPlugin-Paper] Registering parser...
+[00:55:03] [Server thread/INFO]: [Trade] Enabling Trade v1.1
+[00:55:03] [Server thread/INFO]: [Trade] Trade v1.1 enabled with Sync System.
+[00:55:03] [Server thread/INFO]: [NexusTrade] Enabling NexusTrade v1.0.1
+[00:55:03] [Server thread/INFO]: [NexusTrade] Connecting to SQLite database...
+[00:55:03] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] NexusTradeHikari - Starting...
+[00:55:03] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] NexusTradeHikari - Added connection org.sqlite.jdbc4.JDBC4Connection@367f9edf
+[00:55:03] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] NexusTradeHikari - Start completed.
+[00:55:03] [Server thread/INFO]: [NexusTrade] Database connection established.
+[00:55:04] [Server thread/INFO]: 
+[00:55:04] [Server thread/INFO]:   ███╗   ██╗   NexusTrade v1.0.1
+[00:55:04] [Server thread/INFO]:   ████╗  ██║   Running on Paper
+[00:55:04] [Server thread/INFO]:   ██╔██╗ ██║   redis: Disabled
+[00:55:04] [Server thread/INFO]:   ██║╚██╗██║   database: SQLite
+[00:55:04] [Server thread/INFO]:   ██║ ╚████║
+[00:55:04] [Server thread/INFO]:   ╚═╝  ╚═══╝
+[00:55:04] [Server thread/INFO]: 
+[00:55:04] [Server thread/INFO]: Successfully enabled. (took 214ms)
+[00:55:04] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
+[00:55:04] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
+[00:55:04] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[00:55:04] [Server thread/INFO]: [GSit] O plugin foi ativado com sucesso.
+[00:55:04] [Server thread/INFO]: [GSit] Conexão com  WorldGuard feita com sucesso!
+[00:55:04] [Server thread/INFO]: [Codes] Enabling Codes v2.2
+[00:55:04] [Server thread/WARN]: [Codes] Could not save menus.yml to plugins/Codes/menus.yml because menus.yml already exists.
+[00:55:04] [Server thread/INFO]: [Codes] Codes Plugin Enabled!
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.2.0
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-pt.yml as language file
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carregamento concluído de 16 de configurações de loja de /shops/
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Atualizando as configurações do Shop...
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando a versão 1.21.11 do minecraft...
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: A compatibilidade do AUTO foi habilitada nas configurações
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: O modo Debug foi ativado
+[00:55:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carregando todos os itens...
+[00:55:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Feito!
+[00:55:05] [Server thread/INFO]: [spark] Starting background profiler...
+[00:55:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:55:06] [Server thread/INFO]: [Geyser-Spigot] 
+[00:55:06] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.11.1-b1217 (git-master-a00e4aa)
+[00:55:06] [Server thread/INFO]: [Geyser-Spigot] 
+[00:55:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:55:07] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[00:55:07] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[00:55:07] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[00:55:09] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
+[00:55:10] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Geyser iniciado na porta UDP 25565
+[00:55:10] [Server thread/INFO]: [Geyser-Spigot] Concluído (4.198 s)! Execute /geyser help para obter ajuda!
+[00:55:10] [Server thread/INFO]: Running delayed init tasks
+[00:55:10] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:55:10] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[00:55:10] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Buscando informações da versão...
+[00:55:10] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[00:55:10] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[00:55:10] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:55:10] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:55:10] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[00:55:10] [Craft Scheduler Thread - 7 - NpcPlugin-Paper/INFO]: [NPC] New version available: 3.2.1 → https://modrinth.com/plugin/npc-plugin?version=1.21.11&loader=paper#download
+[00:55:10] [Server thread/INFO]: Done (30.976s)! For help, type "help"
+[00:55:10] [Server thread/WARN]: java.net.UnknownHostException: api.jeff-media.de
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:569)
+[00:55:10] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
+[00:55:10] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:659)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:161)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:516)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:206)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:288)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:963)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:899)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1377)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1302)
+[00:55:10] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[00:55:10] [Server thread/WARN]: 	at AngelChest-13.9.4.jar//de.jeff_media.angelchest.AngelChestMain$$TA.$$case(UpdateChecker.java:203)
+[00:55:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[00:55:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:55:10] [Server thread/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:55:10] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+[00:55:10] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+[00:55:10] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[00:55:10] [Server thread/WARN]: [AngelChest] Could not check for updates.
+[00:55:10] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[00:55:10] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[00:55:10] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[00:55:10] [Paper Async Task Handler Thread - 1/WARN]: However, you are 4 release(s) behind the latest stable release (26.2)!
+[00:55:10] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[00:55:10] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[00:55:10] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[00:55:11] [Server thread/INFO]: [NpcPlugin-Paper] Loading NpcApi...
+[00:55:12] [Server thread/INFO]: [NpcPlugin-Paper] Successfully loaded 2 NPC's
+[00:55:12] [Server thread/INFO]: [NpcPlugin-Paper] Loading paths...
+[00:55:13] [Server thread/INFO]: [AngelChest] ========================================================
+[00:55:13] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[00:55:13] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[00:55:13] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[00:55:13] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[00:55:13] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[00:55:13] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[00:55:13] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[00:55:13] [Server thread/INFO]: [AngelChest] 
+[00:55:13] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[00:55:13] [Server thread/INFO]: [AngelChest] ========================================================
+[01:23:46] [Server thread/INFO]: Usage: /login <password>
+[01:30:59] [User Authenticator #0/INFO]: UUID of player wuillian_tv is bef6bddd-3b7d-393a-9bcf-d3fcbaa89470
+[01:30:59] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention, WorldGuard]
+[01:31:11] [Server thread/INFO]: wuillian_tv joined the game
+[01:31:11] [Server thread/INFO]: wuillian_tv[/127.0.0.1:48564] logged in with entity id 5 at ([world]-14594.86993068465, 73.0, 27072.910957381875)
+[01:31:11] [Craft Scheduler Thread - 193 - AuthMe/INFO]: [AuthMe] The user wuillian_tv has 3 accounts:
+[01:31:11] [Craft Scheduler Thread - 193 - AuthMe/INFO]: [AuthMe] §7§awuillian_tv§7, .derick3285, derick.
+[01:31:11] [Craft Scheduler Thread - 193 - AuthMe/INFO]: [AuthMe] wuillian_tv logged in 127.0.0.1
+[01:31:29] [Server thread/INFO]: wuillian_tv issued server command: /ignoreclaims
+[01:31:36] [Server thread/INFO]: wuillian_tv lost connection: Disconnected
+[01:31:36] [Server thread/INFO]: wuillian_tv left the game

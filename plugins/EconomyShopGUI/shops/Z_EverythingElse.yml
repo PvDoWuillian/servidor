@@ -1,0 +1,2602 @@
+# Loja: Outros Itens (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: ACACIA_BUTTON
+        buy: 11.6
+        sell: 2.9
+        displayname: '&fAcácia Botão'
+      '2':
+        material: ACACIA_DOOR
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fAcácia Porta'
+      '3':
+        material: ACACIA_FENCE
+        buy: 19.5
+        sell: 4.9
+        displayname: '&fAcácia Cerca'
+      '4':
+        material: ACACIA_FENCE_GATE
+        buy: 47.5
+        sell: 11.9
+        displayname: '&fAcácia Portão'
+      '5':
+        material: ACACIA_PRESSURE_PLATE
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fAcácia Pressure Plate'
+      '6':
+        material: ACACIA_TRAPDOOR
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fAcácia Alçapão'
+      '7':
+        material: ACTIVATOR_RAIL
+        buy: 67.5
+        sell: 16.9
+        displayname: '&fActivator Trilho'
+      '8':
+        material: ALLIUM
+        buy: 10
+        sell: 2.5
+        displayname: '&fAlho-Bravo'
+      '9':
+        material: AMETHYST_CLUSTER
+        buy: 50
+        sell: 12.5
+        displayname: '&fAmetista Cluster'
+      '10':
+        material: ANDESITE_WALL
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fAndesito Muro'
+      '11':
+        material: ARMADILLO_SCUTE
+        buy: 5300
+        sell: 1325
+        displayname: '&fTatu Scute'
+      '12':
+        material: ARMOR_STAND
+        buy: 40.5
+        sell: 10.2
+        displayname: '&fArmadura Suporte'
+      '13':
+        material: BAMBOO_BUTTON
+        buy: 5.3
+        sell: 1.4
+        displayname: '&fBambu Botão'
+      '14':
+        material: BAMBOO_DOOR
+        buy: 10.5
+        sell: 2.7
+        displayname: '&fBambu Porta'
+      '15':
+        material: BAMBOO_FENCE
+        buy: 11
+        sell: 2.8
+        displayname: '&fBambu Cerca'
+      '16':
+        material: BAMBOO_FENCE_GATE
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fBambu Portão'
+      '17':
+        material: BAMBOO_PRESSURE_PLATE
+        buy: 10.5
+        sell: 2.7
+        displayname: '&fBambu Pressure Plate'
+      '18':
+        material: BAMBOO_TRAPDOOR
+        buy: 15.7
+        sell: 4
+        displayname: '&fBambu Alçapão'
+      '19':
+        material: BIRCH_BUTTON
+        buy: 11.6
+        sell: 2.9
+        displayname: '&fBétula Botão'
+      '20':
+        material: BIRCH_DOOR
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fBétula Porta'
+      '21':
+        material: BIRCH_FENCE
+        buy: 19.5
+        sell: 4.9
+        displayname: '&fBétula Cerca'
+      '22':
+        material: BIRCH_FENCE_GATE
+        buy: 47.5
+        sell: 11.9
+        displayname: '&fBétula Portão'
+      '23':
+        material: BIRCH_PRESSURE_PLATE
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fBétula Pressure Plate'
+      '24':
+        material: BIRCH_TRAPDOOR
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fBétula Alçapão'
+      '25':
+        material: BLACK_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fPreto Banner'
+      '26':
+        material: BLACK_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fPreto Bed'
+      '27':
+        material: BLACK_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fPreto Carpete'
+      '28':
+        material: BLACK_CONCRETE_POWDER
+        buy: 80.1
+        sell: 20.1
+        displayname: '&fPó de Concreto Preto'
+      '29':
+        material: BLACK_GLAZED_TERRACOTTA
+        buy: 250
+        sell: 62.5
+        displayname: '&fPreto Glazed Terracota'
+      '31':
+        material: BLACK_STAINED_GLASS
+        buy: 73.1
+        sell: 18.3
+        displayname: '&fVidro Tingido de Preto'
+      '32':
+        material: BLACK_STAINED_GLASS_PANE
+        buy: 28.8
+        sell: 7.2
+        displayname: '&fPainel de Vidro Tingido de Preto'
+      '33':
+        material: BLACK_TERRACOTTA
+        buy: 238.1
+        sell: 59.6
+        displayname: '&fTerracota de Preto'
+      '34':
+        material: BLACKSTONE_WALL
+        buy: 7.9
+        sell: 2
+        displayname: '&fPedra Negra Muro'
+      '35':
+        material: BLUE_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fAzul Banner'
+      '36':
+        material: BLUE_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fAzul Bed'
+      '37':
+        material: BLUE_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fAzul Carpete'
+      '38':
+        material: BLUE_CONCRETE_POWDER
+        buy: 83
+        sell: 20.8
+        displayname: '&fPó de Concreto Azul'
+      '39':
+        material: BLUE_GLAZED_TERRACOTTA
+        buy: 253.1
+        sell: 63.3
+        displayname: '&fAzul Glazed Terracota'
+      '40':
+        material: BLUE_ICE
+        buy: 607.5
+        sell: 151.9
+        displayname: '&fAzul Ice'
+      '42':
+        material: BLUE_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fVidro Tingido de Azul'
+      '43':
+        material: BLUE_STAINED_GLASS_PANE
+        buy: 26.6
+        sell: 6.7
+        displayname: '&fPainel de Vidro Tingido de Azul'
+      '44':
+        material: BLUE_TERRACOTTA
+        buy: 241
+        sell: 60.3
+        displayname: '&fTerracota de Azul'
+      '45':
+        material: BONE_BLOCK
+        buy: 198.5
+        sell: 49.7
+        displayname: '&fBloco de Osso'
+  page2:
+    items:
+      '46':
+        material: BONE_MEAL
+        buy: 21
+        sell: 5.3
+        displayname: '&fOsso Farinha'
+      '47':
+        material: BOOK
+        buy: 356.2
+        sell: 89.1
+        displayname: '&fLivro'
+      '48':
+        material: BOW
+        buy: 238.8
+        sell: 59.7
+        displayname: '&fArco'
+      '49':
+        material: BOWL
+        buy: 8.7
+        sell: 2.2
+        displayname: '&fBowl'
+      '50':
+        material: BRICK
+        buy: 220.5
+        sell: 55.2
+        displayname: '&fTijolo'
+      '51':
+        material: BRICK_WALL
+        buy: 972.5
+        sell: 243.2
+        displayname: '&fTijolo Muro'
+      '52':
+        material: BROWN_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fMarrom Banner'
+      '53':
+        material: BROWN_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fMarrom Bed'
+      '54':
+        material: BROWN_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fMarrom Carpete'
+      '55':
+        material: BROWN_CONCRETE_POWDER
+        buy: 81.4
+        sell: 20.4
+        displayname: '&fPó de Concreto Marrom'
+      '56':
+        material: BROWN_GLAZED_TERRACOTTA
+        buy: 251.4
+        sell: 62.9
+        displayname: '&fMarrom Glazed Terracota'
+      '57':
+        material: BROWN_MUSHROOM_BLOCK
+        buy: 0.6
+        sell: 0.2
+        displayname: '&fBloco de Marrom Cogumelo'
+      '59':
+        material: BROWN_STAINED_GLASS
+        buy: 74.5
+        sell: 18.7
+        displayname: '&fVidro Tingido de Marrom'
+      '60':
+        material: BROWN_STAINED_GLASS_PANE
+        buy: 29.4
+        sell: 7.4
+        displayname: '&fPainel de Vidro Tingido de Marrom'
+      '61':
+        material: BROWN_TERRACOTTA
+        buy: 239.4
+        sell: 59.9
+        displayname: '&fTerracota de Marrom'
+      '62':
+        material: BUCKET
+        buy: 173.7
+        sell: 43.5
+        displayname: '&fBalde'
+      '63':
+        material: BUNDLE
+        buy: 651
+        sell: 162.8
+        displayname: '&fTrouxa'
+      '64':
+        material: CARVED_PUMPKIN
+        buy: 60
+        sell: 15
+        displayname: '&fCarved Abóbora'
+      '65':
+        material: CHAINMAIL_BOOTS
+        buy: 400
+        sell: 100
+        displayname: '&fCota de Malha Botas'
+      '66':
+        material: CHAINMAIL_CHESTPLATE
+        buy: 600
+        sell: 150
+        displayname: '&fCota de Malha Peitoral'
+      '67':
+        material: CHAINMAIL_HELMET
+        buy: 400
+        sell: 100
+        displayname: '&fCota de Malha Capacete'
+      '68':
+        material: CHAINMAIL_LEGGINGS
+        buy: 600
+        sell: 150
+        displayname: '&fCota de Malha Calças'
+      '69':
+        material: CHARCOAL
+        buy: 63
+        sell: 15.8
+        displayname: '&fCharcoal'
+      '70':
+        material: CHEST
+        buy: 92.7
+        sell: 23.2
+        displayname: '&fBaú'
+      '71':
+        material: CHEST_MINECART
+        buy: 401.2
+        sell: 100.3
+        displayname: '&fBaú Carrinho de Mina'
+      '72':
+        material: CHISELED_DEEPSLATE
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fEntalhado Deepslate'
+      '73':
+        material: CHISELED_NETHER_BRICKS
+        buy: 4.9
+        sell: 1.3
+        displayname: '&fEntalhado Nether Tijolos'
+      '74':
+        material: CHISELED_POLISHED_BLACKSTONE
+        buy: 7.9
+        sell: 2
+        displayname: '&fEntalhado Polido Blackstone'
+      '75':
+        material: CHISELED_QUARTZ_BLOCK
+        buy: 364.7
+        sell: 91.2
+        displayname: '&fBloco de Entalhado Quartzo'
+      '76':
+        material: CHISELED_RED_SANDSTONE
+        buy: 352.8
+        sell: 88.2
+        displayname: '&fEntalhado Vermelho Sandstone'
+      '77':
+        material: CHISELED_SANDSTONE
+        buy: 126
+        sell: 31.5
+        displayname: '&fEntalhado Sandstone'
+      '78':
+        material: CHISELED_STONE_BRICKS
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fEntalhado Pedra Tijolos'
+      '79':
+        material: CLAY_BALL
+        buy: 50
+        sell: 12.5
+        displayname: '&fClay Ball'
+      '80':
+        material: COAL_ORE
+        buy: 500
+        sell: 100
+        displayname: '&fCarvão Ore'
+      '81':
+        material: COARSE_DIRT
+        buy: 57.8
+        sell: 14.5
+        displayname: '&fCoarse Terra'
+      '82':
+        material: COBBLED_DEEPSLATE_WALL
+        buy: 7.2
+        sell: 1.8
+        displayname: '&fCobbled Deepslate Muro'
+      '83':
+        material: COBBLESTONE_WALL
+        buy: 7.2
+        sell: 1.8
+        displayname: '&fPedregulho Muro'
+      '84':
+        material: COD
+        buy: 60
+        sell: 15
+        displayname: '&fBacalhau Cru'
+      '85':
+        material: CONDUIT
+        buy: 20908.2
+        sell: 5227.1
+        displayname: '&fConduit'
+      '86':
+        material: COOKED_COD
+        buy: 63
+        sell: 15.8
+        displayname: '&fBacalhau Assado'
+      '87':
+        material: COPPER_DOOR
+        buy: 81.1
+        sell: 20.3
+        displayname: '&fCobre Porta'
+      '88':
+        material: COPPER_GRATE
+        buy: 10.2
+        sell: 2.6
+        displayname: '&fCobre Grate'
+      '89':
+        material: COPPER_TRAPDOOR
+        buy: 121.6
+        sell: 30.4
+        displayname: '&fCobre Alçapão'
+      '90':
+        material: CRACKED_DEEPSLATE_BRICKS
+        buy: 7.9
+        sell: 2
+        displayname: '&fRachado Deepslate Tijolos'
+  page3:
+    items:
+      '91':
+        material: CRACKED_DEEPSLATE_TILES
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fRachado Deepslate Tiles'
+      '92':
+        material: CRACKED_NETHER_BRICKS
+        buy: 9.3
+        sell: 2.4
+        displayname: '&fRachado Nether Tijolos'
+      '93':
+        material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fRachado Polido Blackstone Tijolos'
+      '94':
+        material: CRACKED_STONE_BRICKS
+        buy: 7.9
+        sell: 2
+        displayname: '&fRachado Pedra Tijolos'
+      '95':
+        material: CRAFTING_TABLE
+        buy: 46.4
+        sell: 11.6
+        displayname: '&fBancada de Trabalho'
+      '96':
+        material: CREEPER_HEAD
+        buy: -1
+        sell: 1500
+        displayname: '&fCreeper Cabeça'
+      '97':
+        material: CRIMSON_BUTTON
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fCarmesim Botão'
+      '98':
+        material: CRIMSON_DOOR
+        buy: 16.6
+        sell: 4.2
+        displayname: '&fCarmesim Porta'
+      '99':
+        material: CRIMSON_FENCE
+        buy: 15.1
+        sell: 3.8
+        displayname: '&fCarmesim Cerca'
+      '100':
+        material: CRIMSON_FENCE_GATE
+        buy: 40.9
+        sell: 10.3
+        displayname: '&fCarmesim Portão'
+      '101':
+        material: CRIMSON_PRESSURE_PLATE
+        buy: 16.6
+        sell: 4.2
+        displayname: '&fCarmesim Pressure Plate'
+      '102':
+        material: CRIMSON_ROOTS
+        buy: 50
+        sell: 12.5
+        displayname: '&fCarmesim Raízes'
+      '103':
+        material: CRIMSON_TRAPDOOR
+        buy: 24.9
+        sell: 6.3
+        displayname: '&fCarmesim Alçapão'
+      '104':
+        material: CROSSBOW
+        buy: 262.8
+        sell: 65.7
+        displayname: '&fBesta'
+      '105':
+        material: CUT_COPPER
+        buy: 40.6
+        sell: 10.2
+        displayname: '&fCortado Cobre'
+      '106':
+        material: CUT_COPPER_SLAB
+        buy: 5.1
+        sell: 1.3
+        displayname: '&fCortado Cobre Laje'
+      '107':
+        material: CUT_COPPER_STAIRS
+        buy: 10.2
+        sell: 2.6
+        displayname: '&fCortado Cobre Escadas'
+      '108':
+        material: CUT_RED_SANDSTONE
+        buy: 352.8
+        sell: 88.2
+        displayname: '&fCortado Vermelho Sandstone'
+      '109':
+        material: CUT_RED_SANDSTONE_SLAB
+        buy: 176.4
+        sell: 44.1
+        displayname: '&fCortado Vermelho Sandstone Laje'
+      '110':
+        material: CUT_SANDSTONE
+        buy: 126
+        sell: 31.5
+        displayname: '&fCortado Sandstone'
+      '111':
+        material: CUT_SANDSTONE_SLAB
+        buy: 63
+        sell: 15.8
+        displayname: '&fCortado Sandstone Laje'
+      '112':
+        material: CYAN_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fCiano Banner'
+      '113':
+        material: CYAN_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fCiano Bed'
+      '114':
+        material: CYAN_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fCiano Carpete'
+      '115':
+        material: CYAN_CONCRETE_POWDER
+        buy: 74.3
+        sell: 18.6
+        displayname: '&fPó de Concreto Ciano'
+      '116':
+        material: CYAN_GLAZED_TERRACOTTA
+        buy: 244
+        sell: 61
+        displayname: '&fCiano Glazed Terracota'
+      '118':
+        material: CYAN_STAINED_GLASS
+        buy: 67
+        sell: 16.8
+        displayname: '&fVidro Tingido de Ciano'
+      '119':
+        material: CYAN_STAINED_GLASS_PANE
+        buy: 26.4
+        sell: 6.6
+        displayname: '&fPainel de Vidro Tingido de Ciano'
+      '120':
+        material: CYAN_TERRACOTTA
+        buy: 232.4
+        sell: 58.1
+        displayname: '&fTerracota de Ciano'
+      '121':
+        material: DANDELION
+        buy: 10
+        sell: 2.5
+        displayname: '&fDente-de-Leão'
+      '122':
+        material: DARK_OAK_BUTTON
+        buy: 11.6
+        sell: 2.9
+        displayname: '&fCarvalho Escuro Botão'
+      '123':
+        material: DARK_OAK_DOOR
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fCarvalho Escuro Porta'
+      '124':
+        material: DARK_OAK_FENCE
+        buy: 19.5
+        sell: 4.9
+        displayname: '&fCarvalho Escuro Cerca'
+      '125':
+        material: DARK_OAK_FENCE_GATE
+        buy: 47.5
+        sell: 11.9
+        displayname: '&fCarvalho Escuro Portão'
+      '126':
+        material: DARK_OAK_PRESSURE_PLATE
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fEscuro Carvalho Pressure Plate'
+      '127':
+        material: DARK_OAK_TRAPDOOR
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fCarvalho Escuro Alçapão'
+      '128':
+        material: DEAD_BUSH
+        buy: 300
+        sell: 75
+        displayname: '&fMorto Arbusto'
+      '129':
+        material: DEEPSLATE_BRICK_SLAB
+        buy: 4
+        sell: 1
+        displayname: '&fDeepslate Tijolo Laje'
+      '130':
+        material: DEEPSLATE_BRICK_STAIRS
+        buy: 7.9
+        sell: 2
+        displayname: '&fDeepslate Tijolo Escadas'
+      '131':
+        material: DEEPSLATE_BRICK_WALL
+        buy: 7.9
+        sell: 2
+        displayname: '&fDeepslate Tijolo Muro'
+      '132':
+        material: DEEPSLATE_BRICKS
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fTijolos de Ardosiabissal'
+      '133':
+        material: DEEPSLATE_COAL_ORE
+        buy: 200
+        sell: 50
+        displayname: '&fDeepslate Carvão Ore'
+      '134':
+        material: DEEPSLATE_COPPER_ORE
+        buy: 150
+        sell: 37.5
+        displayname: '&fDeepslate Cobre Ore'
+      '135':
+        material: DEEPSLATE_DIAMOND_ORE
+        buy: 2000
+        sell: 500
+        displayname: '&fDeepslate Diamante Ore'
+  page4:
+    items:
+      '136':
+        material: DEEPSLATE_EMERALD_ORE
+        buy: 1500
+        sell: 375
+        displayname: '&fDeepslate Esmeralda Ore'
+      '137':
+        material: DEEPSLATE_GOLD_ORE
+        buy: 300
+        sell: 75
+        displayname: '&fDeepslate Ouro Ore'
+      '138':
+        material: DEEPSLATE_IRON_ORE
+        buy: 200
+        sell: 50
+        displayname: '&fDeepslate Ferro Ore'
+      '139':
+        material: DEEPSLATE_LAPIS_ORE
+        buy: 550
+        sell: 137.5
+        displayname: '&fDeepslate Lápis-Lazúli Ore'
+      '140':
+        material: DEEPSLATE_REDSTONE_ORE
+        buy: 200
+        sell: 50
+        displayname: '&fDeepslate Redstone Ore'
+      '141':
+        material: DEEPSLATE_TILE_WALL
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fDeepslate Tile Muro'
+      '142':
+        material: DETECTOR_RAIL
+        buy: 66.7
+        sell: 16.7
+        displayname: '&fSensor Trilho'
+      '143':
+        material: DIAMOND_AXE
+        buy: 1666
+        sell: 416.5
+        displayname: '&fDiamante Machado'
+      '144':
+        material: DIAMOND_BOOTS
+        buy: 2205
+        sell: 551.3
+        displayname: '&fDiamante Botas'
+      '145':
+        material: DIAMOND_CHESTPLATE
+        buy: 4410
+        sell: 1102.5
+        displayname: '&fDiamante Peitoral'
+      '146':
+        material: DIAMOND_HELMET
+        buy: 2756.3
+        sell: 689.1
+        displayname: '&fDiamante Capacete'
+      '147':
+        material: DIAMOND_HOE
+        buy: 1114.7
+        sell: 278.7
+        displayname: '&fDiamante Enxada'
+      '148':
+        material: DIAMOND_HORSE_ARMOR
+        buy: 22500
+        sell: 5625
+        displayname: '&fDiamante Cavalo Armadura'
+      '149':
+        material: DIAMOND_LEGGINGS
+        buy: 3858.8
+        sell: 964.7
+        displayname: '&fDiamante Calças'
+      '150':
+        material: DIAMOND_ORE
+        buy: 5000
+        sell: 1000
+        displayname: '&fDiamante Ore'
+      '151':
+        material: DIAMOND_PICKAXE
+        buy: 1666
+        sell: 416.5
+        displayname: '&fDiamante Picareta'
+      '152':
+        material: DIAMOND_SHOVEL
+        buy: 563.5
+        sell: 140.9
+        displayname: '&fDiamante Pá'
+      '153':
+        material: DIAMOND_SWORD
+        buy: 1108.6
+        sell: 277.2
+        displayname: '&fDiamante Espada'
+      '154':
+        material: DIORITE_WALL
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fDiorito Muro'
+      '155':
+        material: DISC_FRAGMENT
+        buy: 1000
+        sell: 250
+        displayname: '&fDisco Fragment'
+      '156':
+        material: DRAGON_BREATH
+        buy: 1099.3
+        sell: 274.9
+        displayname: '&fBafo do Dragão'
+      '157':
+        material: DRAGON_EGG
+        buy: 50000
+        sell: 12500
+        displayname: '&fDragão Ovo'
+      '158':
+        material: DRAGON_HEAD
+        buy: -1
+        sell: 12500
+        displayname: '&fDragão Cabeça'
+      '159':
+        material: DRIED_KELP
+        buy: 1.1
+        sell: 0.3
+        displayname: '&fAlgas Secas'
+      '160':
+        material: DRIED_KELP_BLOCK
+        buy: 10
+        sell: 2.5
+        displayname: '&fBloco de Dried Alga'
+      '161':
+        material: ECHO_SHARD
+        buy: 1000
+        sell: 250
+        displayname: '&fEcho Shard'
+      '162':
+        material: EMERALD_ORE
+        buy: 6000
+        sell: 1200
+        displayname: '&fEsmeralda Ore'
+      '164':
+        material: ENCHANTING_TABLE
+        buy: 2789
+        sell: 697.3
+        displayname: '&fEncantamento Mesa'
+      '166':
+        material: END_STONE_BRICK_WALL
+        buy: 52.5
+        sell: 13.2
+        displayname: '&fEnd Pedra Tijolo Muro'
+      '167':
+        material: EXPOSED_COPPER
+        buy: 40.6
+        sell: 10.2
+        displayname: '&fExposto Cobre'
+      '168':
+        material: EXPOSED_COPPER_DOOR
+        buy: 85.1
+        sell: 21.3
+        displayname: '&fExposto Cobre Porta'
+      '169':
+        material: EXPOSED_COPPER_GRATE
+        buy: 10.7
+        sell: 2.7
+        displayname: '&fExposto Cobre Grate'
+      '170':
+        material: EXPOSED_COPPER_TRAPDOOR
+        buy: 127.7
+        sell: 32
+        displayname: '&fExposto Cobre Alçapão'
+      '171':
+        material: EXPOSED_CUT_COPPER
+        buy: 42.6
+        sell: 10.7
+        displayname: '&fExposto Cortado Cobre'
+      '172':
+        material: EXPOSED_CUT_COPPER_SLAB
+        buy: 1.4
+        sell: 0.4
+        displayname: '&fExposto Cortado Cobre Laje'
+      '173':
+        material: EXPOSED_CUT_COPPER_STAIRS
+        buy: 2.7
+        sell: 0.7
+        displayname: '&fExposto Cortado Cobre Escadas'
+      '174':
+        material: FERN
+        buy: 60
+        sell: 15
+        displayname: '&fFern'
+      '175':
+        material: FIRE_CHARGE
+        buy: 81.9
+        sell: 20.5
+        displayname: '&fBola de Fogo'
+      '176':
+        material: FIREWORK_ROCKET
+        buy: 54.7
+        sell: 13.7
+        displayname: '&fFogo de Artifício'
+      '177':
+        material: FIREWORK_STAR
+        buy: 173.8
+        sell: 43.5
+        displayname: '&fEstrela de Fogos de Artifício'
+      '178':
+        material: FISHING_ROD
+        buy: 165.3
+        sell: 41.4
+        displayname: '&fPesca Vara'
+      '179':
+        material: FLINT
+        buy: 20
+        sell: 5
+        displayname: '&fPederneira'
+      '180':
+        material: FLINT_AND_STEEL
+        buy: 78.9
+        sell: 19.8
+        displayname: '&fFlint And Steel'
+  page5:
+    items:
+      '181':
+        material: FURNACE
+        buy: 57.2
+        sell: 14.3
+        displayname: '&fFornalha'
+      '182':
+        material: FURNACE_MINECART
+        buy: 363.9
+        sell: 91
+        displayname: '&fFurnace Carrinho de Mina'
+      '183':
+        material: GILDED_BLACKSTONE
+        buy: 170
+        sell: 42.5
+        displayname: '&fGilded Blackstone'
+      '184':
+        material: GLASS_BOTTLE
+        buy: 66.2
+        sell: 16.6
+        displayname: '&fVidro Frasco'
+      '185':
+        material: GLOW_ITEM_FRAME
+        buy: 479.3
+        sell: 119.9
+        displayname: '&fGlow Item Frame'
+      '186':
+        material: GOLD_NUGGET
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fOuro Nugget'
+      '187':
+        material: GOLD_ORE
+        buy: 2500
+        sell: 500
+        displayname: '&fOuro Ore'
+      '189':
+        material: GOLDEN_AXE
+        buy: 272.7
+        sell: 68.2
+        displayname: '&fGolden Machado'
+      '190':
+        material: GOLDEN_BOOTS
+        buy: 347.3
+        sell: 86.9
+        displayname: '&fGolden Botas'
+      '191':
+        material: GOLDEN_CHESTPLATE
+        buy: 694.6
+        sell: 173.7
+        displayname: '&fGolden Peitoral'
+      '192':
+        material: GOLDEN_HELMET
+        buy: 434.2
+        sell: 108.6
+        displayname: '&fGolden Capacete'
+      '193':
+        material: GOLDEN_HOE
+        buy: 185.8
+        sell: 46.5
+        displayname: '&fGolden Enxada'
+      '194':
+        material: GOLDEN_HORSE_ARMOR
+        buy: 7750
+        sell: 1937.5
+        displayname: '&fGolden Cavalo Armadura'
+      '195':
+        material: GOLDEN_LEGGINGS
+        buy: 607.8
+        sell: 152
+        displayname: '&fGolden Calças'
+      '196':
+        material: GOLDEN_PICKAXE
+        buy: 272.7
+        sell: 68.2
+        displayname: '&fGolden Picareta'
+      '197':
+        material: GOLDEN_SHOVEL
+        buy: 99
+        sell: 24.8
+        displayname: '&fGolden Pá'
+      '198':
+        material: GOLDEN_SWORD
+        buy: 179.8
+        sell: 45
+        displayname: '&fGolden Espada'
+      '199':
+        material: GRANITE_WALL
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fGranito Muro'
+      '200':
+        material: GRASS
+        buy: 60
+        sell: 15
+        displayname: '&fGrama'
+      '201':
+        material: GRAY_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fCinza Banner'
+      '202':
+        material: GRAY_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fCinza Bed'
+      '203':
+        material: GRAY_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fCinza Carpete'
+      '204':
+        material: GRAY_CONCRETE_POWDER
+        buy: 78.3
+        sell: 19.6
+        displayname: '&fPó de Concreto Cinza'
+      '205':
+        material: GRAY_GLAZED_TERRACOTTA
+        buy: 248.1
+        sell: 62.1
+        displayname: '&fCinza Glazed Terracota'
+      '207':
+        material: GRAY_STAINED_GLASS
+        buy: 70.9
+        sell: 17.8
+        displayname: '&fVidro Tingido de Cinza'
+      '208':
+        material: GRAY_STAINED_GLASS_PANE
+        buy: 28
+        sell: 7
+        displayname: '&fPainel de Vidro Tingido de Cinza'
+      '209':
+        material: GRAY_TERRACOTTA
+        buy: 236.3
+        sell: 59.1
+        displayname: '&fTerracota de Cinza'
+      '210':
+        material: GREEN_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fVerde Banner'
+      '211':
+        material: GREEN_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fVerde Bed'
+      '212':
+        material: GREEN_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fVerde Carpete'
+      '213':
+        material: GREEN_CONCRETE_POWDER
+        buy: 73.7
+        sell: 18.5
+        displayname: '&fPó de Concreto Verde'
+      '214':
+        material: GREEN_GLAZED_TERRACOTTA
+        buy: 243.3
+        sell: 60.9
+        displayname: '&fVerde Glazed Terracota'
+      '216':
+        material: GREEN_STAINED_GLASS
+        buy: 66.3
+        sell: 16.6
+        displayname: '&fVidro Tingido de Verde'
+      '217':
+        material: GREEN_STAINED_GLASS_PANE
+        buy: 26.2
+        sell: 6.6
+        displayname: '&fPainel de Vidro Tingido de Verde'
+      '218':
+        material: GREEN_TERRACOTTA
+        buy: 231.7
+        sell: 58
+        displayname: '&fTerracota de Verde'
+      '219':
+        material: HANGING_ROOTS
+        buy: 10
+        sell: 2.5
+        displayname: '&fHanging Raízes'
+      '220':
+        material: HEART_OF_THE_SEA
+        buy: 5512.5
+        sell: 1378.2
+        displayname: '&fCoração do Mar'
+      '221':
+        material: HOPPER_MINECART
+        buy: 709.9
+        sell: 177.5
+        displayname: '&fFunil Carrinho de Mina'
+      '222':
+        material: ICE
+        buy: 30
+        sell: 7.5
+        displayname: '&fGelo'
+      '223':
+        material: IRON_AXE
+        buy: 185.8
+        sell: 46.5
+        displayname: '&fFerro Machado'
+      '224':
+        material: IRON_BARS
+        buy: 21.8
+        sell: 5.5
+        displayname: '&fFerro Bars'
+      '225':
+        material: IRON_BOOTS
+        buy: 231.6
+        sell: 57.9
+        displayname: '&fFerro Botas'
+  page6:
+    items:
+      '226':
+        material: IRON_CHESTPLATE
+        buy: 463.1
+        sell: 115.8
+        displayname: '&fFerro Peitoral'
+      '227':
+        material: IRON_HELMET
+        buy: 289.5
+        sell: 72.4
+        displayname: '&fFerro Capacete'
+      '228':
+        material: IRON_HOE
+        buy: 128
+        sell: 32
+        displayname: '&fFerro Enxada'
+      '229':
+        material: IRON_HORSE_ARMOR
+        buy: 1750
+        sell: 437.5
+        displayname: '&fFerro Cavalo Armadura'
+      '230':
+        material: IRON_LEGGINGS
+        buy: 405.2
+        sell: 101.3
+        displayname: '&fFerro Calças'
+      '231':
+        material: IRON_NUGGET
+        buy: 5.9
+        sell: 1.5
+        displayname: '&fFerro Nugget'
+      '232':
+        material: IRON_ORE
+        buy: 1500
+        sell: 300
+        displayname: '&fFerro Ore'
+      '233':
+        material: IRON_PICKAXE
+        buy: 185.8
+        sell: 46.5
+        displayname: '&fFerro Picareta'
+      '234':
+        material: IRON_SHOVEL
+        buy: 70.1
+        sell: 17.6
+        displayname: '&fFerro Pá'
+      '235':
+        material: IRON_SWORD
+        buy: 121.9
+        sell: 30.5
+        displayname: '&fFerro Espada'
+      '236':
+        material: ITEM_FRAME
+        buy: 401.5
+        sell: 100.4
+        displayname: '&fItem Frame'
+      '237':
+        material: JUNGLE_BUTTON
+        buy: 11.6
+        sell: 2.9
+        displayname: '&fSelva Botão'
+      '238':
+        material: JUNGLE_DOOR
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fSelva Porta'
+      '239':
+        material: JUNGLE_FENCE
+        buy: 19.5
+        sell: 4.9
+        displayname: '&fSelva Cerca'
+      '240':
+        material: JUNGLE_FENCE_GATE
+        buy: 47.5
+        sell: 11.9
+        displayname: '&fSelva Portão'
+      '241':
+        material: JUNGLE_PRESSURE_PLATE
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fSelva Pressure Plate'
+      '242':
+        material: JUNGLE_TRAPDOOR
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fSelva Alçapão'
+      '243':
+        material: LADDER
+        buy: 14.2
+        sell: 3.6
+        displayname: '&fLadder'
+      '244':
+        material: LAPIS_ORE
+        buy: 550
+        sell: -1
+        displayname: '&fLápis-Lazúli Ore'
+      '245':
+        material: LARGE_AMETHYST_BUD
+        buy: 40
+        sell: 10
+        displayname: '&fLarge Ametista Bud'
+      '246':
+        material: LARGE_FERN
+        buy: 70
+        sell: 17.5
+        displayname: '&fLarge Fern'
+      '247':
+        material: LEATHER_BOOTS
+        buy: 1411.2
+        sell: 352.8
+        displayname: '&fCouro Botas'
+      '248':
+        material: LEATHER_CHESTPLATE
+        buy: 2822.4
+        sell: 705.6
+        displayname: '&fCouro Peitoral'
+      '249':
+        material: LEATHER_HELMET
+        buy: 1764
+        sell: 441
+        displayname: '&fCouro Capacete'
+      '250':
+        material: LEATHER_HORSE_ARMOR
+        buy: 1000
+        sell: 250
+        displayname: '&fCouro Cavalo Armadura'
+      '251':
+        material: LEATHER_LEGGINGS
+        buy: 2469.6
+        sell: 617.4
+        displayname: '&fCouro Calças'
+      '252':
+        material: LIGHT_BLUE_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fAzul-Claro Banner'
+      '253':
+        material: LIGHT_BLUE_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fAzul-Claro Bed'
+      '254':
+        material: LIGHT_BLUE_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fAzul-Claro Carpete'
+      '255':
+        material: LIGHT_BLUE_CONCRETE_POWDER
+        buy: 74.9
+        sell: 18.8
+        displayname: '&fAzul-Claro Pó de Concreto'
+      '256':
+        material: LIGHT_BLUE_GLAZED_TERRACOTTA
+        buy: 244.6
+        sell: 61.2
+        displayname: '&fAzul-Claro Glazed Terracota'
+      '258':
+        material: LIGHT_BLUE_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fAzul-Claro Vidro Tingido'
+      '259':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        buy: 26.6
+        sell: 6.7
+        displayname: '&fAzul-Claro Painel de Vidro Tingido'
+      '260':
+        material: LIGHT_BLUE_TERRACOTTA
+        buy: 233
+        sell: 58.3
+        displayname: '&fAzul-Claro Terracota'
+      '261':
+        material: LIGHT_GRAY_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fCinza-Claro Banner'
+      '262':
+        material: LIGHT_GRAY_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fCinza-Claro Bed'
+      '263':
+        material: LIGHT_GRAY_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fCinza-Claro Carpete'
+      '264':
+        material: LIGHT_GRAY_CONCRETE_POWDER
+        buy: 74.9
+        sell: 18.8
+        displayname: '&fCinza-Claro Pó de Concreto'
+      '265':
+        material: LIGHT_GRAY_GLAZED_TERRACOTTA
+        buy: 244.6
+        sell: 61.2
+        displayname: '&fCinza-Claro Glazed Terracota'
+      '267':
+        material: LIGHT_GRAY_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fCinza-Claro Vidro Tingido'
+      '268':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        buy: 26.6
+        sell: 6.7
+        displayname: '&fCinza-Claro Painel de Vidro Tingido'
+      '269':
+        material: LIGHT_GRAY_TERRACOTTA
+        buy: 233
+        sell: 58.3
+        displayname: '&fCinza-Claro Terracota'
+      '270':
+        material: LIME_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fVerde-Limão Banner'
+  page7:
+    items:
+      '271':
+        material: LIME_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fVerde-Limão Bed'
+      '272':
+        material: LIME_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fVerde-Limão Carpete'
+      '273':
+        material: LIME_CONCRETE_POWDER
+        buy: 112.1
+        sell: 28.1
+        displayname: '&fPó de Concreto Verde-Limão'
+      '274':
+        material: LIME_GLAZED_TERRACOTTA
+        buy: 251.8
+        sell: 63
+        displayname: '&fVerde-Limão Glazed Terracota'
+      '276':
+        material: LIME_STAINED_GLASS
+        buy: 74.5
+        sell: 18.7
+        displayname: '&fVidro Tingido de Verde-Limão'
+      '277':
+        material: LIME_STAINED_GLASS_PANE
+        buy: 29.4
+        sell: 7.4
+        displayname: '&fPainel de Vidro Tingido de Verde-Limão'
+      '278':
+        material: LIME_TERRACOTTA
+        buy: 239.8
+        sell: 60
+        displayname: '&fTerracota de Verde-Limão'
+      '279':
+        material: MACE
+        buy: 210210
+        sell: 52552.5
+        displayname: '&fMace'
+      '280':
+        material: MAGENTA_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fMagenta Banner'
+      '281':
+        material: MAGENTA_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fMagenta Bed'
+      '282':
+        material: MAGENTA_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fMagenta Carpete'
+      '283':
+        material: MAGENTA_CONCRETE_POWDER
+        buy: 112.1
+        sell: 28.1
+        displayname: '&fPó de Concreto Magenta'
+      '284':
+        material: MAGENTA_GLAZED_TERRACOTTA
+        buy: 244.6
+        sell: 61.2
+        displayname: '&fMagenta Glazed Terracota'
+      '286':
+        material: MAGENTA_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fVidro Tingido de Magenta'
+      '287':
+        material: MAGENTA_STAINED_GLASS_PANE
+        buy: 26.6
+        sell: 6.7
+        displayname: '&fPainel de Vidro Tingido de Magenta'
+      '288':
+        material: MAGENTA_TERRACOTTA
+        buy: 233
+        sell: 58.3
+        displayname: '&fTerracota de Magenta'
+      '289':
+        material: MEDIUM_AMETHYST_BUD
+        buy: 30
+        sell: 7.5
+        displayname: '&fMedium Ametista Bud'
+      '290':
+        material: MILK_BUCKET
+        buy: 184.5
+        sell: 46.2
+        displayname: '&fMilk Balde'
+      '291':
+        material: MINECART
+        buy: 289.5
+        sell: 72.4
+        displayname: '&fCarrinho de Mina'
+      '292':
+        material: MOSS_CARPET
+        buy: 7
+        sell: 1.8
+        displayname: '&fMusgo Carpete'
+      '293':
+        material: MOSSY_COBBLESTONE_WALL
+        buy: 77.2
+        sell: 15.2
+        displayname: '&fPedregulho Musgoso Muro'
+      '294':
+        material: MOSSY_STONE_BRICK_WALL
+        buy: 77.5
+        sell: 15.4
+        displayname: '&fMusgoso Pedra Tijolo Muro'
+      '295':
+        material: MUSHROOM_STEM
+        buy: 4
+        sell: 1
+        displayname: '&fCogumelo Stem'
+      '296':
+        material: MUSHROOM_STEW
+        buy: 51.2
+        sell: 12.8
+        displayname: '&fCogumelo Stew'
+      '297':
+        material: NETHER_BRICK
+        buy: 2.1
+        sell: 0.6
+        displayname: '&fNether Tijolo'
+      '298':
+        material: NETHER_BRICK_FENCE
+        buy: 7
+        sell: 1.8
+        displayname: '&fNether Tijolo Cerca'
+      '299':
+        material: NETHER_BRICK_WALL
+        buy: 9.3
+        sell: 2.4
+        displayname: '&fNether Tijolo Muro'
+      '300':
+        material: NETHER_GOLD_ORE
+        buy: 250
+        sell: -1
+        displayname: '&fNether Ouro Ore'
+      '301':
+        material: NETHER_QUARTZ_ORE
+        buy: 315
+        sell: -1
+        displayname: '&fNether Quartzo Ore'
+      '302':
+        material: NETHER_SPROUTS
+        buy: 50
+        sell: 12.5
+        displayname: '&fNether Sprouts'
+      '303':
+        material: NETHER_WART_BLOCK
+        buy: 283.5
+        sell: 70.9
+        displayname: '&fBloco de Nether Wart'
+      '304':
+        material: NETHERITE_AXE
+        buy: 26609.2
+        sell: 6652.3
+        displayname: '&fNetherita Machado'
+      '305':
+        material: NETHERITE_BOOTS
+        buy: 27175.3
+        sell: 6793.9
+        displayname: '&fNetherita Botas'
+      '306':
+        material: NETHERITE_CHESTPLATE
+        buy: 29490.5
+        sell: 7372.7
+        displayname: '&fNetherita Peitoral'
+      '307':
+        material: NETHERITE_HELMET
+        buy: 27754.1
+        sell: 6938.6
+        displayname: '&fNetherita Capacete'
+      '308':
+        material: NETHERITE_HOE
+        buy: 26030.4
+        sell: 6507.6
+        displayname: '&fNetherita Enxada'
+      '309':
+        material: NETHERITE_LEGGINGS
+        buy: 28911.7
+        sell: 7228
+        displayname: '&fNetherita Calças'
+      '310':
+        material: NETHERITE_PICKAXE
+        buy: 26609.2
+        sell: 6652.3
+        displayname: '&fNetherita Picareta'
+      '311':
+        material: NETHERITE_SCRAP
+        buy: 5554.5
+        sell: 1388.7
+        displayname: '&fFragmento de Netherita'
+      '312':
+        material: NETHERITE_SHOVEL
+        buy: 25451.6
+        sell: 6362.9
+        displayname: '&fNetherita Pá'
+      '313':
+        material: NETHERITE_SWORD
+        buy: 26024.1
+        sell: 6506.1
+        displayname: '&fNetherita Espada'
+      '314':
+        material: OAK_DOOR
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fCarvalho Porta'
+      '315':
+        material: OAK_FENCE
+        buy: 19.5
+        sell: 4.9
+        displayname: '&fCarvalho Cerca'
+  page8:
+    items:
+      '316':
+        material: OAK_FENCE_GATE
+        buy: 47.5
+        sell: 11.9
+        displayname: '&fCarvalho Portão'
+      '317':
+        material: OMINOUS_TRIAL_KEY
+        buy: 150000
+        sell: 37500
+        displayname: '&fOminous Desafio Key'
+      '318':
+        material: ORANGE_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fLaranja Banner'
+      '319':
+        material: ORANGE_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fLaranja Bed'
+      '320':
+        material: ORANGE_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fLaranja Carpete'
+      '321':
+        material: ORANGE_CONCRETE_POWDER
+        buy: 74.9
+        sell: 18.8
+        displayname: '&fPó de Concreto Laranja'
+      '322':
+        material: ORANGE_GLAZED_TERRACOTTA
+        buy: 308.7
+        sell: 77.2
+        displayname: '&fLaranja Glazed Terracota'
+      '324':
+        material: ORANGE_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fVidro Tingido de Laranja'
+      '325':
+        material: ORANGE_STAINED_GLASS_PANE
+        buy: 26.6
+        sell: 6.7
+        displayname: '&fPainel de Vidro Tingido de Laranja'
+      '326':
+        material: ORANGE_TERRACOTTA
+        buy: 233
+        sell: 58.3
+        displayname: '&fTerracota de Laranja'
+      '327':
+        material: OXIDIZED_COPPER_DOOR
+        buy: 93.9
+        sell: 23.5
+        displayname: '&fOxidado Cobre Porta'
+      '328':
+        material: OXIDIZED_COPPER_GRATE
+        buy: 11.8
+        sell: 3
+        displayname: '&fOxidado Cobre Grate'
+      '329':
+        material: OXIDIZED_COPPER_TRAPDOOR
+        buy: 140.8
+        sell: 35.2
+        displayname: '&fOxidado Cobre Alçapão'
+      '330':
+        material: OXIDIZED_CUT_COPPER
+        buy: 47
+        sell: 11.8
+        displayname: '&fOxidado Cortado Cobre'
+      '331':
+        material: OXIDIZED_CUT_COPPER_SLAB
+        buy: 0.1
+        sell: 0.1
+        displayname: '&fOxidado Cortado Cobre Laje'
+      '332':
+        material: OXIDIZED_CUT_COPPER_STAIRS
+        buy: 0.2
+        sell: 0.1
+        displayname: '&fOxidado Cortado Cobre Escadas'
+      '333':
+        material: PAINTING
+        buy: 357.4
+        sell: 89.4
+        displayname: '&fPainting'
+      '334':
+        material: PAPER
+        buy: 1.1
+        sell: 0.3
+        displayname: '&fPapel'
+      '335':
+        material: PIGLIN_HEAD
+        buy: 6000
+        sell: 1500
+        displayname: '&fPiglin Cabeça'
+      '336':
+        material: PINK_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fRosa Banner'
+      '337':
+        material: PINK_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fRosa Bed'
+      '338':
+        material: PINK_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fRosa Carpete'
+      '339':
+        material: PINK_CONCRETE_POWDER
+        buy: 74.9
+        sell: 18.8
+        displayname: '&fPó de Concreto Rosa'
+      '340':
+        material: PINK_GLAZED_TERRACOTTA
+        buy: 244.6
+        sell: 61.2
+        displayname: '&fRosa Glazed Terracota'
+      '342':
+        material: PINK_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fVidro Tingido de Rosa'
+      '343':
+        material: PINK_STAINED_GLASS_PANE
+        buy: 26.6
+        sell: 6.7
+        displayname: '&fPainel de Vidro Tingido de Rosa'
+      '344':
+        material: PINK_TERRACOTTA
+        buy: 233
+        sell: 58.3
+        displayname: '&fTerracota de Rosa'
+      '345':
+        material: POISONOUS_POTATO
+        buy: -1
+        sell: 150
+        displayname: '&fPoisonous Batata'
+      '346':
+        material: POLISHED_BASALT
+        buy: 34.3
+        sell: 14.2
+        displayname: '&fPolido Basalt'
+      '347':
+        material: POLISHED_BLACKSTONE_BRICK_WALL
+        buy: 7.9
+        sell: 2
+        displayname: '&fPolido Blackstone Tijolo Muro'
+      '348':
+        material: POLISHED_BLACKSTONE_BUTTON
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fPedra Negra Polida Botão'
+      '349':
+        material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+        buy: 16.6
+        sell: 4.2
+        displayname: '&fPolido Blackstone Pressure Plate'
+      '350':
+        material: POLISHED_BLACKSTONE_WALL
+        buy: 7.9
+        sell: 2
+        displayname: '&fPedra Negra Polida Muro'
+      '351':
+        material: POLISHED_DEEPSLATE
+        buy: 7.2
+        sell: 1.8
+        displayname: '&fPolido Deepslate'
+      '352':
+        material: POLISHED_DEEPSLATE_SLAB
+        buy: 3.8
+        sell: 1
+        displayname: '&fPolido Deepslate Laje'
+      '353':
+        material: POLISHED_DEEPSLATE_STAIRS
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fPolido Deepslate Escadas'
+      '354':
+        material: POLISHED_DEEPSLATE_WALL
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fPolido Deepslate Muro'
+      '355':
+        material: POLISHED_TUFF_WALL
+        buy: 21
+        sell: 5.3
+        displayname: '&fPolido Tuff Muro'
+      '356':
+        material: POPPED_CHORUS_FRUIT
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fPopped Coro Fruta'
+      '357':
+        material: POWERED_RAIL
+        buy: 94
+        sell: 23.5
+        displayname: '&fPowered Trilho'
+      '358':
+        material: PRISMARINE_CRYSTALS
+        buy: 70
+        sell: 17.5
+        displayname: '&fPrismarinho Crystals'
+      '359':
+        material: PRISMARINE_SHARD
+        buy: 70
+        sell: 17.5
+        displayname: '&fPrismarinho Shard'
+      '360':
+        material: PRISMARINE_WALL
+        buy: 308.7
+        sell: 77.2
+        displayname: '&fPrismarinho Muro'
+  page9:
+    items:
+      '361':
+        material: PUFFERFISH
+        buy: 60
+        sell: 15
+        displayname: '&fBaiacu'
+      '362':
+        material: PUMPKIN_PIE
+        buy: 106.2
+        sell: 26.6
+        displayname: '&fTorta de Abóbora'
+      '363':
+        material: PURPLE_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fRoxo Banner'
+      '364':
+        material: PURPLE_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fRoxo Bed'
+      '365':
+        material: PURPLE_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fRoxo Carpete'
+      '366':
+        material: PURPLE_CONCRETE_POWDER
+        buy: 112.1
+        sell: 28.1
+        displayname: '&fPó de Concreto Roxo'
+      '367':
+        material: PURPLE_GLAZED_TERRACOTTA
+        buy: 244.7
+        sell: 61.2
+        displayname: '&fRoxo Glazed Terracota'
+      '369':
+        material: PURPLE_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fVidro Tingido de Roxo'
+      '370':
+        material: PURPLE_STAINED_GLASS_PANE
+        buy: 26.7
+        sell: 6.7
+        displayname: '&fPainel de Vidro Tingido de Roxo'
+      '371':
+        material: PURPLE_TERRACOTTA
+        buy: 233
+        sell: 58.3
+        displayname: '&fTerracota de Roxo'
+      '372':
+        material: PURPUR_PILLAR
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fPurpur Pillar'
+      '373':
+        material: QUARTZ_PILLAR
+        buy: 364.7
+        sell: 91.2
+        displayname: '&fQuartzo Pillar'
+      '374':
+        material: RABBIT_STEW
+        buy: 203.9
+        sell: 51
+        displayname: '&fCoelho Stew'
+      '375':
+        material: RAIL
+        buy: 22.1
+        sell: 5.6
+        displayname: '&fTrilho'
+      '376':
+        material: RAW_COPPER
+        buy: 8.8
+        sell: 2.2
+        displayname: '&fCobre Bruto'
+      '377':
+        material: RAW_COPPER_BLOCK
+        buy: 82.7
+        sell: 20.7
+        displayname: '&fBloco de Bruto Cobre'
+      '378':
+        material: RAW_GOLD
+        buy: 78.8
+        sell: 19.7
+        displayname: '&fOuro Bruto'
+      '379':
+        material: RAW_GOLD_BLOCK
+        buy: 744.2
+        sell: 186.1
+        displayname: '&fBloco de Bruto Ouro'
+      '380':
+        material: RAW_IRON
+        buy: 52.5
+        sell: 13.2
+        displayname: '&fFerro Bruto'
+      '381':
+        material: RAW_IRON_BLOCK
+        buy: 496.2
+        sell: 124.1
+        displayname: '&fBloco de Bruto Ferro'
+      '382':
+        material: RED_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fVermelho Banner'
+      '383':
+        material: RED_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fVermelho Carpete'
+      '384':
+        material: RED_CONCRETE_POWDER
+        buy: 74.9
+        sell: 18.8
+        displayname: '&fPó de Concreto Vermelho'
+      '385':
+        material: RED_GLAZED_TERRACOTTA
+        buy: 244.6
+        sell: 61.2
+        displayname: '&fVermelho Glazed Terracota'
+      '386':
+        material: RED_MUSHROOM_BLOCK
+        buy: 0.6
+        sell: 0.2
+        displayname: '&fBloco de Vermelho Cogumelo'
+      '387':
+        material: RED_NETHER_BRICK_WALL
+        buy: 85.6
+        sell: 21.4
+        displayname: '&fVermelho Nether Tijolo Muro'
+      '388':
+        material: RED_SANDSTONE_WALL
+        buy: 352.8
+        sell: 88.2
+        displayname: '&fArenito Vermelho Muro'
+      '390':
+        material: RED_STAINED_GLASS
+        buy: 67.6
+        sell: 16.9
+        displayname: '&fVidro Tingido de Vermelho'
+      '391':
+        material: RED_STAINED_GLASS_PANE
+        buy: 26.6
+        sell: 6.7
+        displayname: '&fPainel de Vidro Tingido de Vermelho'
+      '392':
+        material: RED_TERRACOTTA
+        buy: 233
+        sell: 58.3
+        displayname: '&fTerracota de Vermelho'
+      '393':
+        material: REDSTONE_ORE
+        buy: 1000
+        sell: 200
+        displayname: '&fRedstone Ore'
+      '394':
+        material: ROSE_BUSH
+        buy: 10
+        sell: 2.5
+        displayname: '&fArbusto de Rosas'
+      '395':
+        material: SALMON
+        buy: 60
+        sell: 15
+        displayname: '&fSalmão Cru'
+      '396':
+        material: SANDSTONE_WALL
+        buy: 126
+        sell: 31.5
+        displayname: '&fArenito Muro'
+      '397':
+        material: SCULK_VEIN
+        buy: 20
+        sell: 5
+        displayname: '&fSculk Veio'
+      '398':
+        material: SCUTE
+        buy: 5300
+        sell: 1325
+        displayname: '&fScute'
+      '399':
+        material: SEA_PICKLE
+        buy: 60
+        sell: 15
+        displayname: '&fPepino-do-Mar'
+      '400':
+        material: SEAGRASS
+        buy: 70
+        sell: 17.5
+        displayname: '&fErva Marinha'
+      '401':
+        material: SHEARS
+        buy: 115.8
+        sell: 29
+        displayname: '&fTesoura'
+      '402':
+        material: SHIELD
+        buy: 127.4
+        sell: 31.9
+        displayname: '&fEscudo'
+      '404':
+        material: SKELETON_SKULL
+        buy: -1
+        sell: 1500
+        displayname: '&fEsqueleto Crânio'
+      '405':
+        material: SMALL_AMETHYST_BUD
+        buy: 20
+        sell: 5
+        displayname: '&fSmall Ametista Bud'
+  page10:
+    items:
+      '406':
+        material: SMOOTH_BASALT
+        buy: 34.3
+        sell: 14.2
+        displayname: '&fLiso Basalt'
+      '407':
+        material: SMOOTH_QUARTZ
+        buy: 364.7
+        sell: 91.2
+        displayname: '&fLiso Quartzo'
+      '408':
+        material: SMOOTH_QUARTZ_SLAB
+        buy: 191.5
+        sell: 47.9
+        displayname: '&fLiso Quartzo Laje'
+      '409':
+        material: SMOOTH_QUARTZ_STAIRS
+        buy: 382.9
+        sell: 95.8
+        displayname: '&fLiso Quartzo Escadas'
+      '410':
+        material: SMOOTH_STONE
+        buy: 7.5
+        sell: 1.9
+        displayname: '&fLiso Pedra'
+      '411':
+        material: SMOOTH_STONE_SLAB
+        buy: 4
+        sell: 1
+        displayname: '&fLiso Pedra Laje'
+      '412':
+        material: SOUL_SOIL
+        buy: 100
+        sell: 25
+        displayname: '&fAlmas Soil'
+      '413':
+        material: SOUL_TORCH
+        buy: 41.6
+        sell: 10.4
+        displayname: '&fTocha das Almas'
+      '414':
+        material: SPECTRAL_ARROW
+        buy: 158.9
+        sell: 39.8
+        displayname: '&fSpectral Flecha'
+      '415':
+        material: SPRUCE_BUTTON
+        buy: 11.6
+        sell: 2.9
+        displayname: '&fPinheiro Botão'
+      '416':
+        material: SPRUCE_DOOR
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fPinheiro Porta'
+      '417':
+        material: SPRUCE_FENCE
+        buy: 19.5
+        sell: 4.9
+        displayname: '&fPinheiro Cerca'
+      '418':
+        material: SPRUCE_FENCE_GATE
+        buy: 47.5
+        sell: 11.9
+        displayname: '&fPinheiro Portão'
+      '419':
+        material: SPRUCE_PRESSURE_PLATE
+        buy: 23.2
+        sell: 5.8
+        displayname: '&fPinheiro Pressure Plate'
+      '420':
+        material: SPRUCE_TRAPDOOR
+        buy: 34.8
+        sell: 8.7
+        displayname: '&fPinheiro Alçapão'
+      '421':
+        material: STICK
+        buy: 5.8
+        sell: 1.5
+        displayname: '&fStick'
+      '422':
+        material: STONE_AXE
+        buy: 33.6
+        sell: 8.4
+        displayname: '&fPedra Machado'
+      '423':
+        material: STONE_BRICK_WALL
+        buy: 7.9
+        sell: 2
+        displayname: '&fPedra Tijolo Muro'
+      '424':
+        material: STONE_HOE
+        buy: 26.5
+        sell: 6.7
+        displayname: '&fPedra Enxada'
+      '425':
+        material: STONE_PICKAXE
+        buy: 33.6
+        sell: 8.4
+        displayname: '&fPedra Picareta'
+      '426':
+        material: STONE_SHOVEL
+        buy: 19.3
+        sell: 4.9
+        displayname: '&fPedra Pá'
+      '427':
+        material: STONE_SWORD
+        buy: 20.4
+        sell: 5.1
+        displayname: '&fPedra Espada'
+      '428':
+        material: STRIPPED_ACACIA_LOG
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Acácia Tronco'
+      '429':
+        material: STRIPPED_ACACIA_WOOD
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Acácia Madeira'
+      '430':
+        material: STRIPPED_BIRCH_LOG
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Bétula Tronco'
+      '431':
+        material: STRIPPED_BIRCH_WOOD
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Bétula Madeira'
+      '432':
+        material: STRIPPED_CRIMSON_HYPHAE
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Carmesim Hyphae'
+      '433':
+        material: STRIPPED_CRIMSON_STEM
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Carmesim Stem'
+      '434':
+        material: STRIPPED_DARK_OAK_LOG
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Escuro Carvalho Tronco'
+      '435':
+        material: STRIPPED_DARK_OAK_WOOD
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Escuro Carvalho Madeira'
+      '436':
+        material: STRIPPED_JUNGLE_LOG
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Selva Tronco'
+      '437':
+        material: STRIPPED_JUNGLE_WOOD
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Selva Madeira'
+      '438':
+        material: STRIPPED_OAK_LOG
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Carvalho Tronco'
+      '439':
+        material: STRIPPED_OAK_WOOD
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Carvalho Madeira'
+      '440':
+        material: STRIPPED_SPRUCE_LOG
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Pinheiro Tronco'
+      '441':
+        material: STRIPPED_SPRUCE_WOOD
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Pinheiro Madeira'
+      '442':
+        material: STRIPPED_WARPED_HYPHAE
+        buy: 44.1
+        sell: 11.1
+        displayname: '&fDescascado Distorcido Hyphae'
+      '443':
+        material: STRIPPED_WARPED_STEM
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fDescascado Distorcido Stem'
+      '444':
+        material: SUGAR
+        buy: 1.1
+        sell: 0.3
+        displayname: '&fAçúcar'
+      '445':
+        material: SWEET_BERRIES
+        buy: 50
+        sell: 12.5
+        displayname: '&fFrutinhas Doces'
+      '446':
+        material: TNT_MINECART
+        buy: 1423
+        sell: 355.8
+        displayname: '&fTnt Carrinho de Mina'
+      '447':
+        material: TORCH
+        buy: 15.4
+        sell: 3.9
+        displayname: '&fTocha'
+      '448':
+        material: TRAPPED_CHEST
+        buy: 136.9
+        sell: 34.3
+        displayname: '&fBaú de Armadilha'
+      '449':
+        material: TRIAL_KEY
+        buy: 100000
+        sell: 25000
+        displayname: '&fDesafio Key'
+      '450':
+        material: TROPICAL_FISH
+        buy: 60
+        sell: 15
+        displayname: '&fPeixe Tropical'
+  page11:
+    items:
+      '451':
+        material: TUFF_BRICK_WALL
+        buy: 21
+        sell: 5.3
+        displayname: '&fTuff Tijolo Muro'
+      '452':
+        material: TUFF_WALL
+        buy: 21
+        sell: 5.3
+        displayname: '&fTufo Muro'
+      '453':
+        material: TURTLE_HELMET
+        buy: 27825
+        sell: 6956.3
+        displayname: '&fTartaruga Capacete'
+      '454':
+        material: VAULT
+        buy: 1200000
+        sell: 300000
+        displayname: '&fCofre'
+      '455':
+        material: WARPED_BUTTON
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fDistorcido Botão'
+      '456':
+        material: WARPED_DOOR
+        buy: 16.6
+        sell: 4.2
+        displayname: '&fDistorcido Porta'
+      '457':
+        material: WARPED_FENCE
+        buy: 15.1
+        sell: 3.8
+        displayname: '&fDistorcido Cerca'
+      '458':
+        material: WARPED_FENCE_GATE
+        buy: 40.9
+        sell: 10.3
+        displayname: '&fDistorcido Portão'
+      '459':
+        material: WARPED_PRESSURE_PLATE
+        buy: 8.3
+        sell: 2.1
+        displayname: '&fDistorcido Pressure Plate'
+      '460':
+        material: WARPED_ROOTS
+        buy: 50
+        sell: 12.5
+        displayname: '&fDistorcido Raízes'
+      '461':
+        material: WARPED_TRAPDOOR
+        buy: 24.9
+        sell: 6.3
+        displayname: '&fDistorcido Alçapão'
+      '462':
+        material: WARPED_WART_BLOCK
+        buy: 270
+        sell: 67.5
+        displayname: '&fBloco de Distorcido Wart'
+      '463':
+        material: WAXED_CHISELED_COPPER
+        buy: 43.8
+        sell: 11
+        displayname: '&fEncerado Entalhado Cobre'
+      '464':
+        material: WAXED_COPPER_BULB
+        buy: 88.5
+        sell: 22.2
+        displayname: '&fEncerado Cobre Lâmpada'
+      '465':
+        material: WAXED_COPPER_DOOR
+        buy: 118.2
+        sell: 29.6
+        displayname: '&fEncerado Cobre Porta'
+      '466':
+        material: WAXED_COPPER_GRATE
+        buy: 43.8
+        sell: 11
+        displayname: '&fEncerado Cobre Grate'
+      '467':
+        material: WAXED_COPPER_TRAPDOOR
+        buy: 160.8
+        sell: 40.2
+        displayname: '&fEncerado Cobre Alçapão'
+      '468':
+        material: WAXED_EXPOSED_CHISELED_COPPER
+        buy: 44.3
+        sell: 11.1
+        displayname: '&fEncerado Exposto Entalhado Cobre'
+      '469':
+        material: WAXED_EXPOSED_COPPER_BULB
+        buy: 90.1
+        sell: 22.6
+        displayname: '&fEncerado Exposto Cobre Lâmpada'
+      '470':
+        material: WAXED_EXPOSED_COPPER_DOOR
+        buy: 122.5
+        sell: 30.7
+        displayname: '&fEncerado Exposto Cobre Porta'
+      '471':
+        material: WAXED_EXPOSED_COPPER_GRATE
+        buy: 44.3
+        sell: 11.1
+        displayname: '&fEncerado Exposto Cobre Grate'
+      '472':
+        material: WAXED_EXPOSED_COPPER_TRAPDOOR
+        buy: 167.1
+        sell: 41.8
+        displayname: '&fEncerado Exposto Cobre Alçapão'
+      '473':
+        material: WAXED_OXIDIZED_CHISELED_COPPER
+        buy: 45.4
+        sell: 11.4
+        displayname: '&fEncerado Oxidado Entalhado Cobre'
+      '474':
+        material: WAXED_OXIDIZED_COPPER_BULB
+        buy: 93.5
+        sell: 23.4
+        displayname: '&fEncerado Oxidado Cobre Lâmpada'
+      '475':
+        material: WAXED_OXIDIZED_COPPER_DOOR
+        buy: 131.6
+        sell: 32.9
+        displayname: '&fEncerado Oxidado Cobre Porta'
+      '476':
+        material: WAXED_OXIDIZED_COPPER_GRATE
+        buy: 45.4
+        sell: 11.4
+        displayname: '&fEncerado Oxidado Cobre Grate'
+      '477':
+        material: WAXED_OXIDIZED_COPPER_TRAPDOOR
+        buy: 180.9
+        sell: 45.3
+        displayname: '&fEncerado Oxidado Cobre Alçapão'
+      '478':
+        material: WAXED_WEATHERED_CHISELED_COPPER
+        buy: 44.9
+        sell: 11.3
+        displayname: '&fEncerado Envelhecido Entalhado Cobre'
+      '479':
+        material: WAXED_WEATHERED_COPPER_BULB
+        buy: 91.7
+        sell: 23
+        displayname: '&fEncerado Envelhecido Cobre Lâmpada'
+      '480':
+        material: WAXED_WEATHERED_COPPER_DOOR
+        buy: 126.9
+        sell: 31.8
+        displayname: '&fEncerado Envelhecido Cobre Porta'
+      '481':
+        material: WAXED_WEATHERED_COPPER_GRATE
+        buy: 44.9
+        sell: 11.3
+        displayname: '&fEncerado Envelhecido Cobre Grate'
+      '482':
+        material: WAXED_WEATHERED_COPPER_TRAPDOOR
+        buy: 173.8
+        sell: 43.5
+        displayname: '&fEncerado Envelhecido Cobre Alçapão'
+      '483':
+        material: WEATHERED_COPPER
+        buy: 42.6
+        sell: 10.7
+        displayname: '&fEnvelhecido Cobre'
+      '484':
+        material: WEATHERED_COPPER_DOOR
+        buy: 89.4
+        sell: 22.4
+        displayname: '&fEnvelhecido Cobre Porta'
+      '485':
+        material: WEATHERED_COPPER_GRATE
+        buy: 11.2
+        sell: 2.8
+        displayname: '&fEnvelhecido Cobre Grate'
+      '486':
+        material: WEATHERED_COPPER_TRAPDOOR
+        buy: 134.1
+        sell: 33.6
+        displayname: '&fEnvelhecido Cobre Alçapão'
+      '487':
+        material: WEATHERED_CUT_COPPER
+        buy: 44.7
+        sell: 11.2
+        displayname: '&fEnvelhecido Cortado Cobre'
+      '488':
+        material: WEATHERED_CUT_COPPER_SLAB
+        buy: 0.4
+        sell: 0.1
+        displayname: '&fEnvelhecido Cortado Cobre Laje'
+      '489':
+        material: WEATHERED_CUT_COPPER_STAIRS
+        buy: 0.7
+        sell: 0.2
+        displayname: '&fEnvelhecido Cortado Cobre Escadas'
+      '490':
+        material: WET_SPONGE
+        buy: -1
+        sell: 1250
+        displayname: '&fWet Sponge'
+      '491':
+        material: WHITE_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fBranco Banner'
+      '492':
+        material: WHITE_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fBranco Bed'
+      '493':
+        material: WHITE_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fBranco Carpete'
+      '494':
+        material: WHITE_CONCRETE_POWDER
+        buy: 76.3
+        sell: 19.1
+        displayname: '&fPó de Concreto Branco'
+      '495':
+        material: WHITE_GLAZED_TERRACOTTA
+        buy: 246
+        sell: 61.5
+        displayname: '&fBranco Glazed Terracota'
+  page12:
+    items:
+      '497':
+        material: WHITE_STAINED_GLASS
+        buy: 68.3
+        sell: 17.1
+        displayname: '&fVidro Tingido de Branco'
+      '498':
+        material: WHITE_STAINED_GLASS_PANE
+        buy: 26.9
+        sell: 6.8
+        displayname: '&fPainel de Vidro Tingido de Branco'
+      '499':
+        material: WHITE_TERRACOTTA
+        buy: 234.3
+        sell: 58.6
+        displayname: '&fTerracota de Branco'
+      '500':
+        material: WHITE_TULIP
+        buy: 10
+        sell: 2.5
+        displayname: '&fBranco Tulip'
+      '502':
+        material: WITHER_SKELETON_SKULL
+        buy: -1
+        sell: 2500
+        displayname: '&fWither Esqueleto Crânio'
+      '503':
+        material: WOLF_ARMOR
+        buy: 33390
+        sell: 8347.5
+        displayname: '&fLobo Armadura'
+      '504':
+        material: WOODEN_AXE
+        buy: 46.9
+        sell: 11.8
+        displayname: '&fWooden Machado'
+      '505':
+        material: WOODEN_HOE
+        buy: 35.4
+        sell: 8.9
+        displayname: '&fWooden Enxada'
+      '506':
+        material: WOODEN_PICKAXE
+        buy: 46.9
+        sell: 11.8
+        displayname: '&fWooden Picareta'
+      '507':
+        material: WOODEN_SHOVEL
+        buy: 23.8
+        sell: 6
+        displayname: '&fWooden Pá'
+      '508':
+        material: WOODEN_SWORD
+        buy: 35.4
+        sell: 8.9
+        displayname: '&fWooden Espada'
+      '509':
+        material: YELLOW_BANNER
+        buy: 1858.3
+        sell: 464.6
+        displayname: '&fAmarelo Banner'
+      '510':
+        material: YELLOW_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fAmarelo Bed'
+      '511':
+        material: YELLOW_CARPET
+        buy: 205.8
+        sell: 51.5
+        displayname: '&fAmarelo Carpete'
+      '512':
+        material: YELLOW_CONCRETE_POWDER
+        buy: 74.5
+        sell: 18.7
+        displayname: '&fPó de Concreto Amarelo'
+      '513':
+        material: YELLOW_GLAZED_TERRACOTTA
+        buy: 244.1
+        sell: 61.1
+        displayname: '&fAmarelo Glazed Terracota'
+      '515':
+        material: YELLOW_STAINED_GLASS
+        buy: 67.1
+        sell: 16.8
+        displayname: '&fVidro Tingido de Amarelo'
+      '516':
+        material: YELLOW_STAINED_GLASS_PANE
+        buy: 26.5
+        sell: 6.7
+        displayname: '&fPainel de Vidro Tingido de Amarelo'
+      '517':
+        material: YELLOW_TERRACOTTA
+        buy: 232.5
+        sell: 58.2
+        displayname: '&fTerracota de Amarelo'
+      '518':
+        material: ZOMBIE_HEAD
+        buy: -1
+        sell: 1500
+        displayname: '&fZumbi Cabeça'
+      '519':
+        material: ACACIA_BOAT
+        buy: 57.9
+        sell: 14.5
+        displayname: '&fAcácia Bote'
+      '520':
+        material: ACACIA_CHEST_BOAT
+        buy: 158.1
+        sell: 39.6
+        displayname: '&fAcácia Baú Bote'
+      '521':
+        material: BAMBOO_CHEST_RAFT
+        buy: 123.3
+        sell: 30.9
+        displayname: '&fBambu Baú Raft'
+      '522':
+        material: BAMBOO_RAFT
+        buy: 26.1
+        sell: 6.6
+        displayname: '&fBambu Raft'
+      '523':
+        material: BIRCH_BOAT
+        buy: 57.9
+        sell: 14.5
+        displayname: '&fBétula Bote'
+      '524':
+        material: BIRCH_CHEST_BOAT
+        buy: 158.1
+        sell: 39.6
+        displayname: '&fBétula Baú Bote'
+      '525':
+        material: CHERRY_BOAT
+        buy: 41.4
+        sell: 10.4
+        displayname: '&fCerejeira Bote'
+      '526':
+        material: CHERRY_CHEST_BOAT
+        buy: 140.7
+        sell: 35.2
+        displayname: '&fCerejeira Baú Bote'
+      '527':
+        material: DARK_OAK_BOAT
+        buy: 57.9
+        sell: 14.5
+        displayname: '&fCarvalho Escuro Bote'
+      '528':
+        material: DARK_OAK_CHEST_BOAT
+        buy: 158.1
+        sell: 39.6
+        displayname: '&fEscuro Carvalho Baú Bote'
+      '529':
+        material: JUNGLE_BOAT
+        buy: 57.9
+        sell: 14.5
+        displayname: '&fSelva Bote'
+      '530':
+        material: JUNGLE_CHEST_BOAT
+        buy: 158.1
+        sell: 39.6
+        displayname: '&fSelva Baú Bote'
+      '531':
+        material: MANGROVE_BOAT
+        buy: 41.4
+        sell: 10.4
+        displayname: '&fMangue Bote'
+      '532':
+        material: MANGROVE_CHEST_BOAT
+        buy: 140.7
+        sell: 35.2
+        displayname: '&fMangue Baú Bote'
+      '533':
+        material: OAK_BOAT
+        buy: 57.9
+        sell: 14.5
+        displayname: '&fCarvalho Bote'
+      '534':
+        material: OAK_CHEST_BOAT
+        buy: 158.1
+        sell: 39.6
+        displayname: '&fCarvalho Baú Bote'
+      '535':
+        material: SPRUCE_BOAT
+        buy: 57.9
+        sell: 14.5
+        displayname: '&fPinheiro Bote'
+      '536':
+        material: SPRUCE_CHEST_BOAT
+        buy: 158.1
+        sell: 39.6
+        displayname: '&fPinheiro Baú Bote'

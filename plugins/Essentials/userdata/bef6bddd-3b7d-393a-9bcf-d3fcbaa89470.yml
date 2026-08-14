@@ -1,0 +1,56 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1786663403483
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1786671096147
+  login: 1786671071601
+money: '226958468.91'
+last-account-name: wuillian_tv
+logoutlocation:
+  world: 7b2dae4e-f46d-401c-9970-7e4d1eb31862
+  world-name: world
+  x: -14596.844326716027
+  y: 73.0
+  z: 27071.837443601074
+  yaw: -28.44415283203125
+  pitch: 12.008554458618164
+lastlocation:
+  world: 7b2dae4e-f46d-401c-9970-7e4d1eb31862
+  world-name: world
+  x: -14594.818632471797
+  y: 73.0
+  z: 27073.325088245183
+  yaw: 6.416778564453125
+  pitch: 32.74778366088867
+homes:
+  home:
+    world: 34076455-23d5-4a95-9c29-cc37fae5db24
+    world-name: lobby_antigo
+    x: -294.40774913560426
+    y: 97.0
+    z: -988.2862545488882
+    yaw: 33.3936767578125
+    pitch: 10.500357627868652
+  pilager:
+    world: 7b2dae4e-f46d-401c-9970-7e4d1eb31862
+    world-name: world
+    x: -14103.426077475082
+    y: 84.0
+    z: 27290.38327179208
+    yaw: -167.93772888183594
+    pitch: 29.459508895874023

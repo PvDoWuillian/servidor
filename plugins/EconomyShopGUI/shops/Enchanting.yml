@@ -1,0 +1,299 @@
+# Loja: Encantamentos (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: ENCHANTED_BOOK
+        buy: 1600
+        sell: 400
+        enchantments:
+        - WATER_WORKER:1
+        displayname: '&fLivro Encantado — Afinidade Aquática'
+      '2':
+        material: ENCHANTED_BOOK
+        buy: 19448.1
+        sell: 4862.1
+        enchantments:
+        - DAMAGE_ARTHROPODS:5
+        displayname: '&fLivro Encantado — Ruína dos Artrópodes'
+      '3':
+        material: ENCHANTED_BOOK
+        buy: 2000
+        sell: 500
+        enchantments:
+        - BINDING_CURSE:1
+        displayname: '&fLivro Encantado — Maldição da Ligação'
+      '4':
+        material: ENCHANTED_BOOK
+        buy: 18522
+        sell: 4630.5
+        enchantments:
+        - BREACH:4
+        displayname: '&fLivro Encantado — Rompimento'
+      '5':
+        material: ENCHANTED_BOOK
+        buy: 14817.6
+        sell: 3704.4
+        enchantments:
+        - PROTECTION_EXPLOSIONS:4
+        displayname: '&fLivro Encantado — Proteção contra Explosões'
+      '6':
+        material: ENCHANTED_BOOK
+        buy: 2000
+        sell: 500
+        enchantments:
+        - CHANNELING:1
+        displayname: '&fLivro Encantado — Condutividade'
+      '7':
+        material: ENCHANTED_BOOK
+        buy: 38896.2
+        sell: 9724.1
+        enchantments:
+        - DENSITY:5
+        displayname: '&fLivro Encantado — Densidade'
+      '8':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - DEPTH_STRIDER:3
+        displayname: '&fLivro Encantado — Passos Profundos'
+      '9':
+        material: ENCHANTED_BOOK
+        buy: 9724.1
+        sell: 2431.1
+        enchantments:
+        - DIG_SPEED:5
+        displayname: '&fLivro Encantado — Dig Speed'
+      '10':
+        material: ENCHANTED_BOOK
+        buy: 9261
+        sell: 2315.3
+        enchantments:
+        - PROTECTION_FALL:4
+        displayname: '&fLivro Encantado — Protection Fall'
+      '11':
+        material: ENCHANTED_BOOK
+        buy: 3360
+        sell: 840
+        enchantments:
+        - FIRE_ASPECT:2
+        displayname: '&fLivro Encantado — Aspecto Flamejante'
+      '12':
+        material: ENCHANTED_BOOK
+        buy: 9261
+        sell: 2315.3
+        enchantments:
+        - PROTECTION_FIRE:4
+        displayname: '&fLivro Encantado — Protection Fire'
+      '13':
+        material: ENCHANTED_BOOK
+        buy: 1600
+        sell: 400
+        enchantments:
+        - ARROW_FIRE:1
+        displayname: '&fLivro Encantado — Arrow Fire'
+      '14':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - LOOT_BONUS_BLOCKS:3
+        displayname: '&fLivro Encantado — Loot Bonus Blocos'
+      '15':
+        material: ENCHANTED_BOOK
+        buy: 3360
+        sell: 840
+        enchantments:
+        - FROST_WALKER:2
+        displayname: '&fLivro Encantado — Passos Gelados'
+      '16':
+        material: ENCHANTED_BOOK
+        buy: 31117
+        sell: 7779.3
+        enchantments:
+        - IMPALING:5
+        displayname: '&fLivro Encantado — Empalamento'
+      '17':
+        material: ENCHANTED_BOOK
+        buy: 2000
+        sell: 500
+        enchantments:
+        - ARROW_INFINITE:1
+        displayname: '&fLivro Encantado — Arrow Infinite'
+      '18':
+        material: ENCHANTED_BOOK
+        buy: 2100
+        sell: 525
+        enchantments:
+        - KNOCKBACK:2
+        displayname: '&fLivro Encantado — Repulsão'
+      '19':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - LOOT_BONUS_MOBS:3
+        displayname: '&fLivro Encantado — Loot Bonus Mobs'
+      '20':
+        material: ENCHANTED_BOOK
+        buy: 4410
+        sell: 1102.5
+        enchantments:
+        - LOYALTY:3
+        displayname: '&fLivro Encantado — Lealdade'
+      '21':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - LUCK:3
+        displayname: '&fLivro Encantado — Luck'
+      '22':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - LURE:3
+        displayname: '&fLivro Encantado — Isca'
+      '23':
+        material: ENCHANTED_BOOK
+        buy: 1600
+        sell: 400
+        enchantments:
+        - MENDING:1
+        displayname: '&fLivro Encantado — Remendo'
+      '24':
+        material: ENCHANTED_BOOK
+        buy: 1600
+        sell: 400
+        enchantments:
+        - MULTISHOT:1
+        displayname: '&fLivro Encantado — Rajada'
+      '25':
+        material: ENCHANTED_BOOK
+        buy: 4630.5
+        sell: 1157.7
+        enchantments:
+        - PIERCING:4
+        displayname: '&fLivro Encantado — Perfuração'
+      '26':
+        material: ENCHANTED_BOOK
+        buy: 9724.1
+        sell: 2431.1
+        enchantments:
+        - ARROW_DAMAGE:5
+        displayname: '&fLivro Encantado — Arrow Damage'
+      '27':
+        material: ENCHANTED_BOOK
+        buy: 9261
+        sell: 2315.3
+        enchantments:
+        - PROTECTION_PROJECTILE:4
+        displayname: '&fLivro Encantado — Protection Projectile'
+      '28':
+        material: ENCHANTED_BOOK
+        buy: 4630.5
+        sell: 1157.7
+        enchantments:
+        - PROTECTION_ENVIRONMENTAL:4
+        displayname: '&fLivro Encantado — Protection Environmental'
+      '29':
+        material: ENCHANTED_BOOK
+        buy: 3360
+        sell: 840
+        enchantments:
+        - ARROW_KNOCKBACK:2
+        displayname: '&fLivro Encantado — Arrow Knockback'
+      '30':
+        material: ENCHANTED_BOOK
+        buy: 4410
+        sell: 1102.5
+        enchantments:
+        - QUICK_CHARGE:3
+        displayname: '&fLivro Encantado — Carga Rápida'
+      '31':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - OXYGEN:3
+        displayname: '&fLivro Encantado — Oxygen'
+      '32':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - RIPTIDE:3
+        displayname: '&fLivro Encantado — Correnteza'
+      '33':
+        material: ENCHANTED_BOOK
+        buy: 9724.1
+        sell: 2431.1
+        enchantments:
+        - DAMAGE_ALL:5
+        displayname: '&fLivro Encantado — Damage All'
+      '34':
+        material: ENCHANTED_BOOK
+        buy: 2000
+        sell: 500
+        enchantments:
+        - SILK_TOUCH:1
+        displayname: '&fLivro Encantado — Toque Suave'
+      '35':
+        material: ENCHANTED_BOOK
+        buy: 19448.1
+        sell: 4862.1
+        enchantments:
+        - DAMAGE_UNDEAD:5
+        displayname: '&fLivro Encantado — Damage Undead'
+      '36':
+        material: ENCHANTED_BOOK
+        buy: 11025
+        sell: 2756.3
+        enchantments:
+        - SOUL_SPEED:3
+        displayname: '&fLivro Encantado — Velocidade das Almas'
+      '37':
+        material: ENCHANTED_BOOK
+        buy: 7056
+        sell: 1764
+        enchantments:
+        - SWEEPING_EDGE:3
+        displayname: '&fLivro Encantado — Julgamento Afiado'
+      '38':
+        material: ENCHANTED_BOOK
+        buy: 2756.3
+        sell: 689.1
+        enchantments:
+        - SWIFT_SNEAK:3
+        displayname: '&fLivro Encantado — Passos Ligeiros'
+      '39':
+        material: ENCHANTED_BOOK
+        buy: 8820
+        sell: 2205
+        enchantments:
+        - THORNS:3
+        displayname: '&fLivro Encantado — Espinhos'
+      '40':
+        material: ENCHANTED_BOOK
+        buy: 4410
+        sell: 1102.5
+        enchantments:
+        - DURABILITY:3
+        displayname: '&fLivro Encantado — Durability'
+      '41':
+        material: ENCHANTED_BOOK
+        buy: 2000
+        sell: 500
+        enchantments:
+        - VANISHING_CURSE:1
+        displayname: '&fLivro Encantado — Maldição do Desaparecimento'
+      '42':
+        material: ENCHANTED_BOOK
+        buy: 242550
+        sell: 60637.5
+        enchantments:
+        - WIND_BURST:3
+        displayname: '&fLivro Encantado — Explosão de Vento'

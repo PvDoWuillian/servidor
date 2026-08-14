@@ -1,0 +1,22 @@
+{
+  "ok": "確認 (OK)",
+  "back": "&e返回",
+  "not-set": "&7未設定",
+  "next": "&e下一頁",
+  "previous": "&e上一頁",
+  "up": "&e向上",
+  "down": "&e向下",
+  "disabled": "&c已停用",
+  "enabled": "&a已啟用",
+  "yes": "&a是",
+  "no": "&c否",
+  "cancel": "&c取消",
+  "clear-all": "&c清除全部",
+  "interact.not-editable": "&c此 NPC 處於不可編輯狀態！",
+  "pagination.prev": "§a« ",
+  "pagination.next": "§a«",
+  "pagination.prev.hover": "上一頁",
+  "pagination.next.hover": "下一頁",
+  "type.cancel": "&7輸入 'cancel' 可中止操作！",
+  "npc.not-found": "&c找不到 ID 為 &e{0}&c 的 NPC"
+}

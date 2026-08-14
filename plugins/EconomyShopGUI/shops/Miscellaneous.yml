@@ -1,0 +1,338 @@
+# Loja: Diversos (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: ANVIL
+        buy: 1872.5
+        sell: 468.2
+        displayname: '&fBigorna'
+      '2':
+        material: AXOLOTL_BUCKET
+        buy: 194.7
+        sell: 48.7
+        displayname: '&fAxolote Balde'
+      '3':
+        material: BELL
+        buy: 10000
+        sell: 2500
+        displayname: '&fSino'
+      '4':
+        material: BRUSH
+        buy: 78.8
+        sell: 19.7
+        displayname: '&fPincel'
+      '5':
+        material: CARROT_ON_A_STICK
+        buy: 70.8
+        sell: 17.7
+        displayname: '&fCenoura On A Stick'
+      '6':
+        material: COBWEB
+        buy: 400
+        sell: 100
+        displayname: '&fCobweb'
+      '7':
+        material: COD_BUCKET
+        buy: 257.7
+        sell: 64.5
+        displayname: '&fBacalhau Balde'
+      '9':
+        material: ENDER_CHEST
+        buy: 2731.2
+        sell: 682.8
+        displayname: '&fBaú do End'
+      '10':
+        material: ENDER_EYE
+        buy: 101.1
+        sell: 25.3
+        displayname: '&fOlho de Ender'
+      '11':
+        material: EXPERIENCE_BOTTLE
+        buy: 1079.4
+        sell: -1
+        displayname: '&fFrasco de Experiência'
+      '999':
+        material: FIREWORK
+        buy: 3030
+        sell: 750
+        duration: 2
+        colors:
+        - cyan
+        - purple
+        fade-colors:
+        - black
+        - gray
+        flicker: true
+        trail: true
+        shape: BURST
+        displayname: '&fFogo de Artifício'
+      '12':
+        material: GLOW_INK_SAC
+        buy: 55
+        sell: 13.8
+        displayname: '&fBolsa de Tinta Brilhante'
+      '13':
+        material: GLOWSTONE_DUST
+        buy: 70
+        sell: 17.5
+        displayname: '&fPedra Luminosa Dust'
+      '14':
+        material: HONEYCOMB
+        buy: 31.5
+        sell: 7.9
+        displayname: '&fFavo de Mel'
+      '15':
+        material: LAVA_BUCKET
+        buy: 184
+        sell: 46
+        displayname: '&fLava Balde'
+      '16':
+        material: LEAD
+        buy: 173.3
+        sell: 43.4
+        displayname: '&fLaço'
+      '17':
+        material: LILY_PAD
+        buy: 280
+        sell: 70
+        displayname: '&fLírio Pad'
+      '18':
+        material: LODESTONE
+        buy: 6500
+        sell: -1
+        displayname: '&fLodestone'
+      '19':
+        material: MAP
+        buy: 290.6
+        sell: 72.7
+        displayname: '&fMapa'
+      '20':
+        material: MOSS_BLOCK
+        buy: 10
+        sell: 2.5
+        displayname: '&fBloco de Musgo'
+      '21':
+        material: NAME_TAG
+        buy: 1000
+        sell: 250
+        displayname: '&fNome Etiqueta'
+      '22':
+        material: NETHER_STAR
+        buy: 14000
+        sell: 3500
+        displayname: '&fEstrela do Nether'
+      '23':
+        material: POWDER_SNOW_BUCKET
+        buy: 339.9
+        sell: 85
+        displayname: '&fPó Snow Balde'
+      '24':
+        material: PUFFERFISH_BUCKET
+        buy: 257.7
+        sell: 64.5
+        displayname: '&fBaiacu Balde'
+      '25':
+        material: RED_BED
+        buy: 960.9
+        sell: 240.3
+        displayname: '&fVermelho Bed'
+      '26':
+        material: SADDLE
+        buy: 600
+        sell: 150
+        displayname: '&fSela'
+      '27':
+        material: SALMON_BUCKET
+        buy: 257.7
+        sell: 64.5
+        displayname: '&fSalmão Balde'
+      '28':
+        material: SCAFFOLDING
+        buy: 13.3
+        sell: 3.4
+        displayname: '&fScaffolding'
+      '30':
+        material: SNIFFER_EGG
+        buy: 230
+        sell: 57.5
+        displayname: '&fFarejador Ovo'
+      '31':
+        material: SNOW
+        buy: 66.2
+        sell: 16.6
+        displayname: '&fNeve'
+      '32':
+        material: SNOWBALL
+        buy: 30
+        sell: 7.5
+        displayname: '&fBola de Neve'
+      '33':
+        material: SPONGE
+        buy: 5250
+        sell: 1312.5
+        displayname: '&fSponge'
+      '34':
+        material: SPYGLASS
+        buy: 33.1
+        sell: 8.3
+        displayname: '&fLuneta'
+      '35':
+        material: TADPOLE_BUCKET
+        buy: 194.7
+        sell: 48.7
+        displayname: '&fGirino Balde'
+      '37':
+        material: TRIDENT
+        buy: 1800
+        sell: 450
+        displayname: '&fTridente'
+      '38':
+        material: TROPICAL_FISH_BUCKET
+        buy: 257.7
+        sell: 64.5
+        displayname: '&fTropical Peixe Balde'
+      '39':
+        material: TURTLE_EGG
+        buy: 150
+        sell: 37.5
+        displayname: '&fTartaruga Ovo'
+      '40':
+        material: WARPED_FUNGUS_ON_A_STICK
+        buy: 236.5
+        sell: 59.2
+        displayname: '&fDistorcido Fungo On A Stick'
+      '41':
+        material: WATER_BUCKET
+        buy: 183.4
+        sell: 45.9
+        displayname: '&fWater Balde'
+      '42':
+        material: WIND_CHARGE
+        buy: 52.5
+        sell: 13.2
+        displayname: '&fVento Carga'
+      '43':
+        material: WRITABLE_BOOK
+        buy: 489.5
+        sell: 122.4
+        displayname: '&fWritable Livro'
+      '44':
+        material: CREEPER_BANNER_PATTERN
+        buy: 6301.2
+        sell: 1575.3
+        displayname: '&fCreeper Banner Pattern'
+  page2:
+    items:
+      '45':
+        material: FLOW_BANNER_PATTERN
+        buy: 12000
+        sell: 3000
+        displayname: '&fFlow Banner Pattern'
+      '46':
+        material: FLOWER_BANNER_PATTERN
+        buy: 11.7
+        sell: 3
+        displayname: '&fFlor Banner Pattern'
+      '47':
+        material: GLOBE_BANNER_PATTERN
+        buy: 3307.5
+        sell: 826.9
+        displayname: '&fGlobe Banner Pattern'
+      '48':
+        material: GUSTER_BANNER_PATTERN
+        buy: 8000
+        sell: 2000
+        displayname: '&fGuster Banner Pattern'
+      '49':
+        material: MOJANG_BANNER_PATTERN
+        buy: 105001.2
+        sell: 26250.3
+        displayname: '&fMojang Banner Pattern'
+      '50':
+        material: PIGLIN_BANNER_PATTERN
+        buy: 100000
+        sell: 25000
+        displayname: '&fPiglin Banner Pattern'
+      '51':
+        material: SKULL_BANNER_PATTERN
+        buy: 10501.2
+        sell: 2625.3
+        displayname: '&fCrânio Banner Pattern'
+      '52':
+        material: CLOCK
+        buy: 384.1
+        sell: 96.1
+        displayname: '&fRelógio'
+      '53':
+        material: COMPASS
+        buy: 268.3
+        sell: 67.1
+        displayname: '&fBússola'
+      '54':
+        material: RECOVERY_COMPASS
+        buy: 8681.7
+        sell: 2170.5
+        displayname: '&fRecovery Bússola'
+      '55':
+        material: BIG_DRIPLEAF
+        buy: 100
+        sell: 25
+        displayname: '&fBig Dripleaf'
+      '56':
+        material: SMALL_DRIPLEAF
+        buy: 100
+        sell: 25
+        displayname: '&fSmall Dripleaf'
+      '57':
+        material: BEACON
+        buy: 16015.2
+        sell: 4003.8
+        displayname: '&fBeacon'
+      '58':
+        material: END_ROD
+        buy: 21.4
+        sell: 5.4
+        displayname: '&fEnd Vara'
+      '59':
+        material: LANTERN
+        buy: 65
+        sell: 16.3
+        displayname: '&fLanterna'
+      '60':
+        material: SOUL_LANTERN
+        buy: 92.6
+        sell: 23.2
+        displayname: '&fLanterna das Almas'
+      '61':
+        material: CAMPFIRE
+        buy: 167.9
+        sell: 42
+        displayname: '&fCampfire'
+      '62':
+        material: SOUL_CAMPFIRE
+        buy: 217.8
+        sell: 54.5
+        displayname: '&fAlmas Campfire'
+      '63':
+        material: SCULK
+        buy: 120
+        sell: 30
+        displayname: '&fSculk'
+      '64':
+        material: SCULK_CATALYST
+        buy: 50000
+        sell: 12500
+        displayname: '&fSculk Catalisador'
+      '65':
+        material: SCULK_SHRIEKER
+        buy: 200000
+        sell: 50000
+        displayname: '&fSculk Gritador'
+      '66':
+        material: OMINOUS_BOTTLE
+        buy: 175000
+        sell: 38750
+        ominous-strength: 5
+        displayname: '&fOminous Frasco'

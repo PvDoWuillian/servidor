@@ -1,0 +1,27 @@
+# Codes Menu Configuration
+menu:
+  title: "&6&lCODES LIST"
+  size: 54
+  slots:
+    - 13
+    - 22
+    - 31
+    - 40
+    - 12
+    - 14
+    - 21
+    - 23
+    - 30
+    - 32
+    - 39
+    - 41
+
+  available-display: "&a&l%name%"
+  available-lore:
+    - "&7Type: &6%type%"
+    - "&7Click to redeem!"
+
+  used-display: "&c&m%name%"
+  used-lore:
+    - "&cAlready used!"
+    - "&cYou have already redeemed this code"

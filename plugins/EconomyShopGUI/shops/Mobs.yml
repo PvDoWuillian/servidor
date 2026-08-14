@@ -1,0 +1,100 @@
+# Loja: Mobs (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: ARROW
+        buy: 22.6
+        sell: 5.7
+        displayname: '&fFlecha'
+      '2':
+        material: BLAZE_POWDER
+        buy: 26.3
+        sell: 6.6
+        displayname: '&fPó de Blaze'
+      '3':
+        material: BLAZE_ROD
+        buy: 50
+        sell: 12.5
+        displayname: '&fVara de Blaze'
+      '4':
+        material: BONE
+        buy: 60
+        sell: 15
+        displayname: '&fOsso'
+      '5':
+        material: BREEZE_ROD
+        buy: 200
+        sell: 50
+        displayname: '&fVórtice Vara'
+      '6':
+        material: ENDER_PEARL
+        buy: 70
+        sell: 17.5
+        displayname: '&fPérola de Ender'
+      '7':
+        material: FEATHER
+        buy: 60
+        sell: 15
+        displayname: '&fPena'
+      '8':
+        material: FERMENTED_SPIDER_EYE
+        buy: 95.7
+        sell: 24
+        displayname: '&fOlho de Aranha Fermentado'
+      '9':
+        material: GHAST_TEAR
+        buy: 400
+        sell: 100
+        displayname: '&fLágrima de Ghast'
+      '10':
+        material: GUNPOWDER
+        buy: 155
+        sell: 38.8
+        displayname: '&fPólvora'
+      '12':
+        material: MAGMA_CREAM
+        buy: 80.1
+        sell: 20.1
+        displayname: '&fCreme de Magma'
+      '13':
+        material: NAUTILUS_SHELL
+        buy: 1800
+        sell: 450
+        displayname: '&fConcha de Náutilo'
+      '14':
+        material: PHANTOM_MEMBRANE
+        buy: 1251.5
+        sell: 312.9
+        displayname: '&fMembrana de Phantom'
+      '15':
+        material: RABBIT_FOOT
+        buy: 1800
+        sell: 450
+        displayname: '&fPé de Coelho'
+      '16':
+        material: RABBIT_HIDE
+        buy: 80
+        sell: 20
+        displayname: '&fPele de Coelho'
+      '17':
+        material: ROTTEN_FLESH
+        buy: 50
+        sell: 12.5
+        displayname: '&fRotten Flesh'
+      '18':
+        material: SLIME_BALL
+        buy: 50
+        sell: 12.5
+        displayname: '&fBola de Slime'
+      '19':
+        material: SPIDER_EYE
+        buy: 70
+        sell: 17.5
+        displayname: '&fOlho de Aranha'
+      '20':
+        material: STRING
+        buy: 70
+        sell: 17.5
+        displayname: '&fLinha'

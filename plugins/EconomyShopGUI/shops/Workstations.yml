@@ -1,0 +1,65 @@
+# Loja: Bancadas (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: BARREL
+        buy: 81.7
+        sell: 20.5
+        displayname: '&fBarril'
+      '2':
+        material: BLAST_FURNACE
+        buy: 373
+        sell: 93.3
+        displayname: '&fAlto-Forno'
+      '3':
+        material: BREWING_STAND
+        buy: 74
+        sell: 18.5
+        displayname: '&fSuporte de Poções'
+      '4':
+        material: CARTOGRAPHY_TABLE
+        buy: 48.6
+        sell: 12.2
+        displayname: '&fMesa de Cartografia'
+      '5':
+        material: COMPOSTER
+        buy: 42.6
+        sell: 10.7
+        displayname: '&fComposteira'
+      '6':
+        material: FLETCHING_TABLE
+        buy: 88.4
+        sell: 22.1
+        displayname: '&fMesa de Flechas'
+      '7':
+        material: GRINDSTONE
+        buy: 39.3
+        sell: 9.9
+        displayname: '&fRebolo'
+      '8':
+        material: LECTERN
+        buy: 1275.1
+        sell: 318.8
+        displayname: '&fAtril'
+      '9':
+        material: LOOM
+        buy: 170.2
+        sell: 42.6
+        displayname: '&fTear'
+      '10':
+        material: SMITHING_TABLE
+        buy: 162.1
+        sell: 40.6
+        displayname: '&fBancada de Ferraria'
+      '11':
+        material: SMOKER
+        buy: 186
+        sell: 46.5
+        displayname: '&fDefumador'
+      '12':
+        material: STONECUTTER
+        buy: 80.4
+        sell: 20.1
+        displayname: '&fCortador de Pedras'

@@ -1,0 +1,138 @@
+# Simple RTP Plugin config
+# Thank you for using my plugin!
+# - Made by Jaeden
+
+# Default teleportation settings
+
+world: "world"
+cooldown-time: 300
+countdown-time: 5
+cancel-on-move: true
+cost: 0
+
+# Default search area
+# Radius is measured from the world's centre below.
+# min-y and max-y are the player standing Y-level, not the block under their feet.
+
+radius: 30000
+shape: "SQUARE" # SQUARE or CIRCLE
+min-y: 64
+max-y: 320
+
+# Location search
+# More attempts can find spots in harder worlds, but this results in higher CPU usage..
+
+safe-location-attempts: 50 
+teleport-max-search-seconds: 20
+preload-chunks: true
+
+# GUI behavior
+
+rtpgui-command-enabled: false # Disables the /rtpgui command.
+open-on-rtp: true # This makes the GUI open automatically when a player runs /rtp, instead of rtp'ing them to the default world.
+
+# Per-world settings
+# The key must match the actual world folder name.
+# Optional centre. If it is missing, Simple RTP uses the world border centre.
+
+worlds:
+  world:
+    enabled: true
+    radius: 30000
+    shape: "SQUARE"
+    min-y: 64
+    max-y: 320
+    cooldown-time: 300
+    cost: 0
+    center:
+      x: 0
+      z: 0
+
+  world_nether:
+    enabled: true
+    radius: 5000
+    shape: "SQUARE"
+    min-y: 33
+    max-y: 120
+    cooldown-time: 300
+    cost: 0
+
+  world_the_end:
+    enabled: true
+    radius: 7000
+    shape: "CIRCLE"
+    min-y: 64
+    max-y: 320
+    cooldown-time: 300
+    cost: 0
+
+# Cache a few ready to use locations
+# Keep this off unless your server gets a lot of RTP requests.
+
+location-cache:
+  enabled: false
+  size: 25
+  refill-interval-ticks: 200
+
+# /rtp biome <biome>
+
+biome-rtp:
+  enabled: true
+  generate-chunks: true
+  attempts-multiplier: 3
+  # radius: -1
+
+# Blocks that should not be present at the teleporation spot.
+# This checks the feet block, head block, and block under the player.
+
+blacklisted-blocks:
+  - BEDROCK
+  - OAK_LEAVES
+  - SPRUCE_LEAVES
+  - BIRCH_LEAVES
+  - JUNGLE_LEAVES
+  - ACACIA_LEAVES
+  - DARK_OAK_LEAVES
+  - MANGROVE_LEAVES
+
+# Sound when teleporation occurs.
+
+teleport-sound:
+  enabled: true
+  sound-type: "ENTITY_ENDERMAN_TELEPORT"
+  volume: 1.0
+  pitch: 1.0
+
+# Sound played when each countown number is displayed.
+
+countdown-sound:
+  enabled: true
+  sound-type: "BLOCK_NOTE_BLOCK_BANJO"
+  volume: 0.5
+  pitch: 1.0
+
+# This is the 5, 4, 3, 2, 1 countdown that happens before the player is teleported.
+
+countdown-display:
+  actionbar-enabled: true
+  title-enabled: false
+  bossbar-enabled: false
+  bossbar-color: "GREEN"
+  bossbar-style: "SEGMENTED_10"
+
+# These are the effects that surround the player when A) The countdown is occuring, and B) when the player is teleported.
+
+particles:
+  countdown:
+    enabled: true
+    type: "PORTAL"
+    count: 12
+    radius: 1.1
+    spread: 0.0
+
+  teleport:
+    enabled: true
+    type: "CLOUD"
+    count: 28
+    radius: 0.0
+    spread: 0.6

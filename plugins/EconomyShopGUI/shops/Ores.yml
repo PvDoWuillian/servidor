@@ -1,0 +1,125 @@
+# Loja: Minérios (Português do Brasil)
+# IDs 'material', preços e configurações foram mantidos para não quebrar o plugin.
+pages:
+  page1:
+    items:
+      '1':
+        material: AMETHYST_BLOCK
+        buy: 900
+        sell: 180
+        displayname: '&fBloco de Ametista'
+      '2':
+        material: AMETHYST_SHARD
+        buy: 100
+        sell: 20
+        displayname: '&fFragmento de Ametista'
+      '3':
+        material: ANCIENT_DEBRIS
+        buy: 15000
+        sell: 3000
+        displayname: '&fDetritos Ancestrais'
+      '4':
+        material: COAL
+        buy: 500
+        sell: 100
+        displayname: '&fCarvão'
+      '5':
+        material: COAL_BLOCK
+        buy: 4500
+        sell: 900
+        displayname: '&fBloco de Carvão'
+      '6':
+        material: COPPER_BLOCK
+        buy: 6750
+        sell: 1350
+        displayname: '&fBloco de Cobre'
+      '7':
+        material: COPPER_INGOT
+        buy: 750
+        sell: 150
+        displayname: '&fBarra de Cobre'
+      '8':
+        material: COPPER_ORE
+        buy: 750
+        sell: 150
+        displayname: '&fCobre Ore'
+      '9':
+        material: DIAMOND
+        buy: 5000
+        sell: 1000
+        displayname: '&fDiamante'
+      '10':
+        material: DIAMOND_BLOCK
+        buy: 45000
+        sell: 9000
+        displayname: '&fBloco de Diamante'
+      '11':
+        material: EMERALD
+        buy: 6000
+        sell: 1200
+        displayname: '&fEsmeralda'
+      '12':
+        material: EMERALD_BLOCK
+        buy: 54000
+        sell: 10800
+        displayname: '&fBloco de Esmeralda'
+      '13':
+        material: GOLD_BLOCK
+        buy: 22500
+        sell: 4500
+        displayname: '&fBloco de Ouro'
+      '14':
+        material: GOLD_INGOT
+        buy: 2500
+        sell: 500
+        displayname: '&fBarra de Ouro'
+      '15':
+        material: IRON_BLOCK
+        buy: 13500
+        sell: 2700
+        displayname: '&fBloco de Ferro'
+      '16':
+        material: IRON_INGOT
+        buy: 1500
+        sell: 300
+        displayname: '&fBarra de Ferro'
+      '17':
+        material: LAPIS_BLOCK
+        buy: 18000
+        sell: 3600
+        displayname: '&fBloco de Lápis-Lazúli'
+      '18':
+        material: LAPIS_LAZULI
+        buy: 2000
+        sell: 400
+        displayname: '&fLápis-Lazúli'
+      '19':
+        material: NETHERITE_BLOCK
+        buy: 540000
+        sell: 108000
+        displayname: '&fBloco de Netherita'
+      '20':
+        material: NETHERITE_INGOT
+        buy: 60000
+        sell: 12000
+        displayname: '&fBarra de Netherita'
+      '21':
+        material: QUARTZ
+        buy: 1500
+        sell: 300
+        displayname: '&fQuartzo'
+      '22':
+        material: QUARTZ_BLOCK
+        buy: 13500
+        sell: 2700
+        displayname: '&fBloco de Quartzo'
+      '23':
+        material: REDSTONE
+        buy: 1000
+        sell: 200
+        displayname: '&fRedstone'
+      '24':
+        material: REDSTONE_BLOCK
+        buy: 9000
+        sell: 1800
+        displayname: '&fBloco de Redstone'

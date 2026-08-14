@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1786584656407
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1786584851886
+  login: 1786584629205
+money: '1000'
+last-account-name: .derick3285
+logoutlocation:
+  world: 34076455-23d5-4a95-9c29-cc37fae5db24
+  world-name: lobby_antigo
+  x: -290.35358
+  y: 96.5
+  z: -988.4159
+  yaw: 42.171844482421875
+  pitch: 11.69244384765625
+lastlocation:
+  world: 7b2dae4e-f46d-401c-9970-7e4d1eb31862
+  world-name: world
+  x: -27.506561
+  y: 64.0
+  z: -135.26497
+  yaw: -66.3905258178711
+  pitch: 3.1031646728515625

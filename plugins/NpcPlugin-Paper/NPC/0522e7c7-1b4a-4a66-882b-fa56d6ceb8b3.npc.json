@@ -1,0 +1,98 @@
+{
+  "id": "0522e7c7-1b4a-4a66-882b-fa56d6ceb8b3",
+  "name": {
+    "component": {
+      "extra": [
+        {
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false,
+          "color": "gold",
+          "text": "LOJA\\n"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "color": "gray",
+          "text": "Compre itens\\n"
+        },
+        {
+          "italic": false,
+          "color": "yellow",
+          "text": "para sua aventura! /shop"
+        }
+      ],
+      "text": ""
+    },
+    "displayOptions": {
+      "height": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "brightness": -1,
+      "viewRange": 1.0,
+      "lineWidth": 200,
+      "backgroundColor": 1073741824,
+      "textOpacity": -1,
+      "isSeeThrough": false,
+      "alignment": 0
+    }
+  },
+  "clickEvent": {
+    "className": "de.eisi05.npc.plugin.objects.NpcClickActionImpl",
+    "runOnShow": true,
+    "actions": [
+      {
+        "command": "/shop"
+      }
+    ]
+  },
+  "createdAt": "2026-08-12T02:07:17.571893843Z",
+  "world": "34076455-23d5-4a95-9c29-cc37fae5db24",
+  "x": -297.4439919279277,
+  "y": 97.0,
+  "z": -984.5579736367145,
+  "yaw": -135.26758,
+  "pitch": 1.2360857,
+  "options": {
+    "global": {
+      "custom-data": {},
+      "visibility-manager": {
+        "specificPlayers": [],
+        "showToAllPlayers": true
+      },
+      "hide-nametag": false,
+      "visibility": "FULLY_VISIBLE",
+      "pose": "STANDING",
+      "editable": true,
+      "latency": 0,
+      "equipment": {},
+      "scale": 1.0,
+      "use-player-skin": false,
+      "show-tab-list": true,
+      "enabled": true,
+      "tags": [],
+      "collision": true,
+      "skin-parts": [
+        "CAPE",
+        "JACKET",
+        "LEFT_SLEEVE",
+        "RIGHT_SLEEVE",
+        "LEFT_PANTS_LEG",
+        "RIGHT_PANTS_LEG",
+        "HAT"
+      ],
+      "glowing": "GOLD",
+      "look-at-player": 0.0,
+      "list-order": 0,
+      "entity": {
+        "type": "PLAYER"
+      },
+      "goals": []
+    }
+  }
+}

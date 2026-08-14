@@ -1,0 +1,395 @@
+# ===================================================================
+# NexusTrade configuration
+# Support: discord.gg/WHBWBWWYDq
+# ===================================================================
+# This file controls storage, networking, currencies, restrictions,
+# menu cooldowns, Bedrock support, sounds, and update notifications.
+#
+# Recommendation:
+# 1. Change one section at a time.
+# 2. Save the file.
+# 3. Use /nexustrade reload for simple changes.
+# ===================================================================
+
+storage:
+  # Primary backend used by NexusTrade.
+  # Supported values: SQLITE, MYSQL, MARIADB, POSTGRESQL
+  mode: SQLITE
+
+  sql:
+    host: localhost
+    port: 3306
+    database: nexustrade
+    username: root
+    password: password
+
+    pool:
+      # HikariCP connection pool settings.
+      maximum-size: 10
+      minimum-idle: 4
+      max-lifetime-ms: 1800000
+      keepalive-ms: 0
+      connection-timeout-ms: 5000
+
+network:
+  # MEMORY = single-server mode
+  # REDIS  = multi-server synchronization
+  mode: MEMORY
+
+  redis:
+    host: localhost
+    port: 6379
+    user: ''
+    password: ''
+    database: 0
+    timeout-ms: 1000
+    ssl: false
+    client-name: NexusTrade
+
+    # Reserved for future publish optimizations.
+    publish-pool-size: 2
+
+platform:
+  floodgate:
+    # Enables Bedrock-aware behavior when Floodgate is installed.
+    enabled: false
+
+    # Uses a Floodgate input form instead of a Java anvil for amount editing.
+    amount-editor-form: true
+
+update-notifier:
+  enabled: true
+
+  # If true, players with nexustrade.update.notify are informed when they join.
+  on-join: true
+
+number-formatting:
+  # Modes:
+  # 0 = formatted      -> uses the "formatted" DecimalFormat pattern below
+  # 1 = short          -> compact numbers such as 1K, 1.2M, 3B
+  # 2 = raw            -> plain numeric output
+  mode: 0
+
+  # DecimalFormat pattern used when mode = 0
+  # Reference: https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
+  formatted: "#,###.##"
+
+  # Locale used for compact number formatting when mode = 1
+  # Format: language_COUNTRY
+  short: "en_US"
+
+currencies:
+  # Supported drivers:
+  # - minecraft
+  # - vault
+  # - playerpoints
+  # - coinsengine
+  # - excellenteconomy
+  # - royaleeconomy
+  # - ultraeconomy
+  # - tokenmanager
+  # - rivalharvesterhoes
+  #
+  # Permission notes:
+  # - nexustrade.currency enables every registered currency
+  # - nexustrade.currency.<name> enables only one currency
+
+  Experience:
+    register: true
+    name: exp
+    driver: minecraft
+    account: xp
+    display-name: "<green>Levels"
+    symbol: "Lv"
+
+    # Optional tax applied on settlement.
+    # Example: 5 means 5 percent is removed before the target receives it.
+    tax: 0
+
+    # Optional minimum amount required before the owner can ready the trade.
+    # 0 disables the minimum.
+    required: 0
+
+    icon:
+      material: EXPERIENCE_BOTTLE
+      custom-model-data: 0
+
+  Vault:
+    register: true
+    name: money
+    driver: vault
+    account: default
+    display-name: "<gold>Coins"
+    symbol: "$"
+    tax: 0
+    required: 0
+    icon:
+      material: SUNFLOWER
+      custom-model-data: 0
+
+  PlayerPoints:
+    register: false
+    name: points
+    driver: playerpoints
+    account: default
+    display-name: "<aqua>Points"
+    symbol: "P"
+    tax: 0
+    required: 0
+    icon:
+      material: NETHER_STAR
+      custom-model-data: 0
+
+  # Example for multi-currency integrations:
+  # CoinsEngineCoins:
+  #   register: false
+  #   name: coins
+  #   driver: coinsengine
+  #   account: coins
+  #   display-name: "<yellow>CoinsEngine Coins"
+  #   symbol: "C"
+  #   tax: 0
+  #   required: 0
+  #   icon:
+  #     material: GOLD_NUGGET
+  #     custom-model-data: 0
+
+blacklist-items:
+  # Each entry can use one or more of these fields:
+  # - material
+  # - custom-model-data
+  # - name            (supports * wildcards)
+  # - expression      (advanced serialized match)
+  # - mode            (REGEX or CONTAINS for expression)
+
+  - expression: '.*minecraft:flight_duration=\d.*'
+    mode: REGEX
+
+  - expression: 'MMOITEMS_'
+    mode: CONTAINS
+
+  # Example:
+  # - material: BARRIER
+  #   custom-model-data: 100
+  #   name: "*Some custom item*"
+
+disallowed-gamemodes:
+  # Players in these gamemodes cannot open or continue trades.
+  # See: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/GameMode.html
+  - SPECTATOR
+
+trade:
+  invites:
+    # If true, players must accept a request before the trade window opens.
+    required: true
+
+    # If true, both players are prompted/opened automatically when the invite is accepted.
+    open-when-accepted: false
+
+    # Lifetime of a pending invite in seconds.
+    expire-seconds: 60
+
+  receipts:
+    # Allows players to collect a written receipt after a completed trade.
+    enabled: true
+
+    # Maximum receipt claims per player for the same trade.
+    max-deliveries-per-player: 3
+
+    # Time zone used for receipt timestamps.
+    zone-id: UTC-3
+
+    # Java date pattern used inside receipt books.
+    display-pattern: HH:mm dd-MM-yyyy
+
+  collection:
+    # Controls what happens when "collect all" cannot fit every claimed item.
+    # true  = leftover items are dropped at the player's feet
+    # false = collection is blocked until the player frees inventory space
+    drop-overflow-items: true
+
+  # If true, closing the trade menu during the both-ready countdown
+  # will cancel the trade instead of sending it to the background.
+  cancel-on-close-while-ready: false
+
+  restrictions:
+    # Configurable trade restriction triggers.
+    # To customize the message, use the same key in messages.yml > restrictions.
+    triggers:
+      PLAYER_MOVED:
+        enabled: true
+        cooldown-ms: 1000
+
+      PLAYER_MOUNT:
+        enabled: true
+        cooldown-ms: 1000
+
+      PLAYER_DAMAGED:
+        enabled: true
+        cooldown-ms: 1000
+
+      PLAYER_COMBAT:
+        enabled: true
+        cooldown-ms: 3000
+
+      WORLD_CHANGE:
+        enabled: true
+        cooldown-ms: 1000
+
+      PLAYER_EXP_CHANGE:
+        enabled: false
+        cooldown-ms: 1000
+
+      PLAYER_DROP_ITEM:
+        enabled: true
+        cooldown-ms: 1000
+
+      PLAYER_TELEPORT:
+        enabled: true
+        cooldown-ms: 1000
+
+      PLAYER_INTERACT:
+        enabled: false
+        cooldown-ms: 1000
+
+      PLAYER_COMMAND:
+        enabled: false
+        cooldown-ms: 1000
+
+      PLAYER_GAMEMODE:
+        enabled: true
+        cooldown-ms: 1000
+
+    blocked-worlds: []
+
+    worldguard:
+      # WorldGuard region ids that should block trading.
+      blocked-regions: []
+
+  distance:
+    # Maximum distance allowed between both players while trading.
+    # -1 = disabled
+    #  0 = same world required
+    # >0 = same world and max radius in blocks
+    max-blocks: 5
+
+  reviews:
+    # -1 disables review expiration entirely.
+    expire-after-seconds: 10000
+
+  completion:
+    # Countdown length after both participants confirm the trade.
+    countdown-seconds: 3
+
+  feedback:
+    sounds:
+      # Use valid Bukkit/Paper Sound enum names.
+      # To disable a sound entirely, set sound: NONE.
+
+      invite-sent:
+        sound: UI_BUTTON_CLICK
+        volume: 0.7
+        pitch: 1.2
+
+      invite-received:
+        sound: BLOCK_NOTE_BLOCK_CHIME
+        volume: 0.9
+        pitch: 1.1
+
+      menu-open:
+        sound: UI_BUTTON_CLICK
+        volume: 0.6
+        pitch: 1.0
+
+      amount-editor:
+        sound: BLOCK_ANVIL_USE
+        volume: 0.7
+        pitch: 1.5
+
+      amount-set:
+        sound: BLOCK_NOTE_BLOCK_BELL
+        volume: 0.8
+        pitch: 1.15
+
+      ready:
+        sound: BLOCK_NOTE_BLOCK_BIT
+        volume: 0.9
+        pitch: 1.35
+
+      unready:
+        sound: BLOCK_NOTE_BLOCK_BIT
+        volume: 0.9
+        pitch: 0.85
+
+      countdown:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        volume: 1.0
+        pitch: 1.0
+
+      completed:
+        sound: ENTITY_PLAYER_LEVELUP
+        volume: 1.0
+        pitch: 1.05
+
+      cancelled:
+        sound: BLOCK_ANVIL_BREAK
+        volume: 0.85
+        pitch: 0.95
+
+      claimed:
+        sound: ENTITY_ITEM_PICKUP
+        volume: 0.9
+        pitch: 1.0
+
+      receipt:
+        sound: ITEM_BOOK_PAGE_TURN
+        volume: 0.9
+        pitch: 1.0
+
+      review-saved:
+        sound: UI_TOAST_CHALLENGE_COMPLETE
+        volume: 0.9
+        pitch: 1.0
+
+  # true = allow sneaking + right-clicking another player to start/resume a trade
+  right-click-to-open: true
+
+  # Cooldown for sneaking + right-click trade starts.
+  # Helps reduce invite/open spam from autoclickers.
+  # 0 = disabled
+  right-click-open-cooldown-ms: 300
+
+formatting:
+  review-stars:
+    # Symbol repeated when %stars% is rendered in menus, chat and summaries.
+    symbol: "⭐"
+
+commands:
+  # Generic command cooldown for chat-based trade actions.
+  cooldown-ms: 1000
+
+  # Date format expected by /trade history <start> <end>.
+  history-input-pattern: HH:mm@dd-MM-yyyy
+
+  aliases:
+    trade:
+      - trade
+      - t
+
+menus:
+  # Global cooldown for clicks on the top inventory menu.
+  # Helps reduce autoclick and button spam.
+  # 0 = disabled
+  click-cooldown-ms: 300
+
+  # Dedicated cooldown for the Ready button.
+  # Applied per player and per trade to prevent toggle spam.
+  # 0 = disabled
+  ready-click-cooldown-ms: 450
+
+debug:
+  # Reserved for future debug features.
+  enabled: false
+
+  # Reserved for future verbose exception output.
+  stacktraces: false
