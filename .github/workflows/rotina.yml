@@ -1,26 +1,5 @@
-name: Executar Script 6 Horas
-
-on:
-  workflow_dispatch: # Ativa com um clique
-
-jobs:
-  rodar-script:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Baixar o código do repositório
-        uses: actions/checkout@v4
-
-      - name: Procurar e dar permissão ao script
-        run: |
-          SCRIPT_PATH=$(find . -name "repetir.sh" -print -quit)
-          if [ -z "$SCRIPT_PATH" ]; then
-            echo "ERRO: O arquivo repetir.sh nao foi encontrado em nenhuma pasta!"
-            exit 1
-          fi
-          echo "Script encontrado em: $SCRIPT_PATH"
-          chmod +x "$SCRIPT_PATH"
-          echo "SCRIPT_LOCATION=$SCRIPT_PATH" >> $GITHUB_ENV
-
       - name: Executar o script do servidor
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Transmite a chave de acesso para o script .sh
         run: |
           ${{ env.SCRIPT_LOCATION }}
